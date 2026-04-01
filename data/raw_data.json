@@ -1,0 +1,705 @@
+[
+  {
+    "text": "今天天气真好，阳光明媚！",
+    "emotion": "happy",
+    "intensity": 0.6,
+    "params": {
+      "mouthSmileLeft": 0.42,
+      "mouthSmileRight": 0.42,
+      "eyeSquintLeft": 0.24,
+      "eyeSquintRight": 0.24,
+      "browInnerUp": 0.12
+    }
+  },
+  {
+    "text": "我简直不敢相信，太令人惊讶了！",
+    "emotion": "surprise",
+    "intensity": 0.9,
+    "params": {
+      "browOuterUpLeft": 0.72,
+      "browOuterUpRight": 0.72,
+      "eyeWideLeft": 0.81,
+      "eyeWideRight": 0.81,
+      "jawOpen": 0.54
+    }
+  },
+  {
+    "text": "又失败了，我真是个没用的人……",
+    "emotion": "sad",
+    "intensity": 0.8,
+    "params": {
+      "mouthFrownLeft": 0.56,
+      "mouthFrownRight": 0.56,
+      "browInnerUp": 0.48,
+      "eyeSquintLeft": 0.24,
+      "eyeSquintRight": 0.24
+    }
+  },
+  {
+    "text": "你给我滚开！我再也不想见到你！",
+    "emotion": "angry",
+    "intensity": 0.9,
+    "params": {
+      "browDownLeft": 0.72,
+      "browDownRight": 0.72,
+      "mouthPressLeft": 0.54,
+      "mouthPressRight": 0.54,
+      "cheekPuff": 0.27
+    }
+  },
+  {
+    "text": "嗯……让我再想想看。",
+    "emotion": "concern",
+    "intensity": 0.3,
+    "params": {
+      "browInnerUp": 0.18,
+      "eyeWideLeft": 0.12,
+      "eyeWideRight": 0.12,
+      "mouthPressLeft": 0.09,
+      "mouthPressRight": 0.09
+    }
+  },
+  {
+    "text": "哈哈哈哈，这个笑话太好笑了！",
+    "emotion": "happy",
+    "intensity": 0.9,
+    "params": {
+      "mouthSmileLeft": 0.63,
+      "mouthSmileRight": 0.63,
+      "eyeSquintLeft": 0.36,
+      "eyeSquintRight": 0.36,
+      "browInnerUp": 0.18
+    }
+  },
+  {
+    "text": "什么？！这怎么可能？！",
+    "emotion": "surprise",
+    "intensity": 0.8,
+    "params": {
+      "browOuterUpLeft": 0.64,
+      "browOuterUpRight": 0.64,
+      "eyeWideLeft": 0.72,
+      "eyeWideRight": 0.72,
+      "jawOpen": 0.48
+    }
+  },
+  {
+    "text": "呜呜呜……我好难过。",
+    "emotion": "sad",
+    "intensity": 0.8,
+    "params": {
+      "mouthFrownLeft": 0.56,
+      "mouthFrownRight": 0.56,
+      "browInnerUp": 0.48,
+      "eyeSquintLeft": 0.24,
+      "eyeSquintRight": 0.24
+    }
+  },
+  {
+    "text": "哼，关我什么事。",
+    "emotion": "disgust",
+    "intensity": 0.6,
+    "params": {
+      "browDownLeft": 0.3,
+      "browDownRight": 0.3,
+      "eyeSquintLeft": 0.36,
+      "eyeSquintRight": 0.36,
+      "mouthFrownLeft": 0.3,
+      "mouthFrownRight": 0.3,
+      "cheekPuff": 0.12
+    }
+  },
+  {
+    "text": "太好了！终于等到这一天！",
+    "emotion": "happy",
+    "intensity": 0.9,
+    "params": {
+      "mouthSmileLeft": 0.63,
+      "mouthSmileRight": 0.63,
+      "eyeSquintLeft": 0.36,
+      "eyeSquintRight": 0.36,
+      "browInnerUp": 0.18
+    }
+  },
+  {
+    "text": "别烦我，走开。",
+    "emotion": "angry",
+    "intensity": 0.7,
+    "params": {
+      "browDownLeft": 0.56,
+      "browDownRight": 0.56,
+      "mouthPressLeft": 0.42,
+      "mouthPressRight": 0.42,
+      "cheekPuff": 0.21
+    }
+  },
+  {
+    "text": "咦？这是什么？",
+    "emotion": "surprise",
+    "intensity": 0.5,
+    "params": {
+      "browOuterUpLeft": 0.4,
+      "browOuterUpRight": 0.4,
+      "eyeWideLeft": 0.45,
+      "eyeWideRight": 0.45,
+      "jawOpen": 0.3
+    }
+  },
+  {
+    "text": "唉，随便吧，无所谓了。",
+    "emotion": "bored",
+    "intensity": 0.7,
+    "params": {
+      "eyeLookDown": 0.28,
+      "eyeLookLeft": 0.21,
+      "mouthFrownLeft": 0.14,
+      "mouthFrownRight": 0.14,
+      "browDownLeft": 0.21,
+      "browDownRight": 0.21
+    }
+  },
+  {
+    "text": "你没事吧？我真的很担心你。",
+    "emotion": "concern",
+    "intensity": 0.7,
+    "params": {
+      "browInnerUp": 0.42,
+      "eyeWideLeft": 0.28,
+      "eyeWideRight": 0.28,
+      "mouthPressLeft": 0.21,
+      "mouthPressRight": 0.21
+    }
+  },
+  {
+    "text": "不！绝对不行！",
+    "emotion": "angry",
+    "intensity": 0.8,
+    "params": {
+      "browDownLeft": 0.64,
+      "browDownRight": 0.64,
+      "mouthPressLeft": 0.48,
+      "mouthPressRight": 0.48,
+      "cheekPuff": 0.24
+    }
+  },
+  {
+    "text": "好无聊啊，有没有什么有趣的事？",
+    "emotion": "bored",
+    "intensity": 0.8,
+    "params": {
+      "eyeLookDown": 0.32,
+      "eyeLookLeft": 0.24,
+      "mouthFrownLeft": 0.16,
+      "mouthFrownRight": 0.16,
+      "browDownLeft": 0.24,
+      "browDownRight": 0.24
+    }
+  },
+  {
+    "text": "真恶心，快拿走。",
+    "emotion": "disgust",
+    "intensity": 0.9,
+    "params": {
+      "browDownLeft": 0.45,
+      "browDownRight": 0.45,
+      "eyeSquintLeft": 0.54,
+      "eyeSquintRight": 0.54,
+      "mouthFrownLeft": 0.45,
+      "mouthFrownRight": 0.45,
+      "cheekPuff": 0.18
+    }
+  },
+  {
+    "text": "啊……好困，想睡觉。",
+    "emotion": "bored",
+    "intensity": 0.7,
+    "params": {
+      "eyeLookDown": 0.28,
+      "eyeLookLeft": 0.21,
+      "mouthFrownLeft": 0.14,
+      "mouthFrownRight": 0.14,
+      "browDownLeft": 0.21,
+      "browDownRight": 0.21
+    }
+  },
+  {
+    "text": "爱你哟，么么哒~",
+    "emotion": "happy",
+    "intensity": 0.8,
+    "params": {
+      "mouthSmileLeft": 0.56,
+      "mouthSmileRight": 0.56,
+      "eyeSquintLeft": 0.32,
+      "eyeSquintRight": 0.32,
+      "browInnerUp": 0.16
+    }
+  },
+  {
+    "text": "我要冷静，深呼吸……",
+    "emotion": "calm",
+    "intensity": 0.5,
+    "params": {
+      "mouthSmileLeft": 0.05,
+      "mouthSmileRight": 0.05
+    }
+  },
+  {
+    "text": "哇！这个礼物太棒了！",
+    "emotion": "happy",
+    "intensity": 0.8,
+    "params": {
+      "mouthSmileLeft": 0.56,
+      "mouthSmileRight": 0.56,
+      "eyeSquintLeft": 0.32,
+      "eyeSquintRight": 0.32,
+      "browInnerUp": 0.16
+    }
+  },
+  {
+    "text": "真的吗？我不信。",
+    "emotion": "disgust",
+    "intensity": 0.5,
+    "params": {
+      "browDownLeft": 0.25,
+      "browDownRight": 0.25,
+      "eyeSquintLeft": 0.3,
+      "eyeSquintRight": 0.3,
+      "mouthFrownLeft": 0.25,
+      "mouthFrownRight": 0.25,
+      "cheekPuff": 0.1
+    }
+  },
+  {
+    "text": "怎么会这样……我该怎么办……",
+    "emotion": "sad",
+    "intensity": 0.7,
+    "params": {
+      "mouthFrownLeft": 0.49,
+      "mouthFrownRight": 0.49,
+      "browInnerUp": 0.42,
+      "eyeSquintLeft": 0.21,
+      "eyeSquintRight": 0.21
+    }
+  },
+  {
+    "text": "哈哈，你真有趣！",
+    "emotion": "happy",
+    "intensity": 0.7,
+    "params": {
+      "mouthSmileLeft": 0.49,
+      "mouthSmileRight": 0.49,
+      "eyeSquintLeft": 0.28,
+      "eyeSquintRight": 0.28,
+      "browInnerUp": 0.14
+    }
+  },
+  {
+    "text": "天哪！这简直不可思议！",
+    "emotion": "surprise",
+    "intensity": 0.9,
+    "params": {
+      "browOuterUpLeft": 0.72,
+      "browOuterUpRight": 0.72,
+      "eyeWideLeft": 0.81,
+      "eyeWideRight": 0.81,
+      "jawOpen": 0.54
+    }
+  },
+  {
+    "text": "我恨你！再也不要见面！",
+    "emotion": "angry",
+    "intensity": 0.9,
+    "params": {
+      "browDownLeft": 0.72,
+      "browDownRight": 0.72,
+      "mouthPressLeft": 0.54,
+      "mouthPressRight": 0.54,
+      "cheekPuff": 0.27
+    }
+  },
+  {
+    "text": "好累……不想动……",
+    "emotion": "bored",
+    "intensity": 0.8,
+    "params": {
+      "eyeLookDown": 0.32,
+      "eyeLookLeft": 0.24,
+      "mouthFrownLeft": 0.16,
+      "mouthFrownRight": 0.16,
+      "browDownLeft": 0.24,
+      "browDownRight": 0.24
+    }
+  },
+  {
+    "text": "嗯，这个主意不错。",
+    "emotion": "concern",
+    "intensity": 0.4,
+    "params": {
+      "browInnerUp": 0.24,
+      "eyeWideLeft": 0.16,
+      "eyeWideRight": 0.16,
+      "mouthPressLeft": 0.12,
+      "mouthPressRight": 0.12
+    }
+  },
+  {
+    "text": "别哭了，会好起来的。",
+    "emotion": "concern",
+    "intensity": 0.6,
+    "params": {
+      "browInnerUp": 0.36,
+      "eyeWideLeft": 0.24,
+      "eyeWideRight": 0.24,
+      "mouthPressLeft": 0.18,
+      "mouthPressRight": 0.18
+    }
+  },
+  {
+    "text": "啊！有虫子！",
+    "emotion": "surprise",
+    "intensity": 0.7,
+    "params": {
+      "browOuterUpLeft": 0.56,
+      "browOuterUpRight": 0.56,
+      "eyeWideLeft": 0.63,
+      "eyeWideRight": 0.63,
+      "jawOpen": 0.42
+    }
+  },
+  {
+    "text": "切，谁稀罕。",
+    "emotion": "disgust",
+    "intensity": 0.6,
+    "params": {
+      "browDownLeft": 0.3,
+      "browDownRight": 0.3,
+      "eyeSquintLeft": 0.36,
+      "eyeSquintRight": 0.36,
+      "mouthFrownLeft": 0.3,
+      "mouthFrownRight": 0.3,
+      "cheekPuff": 0.12
+    }
+  },
+  {
+    "text": "终于结束了，可以休息了。",
+    "emotion": "calm",
+    "intensity": 0.4,
+    "params": {
+      "mouthSmileLeft": 0.04,
+      "mouthSmileRight": 0.04
+    }
+  },
+  {
+    "text": "为什么是我……",
+    "emotion": "sad",
+    "intensity": 0.6,
+    "params": {
+      "mouthFrownLeft": 0.42,
+      "mouthFrownRight": 0.42,
+      "browInnerUp": 0.36,
+      "eyeSquintLeft": 0.18,
+      "eyeSquintRight": 0.18
+    }
+  },
+  {
+    "text": "哈哈，笑死我了！",
+    "emotion": "happy",
+    "intensity": 0.9,
+    "params": {
+      "mouthSmileLeft": 0.63,
+      "mouthSmileRight": 0.63,
+      "eyeSquintLeft": 0.36,
+      "eyeSquintRight": 0.36,
+      "browInnerUp": 0.18
+    }
+  },
+  {
+    "text": "别碰我！",
+    "emotion": "angry",
+    "intensity": 0.6,
+    "params": {
+      "browDownLeft": 0.48,
+      "browDownRight": 0.48,
+      "mouthPressLeft": 0.36,
+      "mouthPressRight": 0.36,
+      "cheekPuff": 0.18
+    }
+  },
+  {
+    "text": "咦，这个按钮是干什么的？",
+    "emotion": "surprise",
+    "intensity": 0.5,
+    "params": {
+      "browOuterUpLeft": 0.4,
+      "browOuterUpRight": 0.4,
+      "eyeWideLeft": 0.45,
+      "eyeWideRight": 0.45,
+      "jawOpen": 0.3
+    }
+  },
+  {
+    "text": "太无聊了，我想回家。",
+    "emotion": "bored",
+    "intensity": 0.7,
+    "params": {
+      "eyeLookDown": 0.28,
+      "eyeLookLeft": 0.21,
+      "mouthFrownLeft": 0.14,
+      "mouthFrownRight": 0.14,
+      "browDownLeft": 0.21,
+      "browDownRight": 0.21
+    }
+  },
+  {
+    "text": "你还好吗？需要帮忙吗？",
+    "emotion": "concern",
+    "intensity": 0.6,
+    "params": {
+      "browInnerUp": 0.36,
+      "eyeWideLeft": 0.24,
+      "eyeWideRight": 0.24,
+      "mouthPressLeft": 0.18,
+      "mouthPressRight": 0.18
+    }
+  },
+  {
+    "text": "真烦人，能不能安静点？",
+    "emotion": "angry",
+    "intensity": 0.5,
+    "params": {
+      "browDownLeft": 0.4,
+      "browDownRight": 0.4,
+      "mouthPressLeft": 0.3,
+      "mouthPressRight": 0.3,
+      "cheekPuff": 0.15
+    }
+  },
+  {
+    "text": "我好想你……",
+    "emotion": "sad",
+    "intensity": 0.7,
+    "params": {
+      "mouthFrownLeft": 0.49,
+      "mouthFrownRight": 0.49,
+      "browInnerUp": 0.42,
+      "eyeSquintLeft": 0.21,
+      "eyeSquintRight": 0.21
+    }
+  },
+  {
+    "text": "这真是个惊喜！",
+    "emotion": "happy",
+    "intensity": 0.8,
+    "params": {
+      "mouthSmileLeft": 0.56,
+      "mouthSmileRight": 0.56,
+      "eyeSquintLeft": 0.32,
+      "eyeSquintRight": 0.32,
+      "browInnerUp": 0.16
+    }
+  },
+  {
+    "text": "天啊，太可怕了！",
+    "emotion": "surprise",
+    "intensity": 0.8,
+    "params": {
+      "browOuterUpLeft": 0.64,
+      "browOuterUpRight": 0.64,
+      "eyeWideLeft": 0.72,
+      "eyeWideRight": 0.72,
+      "jawOpen": 0.48
+    }
+  },
+  {
+    "text": "我受够了！",
+    "emotion": "angry",
+    "intensity": 0.8,
+    "params": {
+      "browDownLeft": 0.64,
+      "browDownRight": 0.64,
+      "mouthPressLeft": 0.48,
+      "mouthPressRight": 0.48,
+      "cheekPuff": 0.24
+    }
+  },
+  {
+    "text": "让我一个人静静。",
+    "emotion": "sad",
+    "intensity": 0.5,
+    "params": {
+      "mouthFrownLeft": 0.35,
+      "mouthFrownRight": 0.35,
+      "browInnerUp": 0.3,
+      "eyeSquintLeft": 0.15,
+      "eyeSquintRight": 0.15
+    }
+  },
+  {
+    "text": "耶！太棒了！",
+    "emotion": "happy",
+    "intensity": 0.9,
+    "params": {
+      "mouthSmileLeft": 0.63,
+      "mouthSmileRight": 0.63,
+      "eyeSquintLeft": 0.36,
+      "eyeSquintRight": 0.36,
+      "browInnerUp": 0.18
+    }
+  },
+  {
+    "text": "呃……这个味道好奇怪。",
+    "emotion": "disgust",
+    "intensity": 0.5,
+    "params": {
+      "browDownLeft": 0.25,
+      "browDownRight": 0.25,
+      "eyeSquintLeft": 0.3,
+      "eyeSquintRight": 0.3,
+      "mouthFrownLeft": 0.25,
+      "mouthFrownRight": 0.25,
+      "cheekPuff": 0.1
+    }
+  },
+  {
+    "text": "呼……终于完成了。",
+    "emotion": "calm",
+    "intensity": 0.3,
+    "params": {
+      "mouthSmileLeft": 0.03,
+      "mouthSmileRight": 0.03
+    }
+  },
+  {
+    "text": "我该怎么办？好纠结。",
+    "emotion": "concern",
+    "intensity": 0.6,
+    "params": {
+      "browInnerUp": 0.36,
+      "eyeWideLeft": 0.24,
+      "eyeWideRight": 0.24,
+      "mouthPressLeft": 0.18,
+      "mouthPressRight": 0.18
+    }
+  },
+  {
+    "text": "走开，别挡路！",
+    "emotion": "angry",
+    "intensity": 0.7,
+    "params": {
+      "browDownLeft": 0.56,
+      "browDownRight": 0.56,
+      "mouthPressLeft": 0.42,
+      "mouthPressRight": 0.42,
+      "cheekPuff": 0.21
+    }
+  },
+  {
+    "text": "哇塞，好漂亮！",
+    "emotion": "happy",
+    "intensity": 0.7,
+    "params": {
+      "mouthSmileLeft": 0.49,
+      "mouthSmileRight": 0.49,
+      "eyeSquintLeft": 0.28,
+      "eyeSquintRight": 0.28,
+      "browInnerUp": 0.14
+    }
+  },
+  {
+    "text": "唉，又迟到了。",
+    "emotion": "sad",
+    "intensity": 0.4,
+    "params": {
+      "mouthFrownLeft": 0.28,
+      "mouthFrownRight": 0.28,
+      "browInnerUp": 0.24,
+      "eyeSquintLeft": 0.12,
+      "eyeSquintRight": 0.12
+    }
+  },
+  {
+    "text": "咦，我记得明明放在这里的。",
+    "emotion": "surprise",
+    "intensity": 0.4,
+    "params": {
+      "browOuterUpLeft": 0.32,
+      "browOuterUpRight": 0.32,
+      "eyeWideLeft": 0.36,
+      "eyeWideRight": 0.36,
+      "jawOpen": 0.24
+    }
+  },
+  {
+    "text": "无聊死了，有什么好玩的吗？",
+    "emotion": "bored",
+    "intensity": 0.8,
+    "params": {
+      "eyeLookDown": 0.32,
+      "eyeLookLeft": 0.24,
+      "mouthFrownLeft": 0.16,
+      "mouthFrownRight": 0.16,
+      "browDownLeft": 0.24,
+      "browDownRight": 0.24
+    }
+  },
+  {
+    "text": "你没事吧？脸色好差。",
+    "emotion": "concern",
+    "intensity": 0.7,
+    "params": {
+      "browInnerUp": 0.42,
+      "eyeWideLeft": 0.28,
+      "eyeWideRight": 0.28,
+      "mouthPressLeft": 0.21,
+      "mouthPressRight": 0.21
+    }
+  },
+  {
+    "text": "好臭！快扔了！",
+    "emotion": "disgust",
+    "intensity": 0.7,
+    "params": {
+      "browDownLeft": 0.35,
+      "browDownRight": 0.35,
+      "eyeSquintLeft": 0.42,
+      "eyeSquintRight": 0.42,
+      "mouthFrownLeft": 0.35,
+      "mouthFrownRight": 0.35,
+      "cheekPuff": 0.14
+    }
+  },
+  {
+    "text": "我想睡觉……",
+    "emotion": "bored",
+    "intensity": 0.6,
+    "params": {
+      "eyeLookDown": 0.24,
+      "eyeLookLeft": 0.18,
+      "mouthFrownLeft": 0.12,
+      "mouthFrownRight": 0.12,
+      "browDownLeft": 0.18,
+      "browDownRight": 0.18
+    }
+  },
+  {
+    "text": "太棒了！我成功了！",
+    "emotion": "happy",
+    "intensity": 0.9,
+    "params": {
+      "mouthSmileLeft": 0.63,
+      "mouthSmileRight": 0.63,
+      "eyeSquintLeft": 0.36,
+      "eyeSquintRight": 0.36,
+      "browInnerUp": 0.18
+    }
+  },
+  {
+    "text": "真拿你没办法。",
+    "emotion": "calm",
+    "intensity": 0.2,
+    "params": {
+      "mouthSmileLeft": 0.02,
+      "mouthSmileRight": 0.02
+    }
+  }
+]
