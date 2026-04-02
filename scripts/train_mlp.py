@@ -14,7 +14,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from models.mlp_mapper import MLPMapper
 from models.prior_fusion_mapper import PriorFusionMapper
 from rule_mapping import rule_mapping
-from utils.text_encoder import HashingTextEncoder, load_text_encoder
+from utils.text_encoder import load_text_encoder
 from utils.text_features import extract_semantic_features
 
 EMOTION_LIST = [
@@ -31,6 +31,14 @@ def emotion_to_onehot(emotion):
     return vec
 
 
+def intensity_to_bucket(intensity):
+    if intensity < 0.45:
+        return "weak"
+    if intensity < 0.75:
+        return "medium"
+    return "strong"
+
+
 class ExpressionDataset(Dataset):
     def __init__(self, data, encoder, use_semantic_features=True, use_prior=True):
         self.items = []
@@ -39,10 +47,11 @@ class ExpressionDataset(Dataset):
 
         for item, text_emb in zip(data, embeddings):
             emo_vec = emotion_to_onehot(item["emotion"])
-            intensity = [float(item["intensity"])]
+            intensity_value = float(item["intensity"])
+            intensity = [intensity_value]
             semantic_features = extract_semantic_features(item["text"]) if use_semantic_features else []
             control_features = emo_vec + intensity + semantic_features
-            prior_vector = rule_mapping(item["emotion"], float(item["intensity"])) if use_prior else [0.0] * len(item["param_vector"])
+            prior_vector = rule_mapping(item["emotion"], intensity_value) if use_prior else [0.0] * len(item["param_vector"])
             mlp_input = list(text_emb) + control_features
 
             self.items.append({
@@ -51,6 +60,9 @@ class ExpressionDataset(Dataset):
                 "prior_vector": torch.tensor(prior_vector, dtype=torch.float32),
                 "mlp_input": torch.tensor(mlp_input, dtype=torch.float32),
                 "target": torch.tensor(item["param_vector"], dtype=torch.float32),
+                "emotion": item["emotion"],
+                "intensity_value": intensity_value,
+                "intensity_bucket": intensity_to_bucket(intensity_value),
             })
 
     def __len__(self):
@@ -61,7 +73,13 @@ class ExpressionDataset(Dataset):
 
 
 def collate_batch(batch):
-    return {key: torch.stack([item[key] for item in batch]) for key in batch[0]}
+    collated = {}
+    for key in batch[0]:
+        if isinstance(batch[0][key], torch.Tensor):
+            collated[key] = torch.stack([item[key] for item in batch])
+        else:
+            collated[key] = [item[key] for item in batch]
+    return collated
 
 
 def build_model(model_type, sample):
@@ -125,25 +143,44 @@ def compute_metrics(predictions, targets):
     return {"mae": mae, "rmse": rmse, "active_mae": active_mae}
 
 
+def compute_group_metrics(predictions, targets, groups):
+    stats = {}
+    unique_groups = sorted(set(groups))
+    for group in unique_groups:
+        indices = [i for i, g in enumerate(groups) if g == group]
+        group_pred = predictions[indices]
+        group_target = targets[indices]
+        group_metrics = compute_metrics(group_pred, group_target)
+        group_metrics["count"] = len(indices)
+        stats[group] = group_metrics
+    return stats
+
+
 def evaluate(model, loader, criterion, model_type, device):
     model.eval()
     total_loss = 0.0
     preds = []
     targets = []
+    emotions = []
+    intensity_buckets = []
 
     with torch.no_grad():
         for batch in loader:
-            batch = {k: v.to(device) for k, v in batch.items()}
-            pred = forward_model(model, batch, model_type)
-            loss = criterion(pred, batch["target"])
+            tensor_batch = {k: v.to(device) for k, v in batch.items() if isinstance(v, torch.Tensor)}
+            pred = forward_model(model, tensor_batch, model_type)
+            loss = criterion(pred, tensor_batch["target"])
             total_loss += loss.item()
             preds.append(pred.cpu())
-            targets.append(batch["target"].cpu())
+            targets.append(tensor_batch["target"].cpu())
+            emotions.extend(batch["emotion"])
+            intensity_buckets.extend(batch["intensity_bucket"])
 
     predictions = torch.cat(preds, dim=0)
     labels = torch.cat(targets, dim=0)
     metrics = compute_metrics(predictions, labels)
     metrics["loss"] = total_loss / max(len(loader), 1)
+    metrics["per_emotion"] = compute_group_metrics(predictions, labels, emotions)
+    metrics["per_intensity_bucket"] = compute_group_metrics(predictions, labels, intensity_buckets)
     return metrics
 
 
@@ -181,9 +218,9 @@ def train(args):
         total_loss = 0.0
 
         for batch in train_loader:
-            batch = {k: v.to(device) for k, v in batch.items()}
-            pred = forward_model(model, batch, args.model_type)
-            loss = criterion(pred, batch["target"])
+            tensor_batch = {k: v.to(device) for k, v in batch.items() if isinstance(v, torch.Tensor)}
+            pred = forward_model(model, tensor_batch, args.model_type)
+            loss = criterion(pred, tensor_batch["target"])
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()

@@ -1,0 +1,1922 @@
+[
+  {
+    "text": "要我的...你叼谁啊？",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 96863
+  },
+  {
+    "text": "美好的一天啊！呵呵...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 85916
+  },
+  {
+    "text": "哈哈...我承认我笑了。",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 114234
+  },
+  {
+    "text": "...。。。哈哈哈愛愛太美了",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 37875
+  },
+  {
+    "text": "朝鲜...？身在首都就是好啊",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 118982
+  },
+  {
+    "text": "我的...我的~~~哈哈~~",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 142502
+  },
+  {
+    "text": "真的是0错误！哈哈！搞定...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 29102
+  },
+  {
+    "text": "哈哈哈觉得好有爱~李师傅...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 31071
+  },
+  {
+    "text": "噗~哈哈哈！不转我怕被戳...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 33058
+  },
+  {
+    "text": "好吃吗重庆大盘鸡...好麻啊！",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 33847
+  },
+  {
+    "text": "太有了！哈哈哈布什，俺想你...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 26175
+  },
+  {
+    "text": "哈哈哈~好過癮的狗狗。大佬...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 63125
+  },
+  {
+    "text": "。今天换了个新桌面，大爱啊...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 65783
+  },
+  {
+    "text": "谁会绣十字绣啊…绣得我两眼昏花…",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 140309
+  },
+  {
+    "text": "这个有爱啊凡豆…我中意…阿凡豆？",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 148658
+  },
+  {
+    "text": "原来我是“张飞”呀...仁义刘备。",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 3502
+  },
+  {
+    "text": "矮油~~啊啊啊啊:我的宝贝儿...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 7529
+  },
+  {
+    "text": "加油出門前...冰皮為我打氣！哈哈",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 9305
+  },
+  {
+    "text": "美啊，我都另存起来。藏地幻境...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 14655
+  },
+  {
+    "text": "哇~~~~好Q啊~~超有型的...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 43469
+  },
+  {
+    "text": "乐呵乐可...哈哈“我叫楚中天。”",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 116917
+  },
+  {
+    "text": "哈哈！好贤惠的老婆啊！！！o...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 145321
+  },
+  {
+    "text": "我要去楼下买泡面了...可怜的娃啊！",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 345
+  },
+  {
+    "text": "牛B加班敲电脑哎~我我我...投稿)",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 10563
+  },
+  {
+    "text": "我想住啊...这样的房子，你敢住吗？",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 28420
+  },
+  {
+    "text": "宜家體體我噶~哈哈哈...中意中意！",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 53024
+  },
+  {
+    "text": "好可爱啊...好可爱的宝贝哦！黄小鸭",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 60365
+  },
+  {
+    "text": "李老师穿的真喜庆啊。我来自北京...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 83989
+  },
+  {
+    "text": "太拽了...哇～好多啊！更拽的王力熊",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 97773
+  },
+  {
+    "text": "扑地！笑劈了...哈哈，M叔叔太Q了",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 134002
+  },
+  {
+    "text": "我喜欢这个袋子~~这张嘴真大啊...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 146483
+  },
+  {
+    "text": "哈哈。。。大发了这也太恐怖了吧...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 152011
+  },
+  {
+    "text": "太好玩了哈哈轻松一下吧！笑死人了...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 53010
+  },
+  {
+    "text": "哇，强啊...我想部手机多D!~哈哈掂",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 56348
+  },
+  {
+    "text": "给力啊...我们的仕途就如同鼻屎。。。",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 57576
+  },
+  {
+    "text": "哈哈哈...这张脸，把我笑岔气了。。。",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 60240
+  },
+  {
+    "text": "我非常喜欢今天这个主裁判！哈哈哈...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 110189
+  },
+  {
+    "text": "人模狗样...哈哈哈看到这个~我笑歪了",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 122063
+  },
+  {
+    "text": "这美女…哎呦…这美女也太高了--O?",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 133579
+  },
+  {
+    "text": "对说：加我吧！哈哈...周末一起喝酒。",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 152335
+  },
+  {
+    "text": "和我的某个小学同桌好像哦...(英雄啊！",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 3768
+  },
+  {
+    "text": "好恐怖！这饭馆名字！小朋友们快跑啊...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 4392
+  },
+  {
+    "text": "哎呦喂~~~萌死了~其实我有恋足癖...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 16224
+  },
+  {
+    "text": "囧~~哇哈哈哈哈...好强大吖个男...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 18298
+  },
+  {
+    "text": "太精辟了，有才！说得好!噗...精辟啊！",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 46780
+  },
+  {
+    "text": "丽江人太潮拉~哈哈确实...是不是很和谐",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 63579
+  },
+  {
+    "text": "太美了...它是足球，但不能踢，哈哈！~",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 133384
+  },
+  {
+    "text": "很好看啊~灿灿漫画版...海豚弟弟作，，",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 134635
+  },
+  {
+    "text": "顺便说点什么吧...噗哈哈~我神马都没做",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 157562
+  },
+  {
+    "text": "天真好受欢迎啊噗...！“一男不嫁二夫。”",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 4772
+  },
+  {
+    "text": "好可耐的娜娜这么口耐这...又是谁啊？？？",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 11548
+  },
+  {
+    "text": "哇哈哈，西瓜真好吃~~~犒劳一下自己...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 16651
+  },
+  {
+    "text": "这笑话好冷啊...“早？不是旱吗？”（转）",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 35329
+  },
+  {
+    "text": "姐不是开的太快，而是飞得太低...O哈哈~",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 42152
+  },
+  {
+    "text": "笑死人了，哈哈哈俩小白...这图笑死我了。",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 46345
+  },
+  {
+    "text": "地址：Word！哈哈哈翻译的太精辟了...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 56948
+  },
+  {
+    "text": "好清楚哦~?囧囧是喝高了么...啥姿勢啊哌",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 59732
+  },
+  {
+    "text": "好可爱啊...大爱！！最最纯洁的裸照！！！",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 64925
+  },
+  {
+    "text": "嗷呜~~~好萌><萌物~！！！萌萌萌...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 94422
+  },
+  {
+    "text": "。被交警拦了...只好挂牌...哈哈...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 108330
+  },
+  {
+    "text": "未免太萌了吧...小非洲狐。太卡哇伊了啊！",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 125359
+  },
+  {
+    "text": "好帅啊令人心情愉快~``迷shi人了...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 137113
+  },
+  {
+    "text": "啊..雄鸠鸠的男子气概...我的毕业照~~",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 140268
+  },
+  {
+    "text": ":真糸几好叻到距...个店名..哇哈哈！！",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 151263
+  },
+  {
+    "text": "呼哈何老师你怎么了啊...可要多保重啊！！！",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 2234
+  },
+  {
+    "text": "好又是第一页还在前面的不得了...佩服啊！！",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 6289
+  },
+  {
+    "text": "好有爱的书这到底是神马东东啊？咄酃?...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 13167
+  },
+  {
+    "text": "哈哈，笑喷我了！！！我想洗手不是洗澡>...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 31494
+  },
+  {
+    "text": "回覆对~~”太巧了“對啊~只能說...太巧了",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 36265
+  },
+  {
+    "text": "这...啊哈啊哈，好可爱的锅呀这是抽风翰。。",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 49846
+  },
+  {
+    "text": "哈哈何老师你怎么了啊...可要多保重啊！！！",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 51280
+  },
+  {
+    "text": "慢慢讲借来用用先啱我用啊！。鏢叔金句...!",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 89928
+  },
+  {
+    "text": "太经典了！！被我按了肺经穴位的表情...哈哈",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 104254
+  },
+  {
+    "text": "无言。。哈哈.華聯又出人才喇...真好用！！",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 117217
+  },
+  {
+    "text": "啊…企鹅这个蜗牛，居然窝在我葱的玉手上…葱爪",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 128597
+  },
+  {
+    "text": "呵呵境由心生！好可爱...微博基本功-蛋定！",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 135280
+  },
+  {
+    "text": "卤蛋爆可爱~哈哈，好可爱挖..这样PS...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 158488
+  },
+  {
+    "text": "。这个比基尼穿起来是不是让我显的很胖呀...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 159141
+  },
+  {
+    "text": "哥俩儿好啊，来猜拳啊！多么和谐的场面啊...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 159559
+  },
+  {
+    "text": "这是怎么训练的？求解~~哈哈哈~如廁偷拍...",
+    "source_label": "0",
+    "suggested_emotion": "happy",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/0_simplifyweibo.txt",
+    "line_no": 1582
+  },
+  {
+    "text": "好想去看电影啊！...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 5644
+  },
+  {
+    "text": "仲系好饱啊...点训啊？",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 6853
+  },
+  {
+    "text": "我难受...啊啊啊啊啊。",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 26681
+  },
+  {
+    "text": "喜欢...哈哈~~~二哥！！！",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 22254
+  },
+  {
+    "text": "Hoho~好巧哦~你也看啊...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 5008
+  },
+  {
+    "text": "咩事？我要发泄...呜呜呜...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 5444
+  },
+  {
+    "text": "好无聊啊…都不知道可以干什么事情…",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 923
+  },
+  {
+    "text": "啊！我琴日整噶网银全部用5倒...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 12985
+  },
+  {
+    "text": "哎！我都快成月球表面了...！！！",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 16054
+  },
+  {
+    "text": "黄绿开的中药好苦啊…点解我要感暑…",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 32743
+  },
+  {
+    "text": "我怎么又被偷拍了？完全不知情啊...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 13741
+  },
+  {
+    "text": "噗~~哈哈哈...保鏢哥哥,我也要看",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 26734
+  },
+  {
+    "text": "呵呵...你厉害我根本就没打算看！！",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 33495
+  },
+  {
+    "text": "真大胃口啊~今年圣诞要送礼物...给我",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 2914
+  },
+  {
+    "text": "我嫉妒！哈哈哈再来一张…额…不说…懂的",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 18367
+  },
+  {
+    "text": "都来爱我吧...会幸福的呀爱上巨蟹座。",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 31844
+  },
+  {
+    "text": "我也被何韻詩融化了...好帥呀！！！！?",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 39025
+  },
+  {
+    "text": "可爱哈哈...表情好可爱！！这人真坏到家了",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 1302
+  },
+  {
+    "text": "哇呀呀呀~~受不了了~~看起来好可口...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 5172
+  },
+  {
+    "text": "好高呀...我的媽呀~~巴哥哈娜之搞笑表情",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 7964
+  },
+  {
+    "text": "唉唉！！英德大战的那个解说员太八婆了...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 18862
+  },
+  {
+    "text": "好多东西想买啊...不行，要远离淘宝！！！",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 23756
+  },
+  {
+    "text": "唉...老子！！！此刻我已无法再评论什么了",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 31220
+  },
+  {
+    "text": "我怎么没发现呀！好的。今天继续穿短袖...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 36278
+  },
+  {
+    "text": "简直系噩耗啊！！！我嘅假日就咁无咗啦...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 40850
+  },
+  {
+    "text": "我超级怀念的广州...饿啊饿啊饿啊要吃奶！！",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 7176
+  },
+  {
+    "text": "别丢下我。。。不然我咬你！哈哈别丢下我...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 19074
+  },
+  {
+    "text": "哇张台短少少都摆唔晒吖我想要啊...$48。",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 25883
+  },
+  {
+    "text": "...活该你杯具啊哈哈哈哈哈我是变态金牛座。",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 28536
+  },
+  {
+    "text": "唉！我还以为我们已经把香港回归给了你们呢...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 1672
+  },
+  {
+    "text": "无论是谁现在逗着我~~立刻抓狂~~发飙啊...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 11443
+  },
+  {
+    "text": "...肉肉的。。。好核突就真！！好可爱啊~~~",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 18781
+  },
+  {
+    "text": "美指控！唉，受不了他的手啊~我们看手就好...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 19800
+  },
+  {
+    "text": "无啦啦封我微博一日...SINA你玩野啊~~~",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 21039
+  },
+  {
+    "text": "心情烦躁，不想考试...让我翘考吧！啊啊啊！！！",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 4835
+  },
+  {
+    "text": "好帅呀！！！爸爸你过会再打吧，我在看动画片...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 18986
+  },
+  {
+    "text": "无语得很。。。。我滴个神啊...你对得起犯人吗？",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 26549
+  },
+  {
+    "text": "哎呦我艹。。。淘宝啊，要不要这么与时俱进啊...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 27441
+  },
+  {
+    "text": "哪里有吃？喵呜~:神呢...我真的忍不住啦~~~",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 40027
+  },
+  {
+    "text": "晚上在单位牛肉吃多了...塞牙...好难受啊！！！",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 2900
+  },
+  {
+    "text": "太狠了...也是人太可恶了怎么这样啊我诅咒那个人。",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 5863
+  },
+  {
+    "text": "这怎么可能...叹为观止！啊！救命，原来可以这样！",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 12575
+  },
+  {
+    "text": "嘻嘻你個樣好兇狠啊！~啊...我要食包，我叉住你！",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 13062
+  },
+  {
+    "text": "我要！！！我又要玩啊當你的男友是電玩迷的時候...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 31124
+  },
+  {
+    "text": "哈哈,明儿个去SB会了~~~发现我现在懒的只...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 33888
+  },
+  {
+    "text": "好有范儿的小朋友啊。帅哦~什么都要从娃娃抓起...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 34690
+  },
+  {
+    "text": "我总是发现藏着掖着的jq...会不会被人灭口啊！！！",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 924
+  },
+  {
+    "text": "太残忍了这么恶毒的女人还第一次见！可怜的鸭子啊...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 7414
+  },
+  {
+    "text": "这个世界太疯狂...眉m結的新聞啊啊啊啊啊～～～！！",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 8913
+  },
+  {
+    "text": "为了专家，不得不转拜截图帝。这个不得不啊...太牛了",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 11324
+  },
+  {
+    "text": "太不厚道了...竟然骗我！！！NND！！！我的卡号啊",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 21341
+  },
+  {
+    "text": "敞篷车好拉风啊！今天坐车，往后一看。又长见识了...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 22623
+  },
+  {
+    "text": "天哪，这张太放人血了妈呀，杀人啦呃...这张放过吗？",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 23892
+  },
+  {
+    "text": "这货其实比我还小吧TAT内购呀！！！咬嘴唇神马的...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 4406
+  },
+  {
+    "text": "我不要再聽你說話...你走!...哎呀。今天又起晚咯~",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 27091
+  },
+  {
+    "text": "我一直都喜欢你，你知道吗，哈哈哈...最后亮了~逗死了",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 38708
+  },
+  {
+    "text": "我也很缺啊~~~~同感真理...有没有人跟我一样？？？？",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 10252
+  },
+  {
+    "text": "怎么到处都是“势利”啊，整个围脖儿也是~！有意思么...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 15066
+  },
+  {
+    "text": "小默次郎...小默次郎，还不错啊。我觉得床单和被子很赞！",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 16949
+  },
+  {
+    "text": "可怕的香蕉皮！画的太有遗精了~浮云浮云~月神传说啊...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 18602
+  },
+  {
+    "text": "912示爱节？怎么还有这么二的节啊...呃，就要二...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 22378
+  },
+  {
+    "text": "啊！！！！！我抓狂中！谁要是给我买索爱U5i，我就...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 23896
+  },
+  {
+    "text": "其实呢个角度...我哋个鹏Sir啊~~在休息室侯场...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 26156
+  },
+  {
+    "text": "国庆人还真是多丫...不过还好，过的还满充实的。哈哈..",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 28602
+  },
+  {
+    "text": "我，并不因为我是个人。拜截图帝。这个不得不啊...太牛了",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 33952
+  },
+  {
+    "text": "我第一好彩我尾五。今晚有咩湯呀！:咁慘...！天秤座；",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 38995
+  },
+  {
+    "text": "闹太套~~~~真够缺的谁这么会拼凑呀服了可乐加冰哈哈...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 2225
+  },
+  {
+    "text": "今天某人带着他们家那位来了。四目相投，还吐舌头，哎哟...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 12255
+  },
+  {
+    "text": "哎呀~~哪有买啊？？我也要萌物一个，小丸子控们看过来...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 22582
+  },
+  {
+    "text": "哈哈。我不高兴～这些作者让我很纠结...到底高不高兴！！！",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 31169
+  },
+  {
+    "text": "唉~直接把我电倒在和平门了我坚定地活了下来...嚴重電到~",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 33133
+  },
+  {
+    "text": "哎...简历投的好晕啊那些要工作经验的公司都给我去屎去屎。",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 33135
+  },
+  {
+    "text": "呵呵~~你肯定也是男娃...周围的人都生的男娃，压力好大。",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 38732
+  },
+  {
+    "text": "这杀伤力真是...哈哈哈哈。杀手猫！我不减肥，我也不让你减肥",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 30578
+  },
+  {
+    "text": "那小脚趾好可爱啊！！受不了...小样实在让人忍俊不禁，哈哈！",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 35349
+  },
+  {
+    "text": "2号不错啊~~真的是这样吗？哈哈，家有爱宠的同学请留意...",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 40595
+  },
+  {
+    "text": "我不算最快...但也不算最晚吧...有没有？！谢谢...哈哈哈",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 1565
+  },
+  {
+    "text": "好得意啊哈哈,两个都超可爱的...=^.^=?不准你去幼儿园。",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 2052
+  },
+  {
+    "text": "蔡老师加油~~~蔡老師在綵排中演講...哈哈!好大的一顆痘子啊",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 4463
+  },
+  {
+    "text": "萌神的剪刀手…好萌...后台照啊！！！萌死了~~~~~~~~~",
+    "source_label": "1",
+    "suggested_emotion": "angry_or_disgust",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/1_simplifyweibo.txt",
+    "line_no": 4545
+  },
+  {
+    "text": "唉~~这个太伤感了...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 38873
+  },
+  {
+    "text": "好~难受~呜~...痛苦阿~",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 9146
+  },
+  {
+    "text": "超可愛...好可爱的啊。。。",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 21851
+  },
+  {
+    "text": "917了。我看错了...呜呜",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 25364
+  },
+  {
+    "text": "这还小啊...我只是只小猪。",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 35717
+  },
+  {
+    "text": "谁能给我点水喝啊~~好渴...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 18311
+  },
+  {
+    "text": "敏感？哎呀...我塊面又黎料喇",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 27242
+  },
+  {
+    "text": "现实啊！这楼盘的宣传语也太...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 13857
+  },
+  {
+    "text": "我暈...天啊！！！我错了TVT",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 24298
+  },
+  {
+    "text": "累得都快瘫了...神啊，救救我吧！",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 17841
+  },
+  {
+    "text": "我也要去...见到大海啦，啊啊啊！",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 38117
+  },
+  {
+    "text": "同你…好想哭啊...好想时间倒流啊",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 42451
+  },
+  {
+    "text": "好想小黑框啊~想扑之...蹂躏之...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 13097
+  },
+  {
+    "text": "我怎么排那么后呀？才第七...魔羯座。",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 32320
+  },
+  {
+    "text": "这个真的很搞笑哎...怎么可以这样！！",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 34350
+  },
+  {
+    "text": "。那天我在公园看到的温馨画面...羡慕呀",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 18850
+  },
+  {
+    "text": "阿根廷巴西毁了太多人了…看看阿根廷吧…唉",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 19239
+  },
+  {
+    "text": "我想睇盗梦…我想唱k…有无人得闲陪我啊？",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 20595
+  },
+  {
+    "text": "眼泪，那是眼泪...呜呜，虐死我了。。。",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 26470
+  },
+  {
+    "text": "哎...我是为了你们好哇~約巨蟹座唱K。",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 34880
+  },
+  {
+    "text": "外面风好大...灰好大...我想出去啊~",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 43807
+  },
+  {
+    "text": "呀~~~~不想等我妹門到3點耶...好累喔",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 19356
+  },
+  {
+    "text": "这张逆了啊喂！新杂...好吧，稍可抵消昨日之",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 30
+  },
+  {
+    "text": "对呀，超级恐怖呢...好恐怖的呢！！！！！！",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 531
+  },
+  {
+    "text": "我的晚饭在那里？今晚的晚餐…哈哈哈…好饱哟…",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 6139
+  },
+  {
+    "text": "神啊...今天是三十？越活越没时间概念...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 17271
+  },
+  {
+    "text": "哈哈哈哈~噗...我就不解释了...你们懂得",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 18512
+  },
+  {
+    "text": "木有吃中饭。于是...肚子饿肚子饿肚子好饿啊",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 19113
+  },
+  {
+    "text": "呜呜呜…这两娃…这俩孩子，歇会吧，别太拼命了",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 32306
+  },
+  {
+    "text": "21~26在惠州...唉，好频len啊...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 43273
+  },
+  {
+    "text": "亏了我最支持冰壶队的！！~~~~唉~~~...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 6020
+  },
+  {
+    "text": "哈爾濱。十號我就走了！哎...我舍不得妳丫！?",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 6094
+  },
+  {
+    "text": "呵呵可爱的羽凡~~~~~~太太太...无语森啦",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 7246
+  },
+  {
+    "text": "为什么要排隊？免费的吗？唉...30才能开始…",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 12620
+  },
+  {
+    "text": "我的英格蘭亞。...已經輸掉了.不開心的說~唉",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 24433
+  },
+  {
+    "text": "现实的社会啊...我看以后被卖了还帮别个数钱。",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 37900
+  },
+  {
+    "text": "唉，我已经晕了...艾成歌艾成歌艾成歌艾成歌！",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 38843
+  },
+  {
+    "text": "。捧着它我泪流满面，你TMD也留一双筷子啊...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 1318
+  },
+  {
+    "text": "啊…居然思想道德教育不见了…真是无语了…缺德啊…",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 1521
+  },
+  {
+    "text": "逼着转啊全是我的就好了...又逼我！:转:转转转",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 3997
+  },
+  {
+    "text": "啊！~我竟然不知道比赛前有闭幕式...失败...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 13072
+  },
+  {
+    "text": "。哇勒个嚓,这个洗手池,你敢洗吗?好恶心呀...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 18778
+  },
+  {
+    "text": "原来很多娜豆在上班啊...好可怜啊~那我不得瑟了",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 25763
+  },
+  {
+    "text": "快住手，苗苗！不要这样啊~~生活压力太大了...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 27956
+  },
+  {
+    "text": "加班这个话题，依然是榜首啊...苦命的我们。。。",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 30928
+  },
+  {
+    "text": "啊！！！我不想再說什麼我淚奔就好...S跟H親親喔",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 10380
+  },
+  {
+    "text": "原來會動的啊噗歧义了，之前的删掉。是...我好猥琐",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 13833
+  },
+  {
+    "text": "唉...这天气...我又感冒了。体质差还是天气差。",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 29211
+  },
+  {
+    "text": "鲜果终于收录我blog文章了！真的是一个月啊...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 39513
+  },
+  {
+    "text": "伤心啊。...爸爸妈妈，我可以去你们家玩吗？...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 39949
+  },
+  {
+    "text": "我同情你，来昆明避暑吧~~~这天，热的人蛋疼啊...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 7721
+  },
+  {
+    "text": "为什么...那么多天灾还要有人祸啊！！！！为同胞祈福",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 15383
+  },
+  {
+    "text": "原来王老吉喝了反而会长痘...我滴心肝脾肺肾啊！！！",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 21533
+  },
+  {
+    "text": "好可怜的狗狗啊~人类是最邪恶的动物...坏透了...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 26246
+  },
+  {
+    "text": "哈哈原来系甘玩下咋.我同学...真？太过分啦。。。。",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 27993
+  },
+  {
+    "text": "哈哈，见不到的…我今天不赚钱…哈哈哈又要出门了。。。",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 34432
+  },
+  {
+    "text": "太专业了...支持本土品牌啊哈哈ABC重视支持者！M",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 42307
+  },
+  {
+    "text": "死了…史了我史了...这让人想犯罪的眉眼和舌头啊...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 10
+  },
+  {
+    "text": "終於忙我工作嚕~要來休息一下嚕!!!怎麼這麼累呀...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 727
+  },
+  {
+    "text": "有時還提早...。工资就像大姨妈，量越多越好啊。。。。",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 4776
+  },
+  {
+    "text": "太残忍了！邪恶...哈哈！~。人类是最邪恶的动物...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 18578
+  },
+  {
+    "text": "我...突然又在家，发动了我的假声！！！啊啊啊啊！！！",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 32957
+  },
+  {
+    "text": "好多麦丽素耶~~~~~口水~~~好想好想要一桶啊...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 39670
+  },
+  {
+    "text": "没人陪我看恐怖片啊，我自己又不敢看。期待明天下雨...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 41169
+  },
+  {
+    "text": "我说堵车么...京通不好走着呢呀，雷声过来啦！！怕怕！",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 43270
+  },
+  {
+    "text": "啊~正喊我!!!!!貓也需要人打開它的心窗,超感人...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 17736
+  },
+  {
+    "text": "哈哈，这个配音好科学！...“师傅，请发功吧。”（来自）",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 17986
+  },
+  {
+    "text": "真是好冻啊今日...点解甘冻架...冻死我啦!!~...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 19782
+  },
+  {
+    "text": "唉...截图截给错人，酿造悲剧哟！老天保佑我可以睡得着！",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 24863
+  },
+  {
+    "text": "我说我想吃水煎包+冰沙。他说你找打啊!...惨兮兮...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 31505
+  },
+  {
+    "text": "存存存我萌了，爬走嘻嘻...皮肤不错哦，手还满嫩的哈哈。",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 39285
+  },
+  {
+    "text": "亲爱啲...你哋去到海南岛记得买手信俾我啊！！可怜的蚊蚊",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 42206
+  },
+  {
+    "text": "哈哈。。腾讯应该会学吧。。。太...太狠了。。。。哈哈~~",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 1197
+  },
+  {
+    "text": "。好吧，赵帆锅锅~你再一次挡在了我艺我余中间~哎呀呀...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 2814
+  },
+  {
+    "text": "抓狂唉...女人太不容易了！这是女人们在婚礼上最大的悲剧了",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 5988
+  },
+  {
+    "text": "寿丝狗！这个我实在是无法接受太逼真了，是狗还是寿丝啊...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 6732
+  },
+  {
+    "text": "哎呦~我的庚澈范什么似水流年，什么此间少年的。。少年...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 11536
+  },
+  {
+    "text": "今天双扣输的好惨啊！分都被小洪和老敏赢走了...呜呜...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 17409
+  },
+  {
+    "text": "杯具啊:。她是人，你是妖，我怕你们的孩子生出来是人妖...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 27710
+  },
+  {
+    "text": "我也好想去看看啊！好像去看看这个房子，好梦幻，好童话...",
+    "source_label": "2",
+    "suggested_emotion": "sad",
+    "score": 5.9,
+    "source_file": "data/微博文本情感分析数据-数据集/4744303315294916403/2_simplifyweibo.txt",
+    "line_no": 28745
+  }
+]

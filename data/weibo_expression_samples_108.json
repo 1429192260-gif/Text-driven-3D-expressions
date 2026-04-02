@@ -1,0 +1,1514 @@
+[
+  {
+    "text": "超喜欢这张开心就好呵呵~好嗨哦！",
+    "emotion": "happy",
+    "intensity": 0.86,
+    "params": {
+      "mouthSmileLeft": 0.52,
+      "mouthSmileRight": 0.49,
+      "eyeSquintLeft": 0.25,
+      "eyeSquintRight": 0.23,
+      "browInnerUp": 0.1
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "太可爱了哈哈不会吧！笑死我了！！！！",
+    "emotion": "happy",
+    "intensity": 0.85,
+    "params": {
+      "mouthSmileLeft": 0.53,
+      "mouthSmileRight": 0.47,
+      "eyeSquintLeft": 0.26,
+      "eyeSquintRight": 0.22,
+      "browInnerUp": 0.09
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "可爱幸福又有爱好可爱～媽媽跟我說...",
+    "emotion": "happy",
+    "intensity": 0.76,
+    "params": {
+      "mouthSmileLeft": 0.47,
+      "mouthSmileRight": 0.45,
+      "eyeSquintLeft": 0.22,
+      "eyeSquintRight": 0.21,
+      "browInnerUp": 0.09
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "哈罗！！大家阿喜欢我的新的照片哈？阿可爱啊？哈哈哈！",
+    "emotion": "happy",
+    "intensity": 0.78,
+    "params": {
+      "mouthSmileLeft": 0.44,
+      "mouthSmileRight": 0.5,
+      "eyeSquintLeft": 0.2,
+      "eyeSquintRight": 0.24,
+      "browInnerUp": 0.11
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "哈哈我老公在一起好开心",
+    "emotion": "happy",
+    "intensity": 0.75,
+    "params": {
+      "mouthSmileLeft": 0.47,
+      "mouthSmileRight": 0.44,
+      "eyeSquintLeft": 0.22,
+      "eyeSquintRight": 0.2,
+      "browInnerUp": 0.08
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "好开心，公司同事帮我庆祝，哈哈",
+    "emotion": "happy",
+    "intensity": 0.75,
+    "params": {
+      "mouthSmileLeft": 0.43,
+      "mouthSmileRight": 0.47,
+      "eyeSquintLeft": 0.2,
+      "eyeSquintRight": 0.22,
+      "browInnerUp": 0.1
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "哈哈哈::呵呵中日大战，这个笑死我了",
+    "emotion": "happy",
+    "intensity": 0.75,
+    "params": {
+      "mouthSmileLeft": 0.43,
+      "mouthSmileRight": 0.48,
+      "eyeSquintLeft": 0.2,
+      "eyeSquintRight": 0.23,
+      "browInnerUp": 0.1
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "昨晚梦见我们小庚了呵呵······好开心",
+    "emotion": "happy",
+    "intensity": 0.75,
+    "params": {
+      "mouthSmileLeft": 0.48,
+      "mouthSmileRight": 0.42,
+      "eyeSquintLeft": 0.23,
+      "eyeSquintRight": 0.19,
+      "browInnerUp": 0.08
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "一看到你就好开心啊~~~~哈哈,我好喜歡你",
+    "emotion": "happy",
+    "intensity": 0.81,
+    "params": {
+      "mouthSmileLeft": 0.46,
+      "mouthSmileRight": 0.5,
+      "eyeSquintLeft": 0.21,
+      "eyeSquintRight": 0.24,
+      "browInnerUp": 0.11
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "笑死我拉笑到我好肚痛哈哈.捂开心到睇到好开心",
+    "emotion": "happy",
+    "intensity": 0.77,
+    "params": {
+      "mouthSmileLeft": 0.43,
+      "mouthSmileRight": 0.49,
+      "eyeSquintLeft": 0.2,
+      "eyeSquintRight": 0.24,
+      "browInnerUp": 0.11
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "老板玩得好开心哦~~大家问我我喜欢什么？其实和朋友在一起就是我最大的幸福~~~",
+    "emotion": "happy",
+    "intensity": 0.86,
+    "params": {
+      "mouthSmileLeft": 0.49,
+      "mouthSmileRight": 0.52,
+      "eyeSquintLeft": 0.23,
+      "eyeSquintRight": 0.25,
+      "browInnerUp": 0.11
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "哈哈哈~好开心啊~你们都猜不到~看着你们的答案逗得我可乐了~哈哈哈~",
+    "emotion": "happy",
+    "intensity": 0.8,
+    "params": {
+      "mouthSmileLeft": 0.46,
+      "mouthSmileRight": 0.49,
+      "eyeSquintLeft": 0.22,
+      "eyeSquintRight": 0.23,
+      "browInnerUp": 0.1
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "笑死我了哈哈哈哈笑疯我了。。。",
+    "emotion": "happy",
+    "intensity": 0.71,
+    "params": {
+      "mouthSmileLeft": 0.43,
+      "mouthSmileRight": 0.43,
+      "eyeSquintLeft": 0.2,
+      "eyeSquintRight": 0.2,
+      "browInnerUp": 0.09
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "今年中秋我们放4天半，太棒了！哈哈！！",
+    "emotion": "happy",
+    "intensity": 0.8,
+    "params": {
+      "mouthSmileLeft": 0.46,
+      "mouthSmileRight": 0.49,
+      "eyeSquintLeft": 0.21,
+      "eyeSquintRight": 0.23,
+      "browInnerUp": 0.1
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "哈哈哈哈哈哈哈哈哈哈哈，笑死我了！！！",
+    "emotion": "happy",
+    "intensity": 0.78,
+    "params": {
+      "mouthSmileLeft": 0.5,
+      "mouthSmileRight": 0.43,
+      "eyeSquintLeft": 0.24,
+      "eyeSquintRight": 0.2,
+      "browInnerUp": 0.08
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "同sa倾完电话，好好笑。好开心！哈哈...你真可爱!O",
+    "emotion": "happy",
+    "intensity": 0.86,
+    "params": {
+      "mouthSmileLeft": 0.53,
+      "mouthSmileRight": 0.49,
+      "eyeSquintLeft": 0.25,
+      "eyeSquintRight": 0.23,
+      "browInnerUp": 0.1
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "傻。。微博200条纪念下哈哈我的小白回来了。。。好开心啊~",
+    "emotion": "happy",
+    "intensity": 0.79,
+    "params": {
+      "mouthSmileLeft": 0.45,
+      "mouthSmileRight": 0.5,
+      "eyeSquintLeft": 0.21,
+      "eyeSquintRight": 0.24,
+      "browInnerUp": 0.11
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "开心·~我每天都好幸福唷~~哈哈!!希望大家也跟我一樣唷~~",
+    "emotion": "happy",
+    "intensity": 0.86,
+    "params": {
+      "mouthSmileLeft": 0.5,
+      "mouthSmileRight": 0.52,
+      "eyeSquintLeft": 0.23,
+      "eyeSquintRight": 0.25,
+      "browInnerUp": 0.11
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "龙少...好开心，我们的船长回来。",
+    "emotion": "happy",
+    "intensity": 0.7,
+    "params": {
+      "mouthSmileLeft": 0.44,
+      "mouthSmileRight": 0.41,
+      "eyeSquintLeft": 0.21,
+      "eyeSquintRight": 0.19,
+      "browInnerUp": 0.08
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "你们是坏人我看到这个笑得好开心...！",
+    "emotion": "happy",
+    "intensity": 0.72,
+    "params": {
+      "mouthSmileLeft": 0.47,
+      "mouthSmileRight": 0.4,
+      "eyeSquintLeft": 0.22,
+      "eyeSquintRight": 0.18,
+      "browInnerUp": 0.07
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "笑死人了，哈哈哈俩小白...这图笑死我了。",
+    "emotion": "happy",
+    "intensity": 0.7,
+    "params": {
+      "mouthSmileLeft": 0.41,
+      "mouthSmileRight": 0.44,
+      "eyeSquintLeft": 0.19,
+      "eyeSquintRight": 0.21,
+      "browInnerUp": 0.09
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "想笑就笑吧。哈哈~笑死我了~",
+    "emotion": "happy",
+    "intensity": 0.74,
+    "params": {
+      "mouthSmileLeft": 0.46,
+      "mouthSmileRight": 0.43,
+      "eyeSquintLeft": 0.22,
+      "eyeSquintRight": 0.2,
+      "browInnerUp": 0.08
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "被吃的某人好开心喔我一点也不禽兽~~",
+    "emotion": "happy",
+    "intensity": 0.72,
+    "params": {
+      "mouthSmileLeft": 0.46,
+      "mouthSmileRight": 0.41,
+      "eyeSquintLeft": 0.22,
+      "eyeSquintRight": 0.18,
+      "browInnerUp": 0.08
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "今日，徐生话好开心~~所以我都好开心~",
+    "emotion": "happy",
+    "intensity": 0.74,
+    "params": {
+      "mouthSmileLeft": 0.47,
+      "mouthSmileRight": 0.42,
+      "eyeSquintLeft": 0.22,
+      "eyeSquintRight": 0.19,
+      "browInnerUp": 0.08
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "笑死我了，哈哈绝妙！人生歪理画中话。。。",
+    "emotion": "happy",
+    "intensity": 0.73,
+    "params": {
+      "mouthSmileLeft": 0.45,
+      "mouthSmileRight": 0.43,
+      "eyeSquintLeft": 0.21,
+      "eyeSquintRight": 0.2,
+      "browInnerUp": 0.08
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "我很喜欢吃诶…哈哈哈哈出品。。。期待！",
+    "emotion": "happy",
+    "intensity": 0.67,
+    "params": {
+      "mouthSmileLeft": 0.41,
+      "mouthSmileRight": 0.41,
+      "eyeSquintLeft": 0.19,
+      "eyeSquintRight": 0.19,
+      "browInnerUp": 0.08
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "哈哈，喜欢就好我的杯具队伍又强大了！！！",
+    "emotion": "happy",
+    "intensity": 0.72,
+    "params": {
+      "mouthSmileLeft": 0.39,
+      "mouthSmileRight": 0.4,
+      "eyeSquintLeft": 0.18,
+      "eyeSquintRight": 0.18,
+      "browInnerUp": 0.07
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "哈哈太爱老胡了还有我喜欢猫咪小白太可爱了看到老胡这照片，我笑了。。。",
+    "emotion": "happy",
+    "intensity": 0.69,
+    "params": {
+      "mouthSmileLeft": 0.43,
+      "mouthSmileRight": 0.41,
+      "eyeSquintLeft": 0.2,
+      "eyeSquintRight": 0.19,
+      "browInnerUp": 0.08
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "哈哈我一不高兴就喜欢吃东西，一吃东西就发胖，一发胖我就很不高兴。。。",
+    "emotion": "happy",
+    "intensity": 0.7,
+    "params": {
+      "mouthSmileLeft": 0.39,
+      "mouthSmileRight": 0.46,
+      "eyeSquintLeft": 0.17,
+      "eyeSquintRight": 0.22,
+      "browInnerUp": 0.07
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "哈哈哈~~~~我喜欢！",
+    "emotion": "happy",
+    "intensity": 0.71,
+    "params": {
+      "mouthSmileLeft": 0.42,
+      "mouthSmileRight": 0.44,
+      "eyeSquintLeft": 0.19,
+      "eyeSquintRight": 0.2,
+      "browInnerUp": 0.09
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "哈哈，好可爱。你看不见我！",
+    "emotion": "happy",
+    "intensity": 0.66,
+    "params": {
+      "mouthSmileLeft": 0.42,
+      "mouthSmileRight": 0.39,
+      "eyeSquintLeft": 0.19,
+      "eyeSquintRight": 0.18,
+      "browInnerUp": 0.07
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "对说：哈哈，这名字我喜欢~",
+    "emotion": "happy",
+    "intensity": 0.65,
+    "params": {
+      "mouthSmileLeft": 0.37,
+      "mouthSmileRight": 0.42,
+      "eyeSquintLeft": 0.17,
+      "eyeSquintRight": 0.2,
+      "browInnerUp": 0.09
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "我喜欢！满分！真可爱~~~",
+    "emotion": "happy",
+    "intensity": 0.74,
+    "params": {
+      "mouthSmileLeft": 0.42,
+      "mouthSmileRight": 0.47,
+      "eyeSquintLeft": 0.19,
+      "eyeSquintRight": 0.22,
+      "browInnerUp": 0.1
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "哈哈可爱——：我是草帽大王子！",
+    "emotion": "happy",
+    "intensity": 0.67,
+    "params": {
+      "mouthSmileLeft": 0.44,
+      "mouthSmileRight": 0.38,
+      "eyeSquintLeft": 0.21,
+      "eyeSquintRight": 0.17,
+      "browInnerUp": 0.07
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "呵呵你是泡面，我是开水。哈哈哈~",
+    "emotion": "happy",
+    "intensity": 0.66,
+    "params": {
+      "mouthSmileLeft": 0.42,
+      "mouthSmileRight": 0.39,
+      "eyeSquintLeft": 0.2,
+      "eyeSquintRight": 0.17,
+      "browInnerUp": 0.07
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "我喜欢哈哈哈灰常跟风的交通警示牌。",
+    "emotion": "happy",
+    "intensity": 0.64,
+    "params": {
+      "mouthSmileLeft": 0.42,
+      "mouthSmileRight": 0.36,
+      "eyeSquintLeft": 0.2,
+      "eyeSquintRight": 0.16,
+      "browInnerUp": 0.07
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "太令人愤怒啦...我要爆发啦!!!",
+    "emotion": "angry",
+    "intensity": 0.86,
+    "params": {
+      "browDownLeft": 0.64,
+      "browDownRight": 0.61,
+      "mouthPressLeft": 0.47,
+      "mouthPressRight": 0.45,
+      "cheekPuff": 0.18
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "这些要率的人真可恶。。讨厌死了真讨厌。",
+    "emotion": "angry",
+    "intensity": 0.82,
+    "params": {
+      "browDownLeft": 0.62,
+      "browDownRight": 0.58,
+      "mouthPressLeft": 0.46,
+      "mouthPressRight": 0.43,
+      "cheekPuff": 0.17
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "相亲什么的最讨厌了我不要相亲，烦死了~抓狂啊。。",
+    "emotion": "angry",
+    "intensity": 0.74,
+    "params": {
+      "browDownLeft": 0.53,
+      "browDownRight": 0.56,
+      "mouthPressLeft": 0.39,
+      "mouthPressRight": 0.41,
+      "cheekPuff": 0.17
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "如果是真的，我将会很愤怒的！！",
+    "emotion": "angry",
+    "intensity": 0.75,
+    "params": {
+      "browDownLeft": 0.54,
+      "browDownRight": 0.56,
+      "mouthPressLeft": 0.39,
+      "mouthPressRight": 0.42,
+      "cheekPuff": 0.17
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "论坛碰见个SB，气死我了。",
+    "emotion": "angry",
+    "intensity": 0.71,
+    "params": {
+      "browDownLeft": 0.54,
+      "browDownRight": 0.51,
+      "mouthPressLeft": 0.4,
+      "mouthPressRight": 0.37,
+      "cheekPuff": 0.15
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "我现在是一个愤怒的娃，别惹我！",
+    "emotion": "angry",
+    "intensity": 0.72,
+    "params": {
+      "browDownLeft": 0.51,
+      "browDownRight": 0.55,
+      "mouthPressLeft": 0.38,
+      "mouthPressRight": 0.4,
+      "cheekPuff": 0.17
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "搞什么东西，裁判你要气死我呀。。",
+    "emotion": "angry",
+    "intensity": 0.71,
+    "params": {
+      "browDownLeft": 0.53,
+      "browDownRight": 0.52,
+      "mouthPressLeft": 0.39,
+      "mouthPressRight": 0.38,
+      "cheekPuff": 0.16
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "我今天倒霉死了！烦死了！",
+    "emotion": "angry",
+    "intensity": 0.72,
+    "params": {
+      "browDownLeft": 0.54,
+      "browDownRight": 0.52,
+      "mouthPressLeft": 0.4,
+      "mouthPressRight": 0.38,
+      "cheekPuff": 0.15
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "收钱收的我手软，烦死了！",
+    "emotion": "angry",
+    "intensity": 0.71,
+    "params": {
+      "browDownLeft": 0.56,
+      "browDownRight": 0.49,
+      "mouthPressLeft": 0.41,
+      "mouthPressRight": 0.36,
+      "cheekPuff": 0.14
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "烦死啦，遇到点事我就头大！",
+    "emotion": "angry",
+    "intensity": 0.69,
+    "params": {
+      "browDownLeft": 0.51,
+      "browDownRight": 0.51,
+      "mouthPressLeft": 0.38,
+      "mouthPressRight": 0.38,
+      "cheekPuff": 0.15
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "我咸湿但讨厌潮湿！！",
+    "emotion": "angry",
+    "intensity": 0.71,
+    "params": {
+      "browDownLeft": 0.49,
+      "browDownRight": 0.49,
+      "mouthPressLeft": 0.36,
+      "mouthPressRight": 0.36,
+      "cheekPuff": 0.14
+    },
+    "source": "weibo_mined",
+    "source_label": "3"
+  },
+  {
+    "text": "我会妒忌我会生气.！！！",
+    "emotion": "angry",
+    "intensity": 0.73,
+    "params": {
+      "browDownLeft": 0.52,
+      "browDownRight": 0.55,
+      "mouthPressLeft": 0.38,
+      "mouthPressRight": 0.41,
+      "cheekPuff": 0.17
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "是的！当我开始恶心电话语音！！",
+    "emotion": "angry",
+    "intensity": 0.73,
+    "params": {
+      "browDownLeft": 0.5,
+      "browDownRight": 0.57,
+      "mouthPressLeft": 0.37,
+      "mouthPressRight": 0.42,
+      "cheekPuff": 0.14
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "可恶的痘痘快点从我的脸上消失！！！！",
+    "emotion": "angry",
+    "intensity": 0.74,
+    "params": {
+      "browDownLeft": 0.53,
+      "browDownRight": 0.56,
+      "mouthPressLeft": 0.39,
+      "mouthPressRight": 0.41,
+      "cheekPuff": 0.17
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "又乱扣我钱，啊！我受不了啦…",
+    "emotion": "angry",
+    "intensity": 0.68,
+    "params": {
+      "browDownLeft": 0.52,
+      "browDownRight": 0.48,
+      "mouthPressLeft": 0.39,
+      "mouthPressRight": 0.35,
+      "cheekPuff": 0.14
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "受不了了...每次看我都笑翻了。",
+    "emotion": "angry",
+    "intensity": 0.64,
+    "params": {
+      "browDownLeft": 0.44,
+      "browDownRight": 0.51,
+      "mouthPressLeft": 0.32,
+      "mouthPressRight": 0.38,
+      "cheekPuff": 0.16
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "真的讨厌下雨天...我就像头困兽！",
+    "emotion": "angry",
+    "intensity": 0.66,
+    "params": {
+      "browDownLeft": 0.47,
+      "browDownRight": 0.51,
+      "mouthPressLeft": 0.34,
+      "mouthPressRight": 0.38,
+      "cheekPuff": 0.16
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "可恶哦…居然把我的桌面变成了网页哼！",
+    "emotion": "angry",
+    "intensity": 0.67,
+    "params": {
+      "browDownLeft": 0.51,
+      "browDownRight": 0.48,
+      "mouthPressLeft": 0.38,
+      "mouthPressRight": 0.35,
+      "cheekPuff": 0.14
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "我也受不了了受不了菲菲了...嘿嘿绝了~",
+    "emotion": "angry",
+    "intensity": 0.67,
+    "params": {
+      "browDownLeft": 0.47,
+      "browDownRight": 0.52,
+      "mouthPressLeft": 0.34,
+      "mouthPressRight": 0.39,
+      "cheekPuff": 0.16
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "怎么还有这？我火大发了...我想要这个。。。。。",
+    "emotion": "angry",
+    "intensity": 0.64,
+    "params": {
+      "browDownLeft": 0.44,
+      "browDownRight": 0.51,
+      "mouthPressLeft": 0.32,
+      "mouthPressRight": 0.38,
+      "cheekPuff": 0.12
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "我开始讨厌宅女的生活。",
+    "emotion": "angry",
+    "intensity": 0.65,
+    "params": {
+      "browDownLeft": 0.51,
+      "browDownRight": 0.45,
+      "mouthPressLeft": 0.38,
+      "mouthPressRight": 0.33,
+      "cheekPuff": 0.13
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "很讨厌女人对我大声说话。",
+    "emotion": "angry",
+    "intensity": 0.64,
+    "params": {
+      "browDownLeft": 0.45,
+      "browDownRight": 0.5,
+      "mouthPressLeft": 0.33,
+      "mouthPressRight": 0.37,
+      "cheekPuff": 0.16
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "：快放我下来！受不了了！",
+    "emotion": "angry",
+    "intensity": 0.7,
+    "params": {
+      "browDownLeft": 0.51,
+      "browDownRight": 0.52,
+      "mouthPressLeft": 0.38,
+      "mouthPressRight": 0.39,
+      "cheekPuff": 0.16
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "好冷啊，我讨厌冷空气~~~",
+    "emotion": "angry",
+    "intensity": 0.7,
+    "params": {
+      "browDownLeft": 0.53,
+      "browDownRight": 0.5,
+      "mouthPressLeft": 0.39,
+      "mouthPressRight": 0.37,
+      "cheekPuff": 0.15
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "我又死回去飞恶心的航班了。",
+    "emotion": "angry",
+    "intensity": 0.63,
+    "params": {
+      "browDownLeft": 0.47,
+      "browDownRight": 0.47,
+      "mouthPressLeft": 0.34,
+      "mouthPressRight": 0.35,
+      "cheekPuff": 0.14
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "我最讨厌考不好就玩失踪~~",
+    "emotion": "angry",
+    "intensity": 0.68,
+    "params": {
+      "browDownLeft": 0.52,
+      "browDownRight": 0.48,
+      "mouthPressLeft": 0.39,
+      "mouthPressRight": 0.35,
+      "cheekPuff": 0.14
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "讨厌的猪头，我忍无可忍了~",
+    "emotion": "angry",
+    "intensity": 0.66,
+    "params": {
+      "browDownLeft": 0.46,
+      "browDownRight": 0.52,
+      "mouthPressLeft": 0.33,
+      "mouthPressRight": 0.39,
+      "cheekPuff": 0.16
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "我坐板凳坐的有点恶心了。。。。",
+    "emotion": "angry",
+    "intensity": 0.67,
+    "params": {
+      "browDownLeft": 0.51,
+      "browDownRight": 0.48,
+      "mouthPressLeft": 0.38,
+      "mouthPressRight": 0.35,
+      "cheekPuff": 0.14
+    },
+    "source": "weibo_mined",
+    "source_label": "3"
+  },
+  {
+    "text": "我怕会受不了这样的going~~",
+    "emotion": "angry",
+    "intensity": 0.66,
+    "params": {
+      "browDownLeft": 0.48,
+      "browDownRight": 0.5,
+      "mouthPressLeft": 0.35,
+      "mouthPressRight": 0.37,
+      "cheekPuff": 0.15
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "我讨厌对我罗里吧嗦的！死一边去！",
+    "emotion": "angry",
+    "intensity": 0.69,
+    "params": {
+      "browDownLeft": 0.5,
+      "browDownRight": 0.52,
+      "mouthPressLeft": 0.37,
+      "mouthPressRight": 0.38,
+      "cheekPuff": 0.16
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "我都快酸死了柠檬什么的最讨厌了。",
+    "emotion": "angry",
+    "intensity": 0.63,
+    "params": {
+      "browDownLeft": 0.45,
+      "browDownRight": 0.49,
+      "mouthPressLeft": 0.33,
+      "mouthPressRight": 0.36,
+      "cheekPuff": 0.15
+    },
+    "source": "weibo_mined",
+    "source_label": "3"
+  },
+  {
+    "text": "金达莱的土地上，长满愤怒的葡萄。",
+    "emotion": "angry",
+    "intensity": 0.7,
+    "params": {
+      "browDownLeft": 0.54,
+      "browDownRight": 0.49,
+      "mouthPressLeft": 0.4,
+      "mouthPressRight": 0.36,
+      "cheekPuff": 0.14
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "我不想考试，我讨厌计算机考试。。。",
+    "emotion": "angry",
+    "intensity": 0.63,
+    "params": {
+      "browDownLeft": 0.5,
+      "browDownRight": 0.44,
+      "mouthPressLeft": 0.37,
+      "mouthPressRight": 0.32,
+      "cheekPuff": 0.12
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "我被一只蜜蜂袭击了。好痛，好可恶。",
+    "emotion": "angry",
+    "intensity": 0.65,
+    "params": {
+      "browDownLeft": 0.48,
+      "browDownRight": 0.48,
+      "mouthPressLeft": 0.35,
+      "mouthPressRight": 0.36,
+      "cheekPuff": 0.15
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "我生气，我嫉妒，我咋就没有吃喝上呢。",
+    "emotion": "angry",
+    "intensity": 0.64,
+    "params": {
+      "browDownLeft": 0.48,
+      "browDownRight": 0.47,
+      "mouthPressLeft": 0.35,
+      "mouthPressRight": 0.35,
+      "cheekPuff": 0.14
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "这些热词的背后是什么，是眼泪与愤怒。",
+    "emotion": "angry",
+    "intensity": 0.7,
+    "params": {
+      "browDownLeft": 0.53,
+      "browDownRight": 0.5,
+      "mouthPressLeft": 0.39,
+      "mouthPressRight": 0.37,
+      "cheekPuff": 0.15
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "额。。郁闷！！心酸人家不要吃这样的晚餐！！~~",
+    "emotion": "sad",
+    "intensity": 0.79,
+    "params": {
+      "mouthFrownLeft": 0.48,
+      "mouthFrownRight": 0.49,
+      "browInnerUp": 0.45,
+      "eyeSquintLeft": 0.19,
+      "eyeSquintRight": 0.19
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "我想哭，我想哭！！！",
+    "emotion": "sad",
+    "intensity": 0.71,
+    "params": {
+      "mouthFrownLeft": 0.45,
+      "mouthFrownRight": 0.44,
+      "browInnerUp": 0.4,
+      "eyeSquintLeft": 0.17,
+      "eyeSquintRight": 0.17
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "饿的想哭，想睡睡不着！！！那我真哭了！！！",
+    "emotion": "sad",
+    "intensity": 0.71,
+    "params": {
+      "mouthFrownLeft": 0.43,
+      "mouthFrownRight": 0.46,
+      "browInnerUp": 0.42,
+      "eyeSquintLeft": 0.16,
+      "eyeSquintRight": 0.18
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "亲爱的~我们会用我们的爱为你拭干所有悲伤！我知道你很难过~哦~~~",
+    "emotion": "sad",
+    "intensity": 0.76,
+    "params": {
+      "mouthFrownLeft": 0.45,
+      "mouthFrownRight": 0.49,
+      "browInnerUp": 0.45,
+      "eyeSquintLeft": 0.17,
+      "eyeSquintRight": 0.2
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "现在我真的好想回深圳。只有家人会给我最温暖的抱抱，不让我难过，伤心。",
+    "emotion": "sad",
+    "intensity": 0.69,
+    "params": {
+      "mouthFrownLeft": 0.45,
+      "mouthFrownRight": 0.41,
+      "browInnerUp": 0.38,
+      "eyeSquintLeft": 0.18,
+      "eyeSquintRight": 0.15
+    },
+    "source": "weibo_mined",
+    "source_label": "3"
+  },
+  {
+    "text": "我也很伤心。。。",
+    "emotion": "sad",
+    "intensity": 0.62,
+    "params": {
+      "mouthFrownLeft": 0.41,
+      "mouthFrownRight": 0.37,
+      "browInnerUp": 0.35,
+      "eyeSquintLeft": 0.16,
+      "eyeSquintRight": 0.14
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "阿根廷。我想哭。",
+    "emotion": "sad",
+    "intensity": 0.63,
+    "params": {
+      "mouthFrownLeft": 0.38,
+      "mouthFrownRight": 0.41,
+      "browInnerUp": 0.38,
+      "eyeSquintLeft": 0.14,
+      "eyeSquintRight": 0.16
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "其实我还是蛮伤心的。。。。",
+    "emotion": "sad",
+    "intensity": 0.63,
+    "params": {
+      "mouthFrownLeft": 0.42,
+      "mouthFrownRight": 0.37,
+      "browInnerUp": 0.35,
+      "eyeSquintLeft": 0.17,
+      "eyeSquintRight": 0.14
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "女流忙转世了？。:我想哭啊！",
+    "emotion": "sad",
+    "intensity": 0.66,
+    "params": {
+      "mouthFrownLeft": 0.44,
+      "mouthFrownRight": 0.39,
+      "browInnerUp": 0.36,
+      "eyeSquintLeft": 0.18,
+      "eyeSquintRight": 0.14
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "我家狗宝宝得狗瘟了！好伤心啊！",
+    "emotion": "sad",
+    "intensity": 0.68,
+    "params": {
+      "mouthFrownLeft": 0.4,
+      "mouthFrownRight": 0.45,
+      "browInnerUp": 0.41,
+      "eyeSquintLeft": 0.15,
+      "eyeSquintRight": 0.18
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "希望不要寒冷我只是觉得悲伤。晚安。",
+    "emotion": "sad",
+    "intensity": 0.61,
+    "params": {
+      "mouthFrownLeft": 0.37,
+      "mouthFrownRight": 0.4,
+      "browInnerUp": 0.36,
+      "eyeSquintLeft": 0.14,
+      "eyeSquintRight": 0.16
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "都在休息，我们却在上班，郁闷！！！",
+    "emotion": "sad",
+    "intensity": 0.66,
+    "params": {
+      "mouthFrownLeft": 0.4,
+      "mouthFrownRight": 0.42,
+      "browInnerUp": 0.39,
+      "eyeSquintLeft": 0.15,
+      "eyeSquintRight": 0.16
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "不睡满12个小时我怎么全身难受！！！",
+    "emotion": "sad",
+    "intensity": 0.64,
+    "params": {
+      "mouthFrownLeft": 0.43,
+      "mouthFrownRight": 0.38,
+      "browInnerUp": 0.36,
+      "eyeSquintLeft": 0.17,
+      "eyeSquintRight": 0.14
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "离开真的这么难吗？！我郁闷的头疼！！！",
+    "emotion": "sad",
+    "intensity": 0.65,
+    "params": {
+      "mouthFrownLeft": 0.4,
+      "mouthFrownRight": 0.41,
+      "browInnerUp": 0.38,
+      "eyeSquintLeft": 0.15,
+      "eyeSquintRight": 0.16
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "我郁闷了~咋就是弄不好呢！！！！！！！！",
+    "emotion": "sad",
+    "intensity": 0.68,
+    "params": {
+      "mouthFrownLeft": 0.4,
+      "mouthFrownRight": 0.45,
+      "browInnerUp": 0.41,
+      "eyeSquintLeft": 0.15,
+      "eyeSquintRight": 0.18
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "好多低落的情绪，难过。期盼心情晴天的到来。你们都要保佑我。",
+    "emotion": "sad",
+    "intensity": 0.63,
+    "params": {
+      "mouthFrownLeft": 0.38,
+      "mouthFrownRight": 0.41,
+      "browInnerUp": 0.38,
+      "eyeSquintLeft": 0.14,
+      "eyeSquintRight": 0.16
+    },
+    "source": "weibo_mined",
+    "source_label": "0"
+  },
+  {
+    "text": "我难受...啊啊啊啊啊。",
+    "emotion": "sad",
+    "intensity": 0.56,
+    "params": {
+      "mouthFrownLeft": 0.35,
+      "mouthFrownRight": 0.36,
+      "browInnerUp": 0.34,
+      "eyeSquintLeft": 0.13,
+      "eyeSquintRight": 0.14
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "我好想去洗头啊好想去啊...一天不洗头就难受。",
+    "emotion": "sad",
+    "intensity": 0.57,
+    "params": {
+      "mouthFrownLeft": 0.38,
+      "mouthFrownRight": 0.34,
+      "browInnerUp": 0.32,
+      "eyeSquintLeft": 0.15,
+      "eyeSquintRight": 0.12
+    },
+    "source": "weibo_mined",
+    "source_label": "3"
+  },
+  {
+    "text": "好难受啊我，头晕脑胀。",
+    "emotion": "sad",
+    "intensity": 0.57,
+    "params": {
+      "mouthFrownLeft": 0.34,
+      "mouthFrownRight": 0.38,
+      "browInnerUp": 0.35,
+      "eyeSquintLeft": 0.12,
+      "eyeSquintRight": 0.15
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "哇难过太惨了我就想XXX！",
+    "emotion": "sad",
+    "intensity": 0.6,
+    "params": {
+      "mouthFrownLeft": 0.4,
+      "mouthFrownRight": 0.35,
+      "browInnerUp": 0.33,
+      "eyeSquintLeft": 0.16,
+      "eyeSquintRight": 0.13
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "你怎么这么难哄哒？我好累啊！",
+    "emotion": "sad",
+    "intensity": 0.59,
+    "params": {
+      "mouthFrownLeft": 0.35,
+      "mouthFrownRight": 0.4,
+      "browInnerUp": 0.36,
+      "eyeSquintLeft": 0.12,
+      "eyeSquintRight": 0.16
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "我怎么刚看到这个消息！难过！",
+    "emotion": "sad",
+    "intensity": 0.63,
+    "params": {
+      "mouthFrownLeft": 0.41,
+      "mouthFrownRight": 0.38,
+      "browInnerUp": 0.36,
+      "eyeSquintLeft": 0.16,
+      "eyeSquintRight": 0.14
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "好累好累啊。我想睡觉睡觉睡觉。",
+    "emotion": "sad",
+    "intensity": 0.57,
+    "params": {
+      "mouthFrownLeft": 0.37,
+      "mouthFrownRight": 0.35,
+      "browInnerUp": 0.33,
+      "eyeSquintLeft": 0.14,
+      "eyeSquintRight": 0.13
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "好累好累好累啊，丢。我要放假啊~！",
+    "emotion": "sad",
+    "intensity": 0.6,
+    "params": {
+      "mouthFrownLeft": 0.4,
+      "mouthFrownRight": 0.36,
+      "browInnerUp": 0.34,
+      "eyeSquintLeft": 0.16,
+      "eyeSquintRight": 0.13
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "我在为自己的能力买单！真的好累啊！",
+    "emotion": "sad",
+    "intensity": 0.62,
+    "params": {
+      "mouthFrownLeft": 0.4,
+      "mouthFrownRight": 0.38,
+      "browInnerUp": 0.35,
+      "eyeSquintLeft": 0.16,
+      "eyeSquintRight": 0.14
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "我好累啊！我们都活的简单点不好么？",
+    "emotion": "sad",
+    "intensity": 0.58,
+    "params": {
+      "mouthFrownLeft": 0.35,
+      "mouthFrownRight": 0.39,
+      "browInnerUp": 0.35,
+      "eyeSquintLeft": 0.13,
+      "eyeSquintRight": 0.15
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "我觉得自己没有走错方向，可是好累。",
+    "emotion": "sad",
+    "intensity": 0.56,
+    "params": {
+      "mouthFrownLeft": 0.37,
+      "mouthFrownRight": 0.34,
+      "browInnerUp": 0.32,
+      "eyeSquintLeft": 0.14,
+      "eyeSquintRight": 0.13
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "老婆在加班，我就只能被加班。郁闷。",
+    "emotion": "sad",
+    "intensity": 0.56,
+    "params": {
+      "mouthFrownLeft": 0.38,
+      "mouthFrownRight": 0.33,
+      "browInnerUp": 0.32,
+      "eyeSquintLeft": 0.15,
+      "eyeSquintRight": 0.12
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "如果你能让我不疲惫，我愿和你一起飞~",
+    "emotion": "sad",
+    "intensity": 0.58,
+    "params": {
+      "mouthFrownLeft": 0.36,
+      "mouthFrownRight": 0.37,
+      "browInnerUp": 0.35,
+      "eyeSquintLeft": 0.13,
+      "eyeSquintRight": 0.14
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "张大初用的手机竟然是71，我郁闷啊！",
+    "emotion": "sad",
+    "intensity": 0.59,
+    "params": {
+      "mouthFrownLeft": 0.38,
+      "mouthFrownRight": 0.37,
+      "browInnerUp": 0.34,
+      "eyeSquintLeft": 0.15,
+      "eyeSquintRight": 0.14
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "我对冷空气过敏，两个鼻孔痒得难受。。",
+    "emotion": "sad",
+    "intensity": 0.57,
+    "params": {
+      "mouthFrownLeft": 0.36,
+      "mouthFrownRight": 0.36,
+      "browInnerUp": 0.34,
+      "eyeSquintLeft": 0.14,
+      "eyeSquintRight": 0.14
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "偶滴个神啊~让不让我活了啊，难受的咧~",
+    "emotion": "sad",
+    "intensity": 0.6,
+    "params": {
+      "mouthFrownLeft": 0.36,
+      "mouthFrownRight": 0.4,
+      "browInnerUp": 0.36,
+      "eyeSquintLeft": 0.13,
+      "eyeSquintRight": 0.16
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "我的他终于败于大锤之下~~~~心疼呀！",
+    "emotion": "sad",
+    "intensity": 0.64,
+    "params": {
+      "mouthFrownLeft": 0.4,
+      "mouthFrownRight": 0.41,
+      "browInnerUp": 0.38,
+      "eyeSquintLeft": 0.15,
+      "eyeSquintRight": 0.16
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "最爱你的人是我，你怎么射的我难过~~~",
+    "emotion": "sad",
+    "intensity": 0.6,
+    "params": {
+      "mouthFrownLeft": 0.39,
+      "mouthFrownRight": 0.36,
+      "browInnerUp": 0.34,
+      "eyeSquintLeft": 0.15,
+      "eyeSquintRight": 0.13
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  },
+  {
+    "text": "·教我怎么能不难过。你劝我灭了心中的火。",
+    "emotion": "sad",
+    "intensity": 0.55,
+    "params": {
+      "mouthFrownLeft": 0.37,
+      "mouthFrownRight": 0.33,
+      "browInnerUp": 0.31,
+      "eyeSquintLeft": 0.14,
+      "eyeSquintRight": 0.12
+    },
+    "source": "weibo_mined",
+    "source_label": "1"
+  },
+  {
+    "text": "。看到这张图我心里很难受，卡卡要坚强啊！",
+    "emotion": "sad",
+    "intensity": 0.6,
+    "params": {
+      "mouthFrownLeft": 0.35,
+      "mouthFrownRight": 0.4,
+      "browInnerUp": 0.37,
+      "eyeSquintLeft": 0.13,
+      "eyeSquintRight": 0.16
+    },
+    "source": "weibo_mined",
+    "source_label": "2"
+  }
+]

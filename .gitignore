@@ -7,3 +7,5 @@ __pycache__/
 
 outputs/
 .DS_Store
+
+data/weibo_cleaned.json
