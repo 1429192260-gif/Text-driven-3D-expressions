@@ -1,0 +1,692 @@
+[
+  {
+    "text": "今天总算顺利了一点，心里轻松了些。",
+    "emotion": "happy",
+    "intensity": 0.34,
+    "params": {
+      "mouthSmileLeft": 0.2,
+      "mouthSmileRight": 0.21,
+      "eyeSquintLeft": 0.07,
+      "eyeSquintRight": 0.06,
+      "browInnerUp": 0.04
+    }
+  },
+  {
+    "text": "还不错，至少结果没那么糟。",
+    "emotion": "happy",
+    "intensity": 0.39,
+    "params": {
+      "mouthSmileLeft": 0.24,
+      "mouthSmileRight": 0.23,
+      "eyeSquintLeft": 0.08,
+      "eyeSquintRight": 0.09,
+      "browInnerUp": 0.05
+    }
+  },
+  {
+    "text": "听到这消息，我嘴角还是忍不住扬了一下。",
+    "emotion": "happy",
+    "intensity": 0.44,
+    "params": {
+      "mouthSmileLeft": 0.29,
+      "mouthSmileRight": 0.3,
+      "eyeSquintLeft": 0.1,
+      "eyeSquintRight": 0.1,
+      "browInnerUp": 0.06
+    }
+  },
+  {
+    "text": "这下我是真的松了口气，感觉挺开心的。",
+    "emotion": "happy",
+    "intensity": 0.55,
+    "params": {
+      "mouthSmileLeft": 0.36,
+      "mouthSmileRight": 0.37,
+      "eyeSquintLeft": 0.14,
+      "eyeSquintRight": 0.13,
+      "browInnerUp": 0.08
+    }
+  },
+  {
+    "text": "今天终于有件事按我想的来了，心情不错。",
+    "emotion": "happy",
+    "intensity": 0.61,
+    "params": {
+      "mouthSmileLeft": 0.41,
+      "mouthSmileRight": 0.4,
+      "eyeSquintLeft": 0.16,
+      "eyeSquintRight": 0.17,
+      "browInnerUp": 0.09
+    }
+  },
+  {
+    "text": "听完之后，我整个人都轻快了不少。",
+    "emotion": "happy",
+    "intensity": 0.66,
+    "params": {
+      "mouthSmileLeft": 0.45,
+      "mouthSmileRight": 0.46,
+      "eyeSquintLeft": 0.18,
+      "eyeSquintRight": 0.17,
+      "browInnerUp": 0.1
+    }
+  },
+  {
+    "text": "总算等到这一刻了，我现在心里很踏实。",
+    "emotion": "happy",
+    "intensity": 0.69,
+    "params": {
+      "mouthSmileLeft": 0.47,
+      "mouthSmileRight": 0.48,
+      "eyeSquintLeft": 0.19,
+      "eyeSquintRight": 0.19,
+      "browInnerUp": 0.1
+    }
+  },
+  {
+    "text": "太好了！这次真的让我高兴坏了！",
+    "emotion": "happy",
+    "intensity": 0.81,
+    "params": {
+      "mouthSmileLeft": 0.58,
+      "mouthSmileRight": 0.57,
+      "eyeSquintLeft": 0.25,
+      "eyeSquintRight": 0.26,
+      "browInnerUp": 0.12
+    }
+  },
+  {
+    "text": "哈哈，这个结果比我想的还要好！",
+    "emotion": "happy",
+    "intensity": 0.87,
+    "params": {
+      "mouthSmileLeft": 0.62,
+      "mouthSmileRight": 0.63,
+      "eyeSquintLeft": 0.28,
+      "eyeSquintRight": 0.27,
+      "browInnerUp": 0.13
+    }
+  },
+  {
+    "text": "真是太棒了，我现在高兴得想直接笑出来！",
+    "emotion": "happy",
+    "intensity": 0.93,
+    "params": {
+      "mouthSmileLeft": 0.68,
+      "mouthSmileRight": 0.67,
+      "eyeSquintLeft": 0.31,
+      "eyeSquintRight": 0.32,
+      "browInnerUp": 0.15
+    }
+  },
+  {
+    "text": "说不上特别难受，就是心里有点空。",
+    "emotion": "sad",
+    "intensity": 0.33,
+    "params": {
+      "mouthFrownLeft": 0.19,
+      "mouthFrownRight": 0.18,
+      "browInnerUp": 0.16,
+      "eyeSquintLeft": 0.07,
+      "eyeSquintRight": 0.08
+    }
+  },
+  {
+    "text": "有点失落，但也只能这样了。",
+    "emotion": "sad",
+    "intensity": 0.38,
+    "params": {
+      "mouthFrownLeft": 0.22,
+      "mouthFrownRight": 0.23,
+      "browInnerUp": 0.19,
+      "eyeSquintLeft": 0.08,
+      "eyeSquintRight": 0.09
+    }
+  },
+  {
+    "text": "心里闷闷的，一时也说不清为什么。",
+    "emotion": "sad",
+    "intensity": 0.45,
+    "params": {
+      "mouthFrownLeft": 0.27,
+      "mouthFrownRight": 0.26,
+      "browInnerUp": 0.22,
+      "eyeSquintLeft": 0.1,
+      "eyeSquintRight": 0.1
+    }
+  },
+  {
+    "text": "这次又没做好，想到这儿就有点难受。",
+    "emotion": "sad",
+    "intensity": 0.54,
+    "params": {
+      "mouthFrownLeft": 0.33,
+      "mouthFrownRight": 0.34,
+      "browInnerUp": 0.27,
+      "eyeSquintLeft": 0.13,
+      "eyeSquintRight": 0.12
+    }
+  },
+  {
+    "text": "我现在心里挺不是滋味的。",
+    "emotion": "sad",
+    "intensity": 0.6,
+    "params": {
+      "mouthFrownLeft": 0.39,
+      "mouthFrownRight": 0.38,
+      "browInnerUp": 0.31,
+      "eyeSquintLeft": 0.15,
+      "eyeSquintRight": 0.16
+    }
+  },
+  {
+    "text": "越想越觉得难过，整个人都低下去了。",
+    "emotion": "sad",
+    "intensity": 0.66,
+    "params": {
+      "mouthFrownLeft": 0.44,
+      "mouthFrownRight": 0.43,
+      "browInnerUp": 0.35,
+      "eyeSquintLeft": 0.17,
+      "eyeSquintRight": 0.18
+    }
+  },
+  {
+    "text": "我有点撑不住了，心情一直往下掉。",
+    "emotion": "sad",
+    "intensity": 0.7,
+    "params": {
+      "mouthFrownLeft": 0.47,
+      "mouthFrownRight": 0.48,
+      "browInnerUp": 0.38,
+      "eyeSquintLeft": 0.19,
+      "eyeSquintRight": 0.19
+    }
+  },
+  {
+    "text": "唉，想到这个结果，我心里真的很难受。",
+    "emotion": "sad",
+    "intensity": 0.79,
+    "params": {
+      "mouthFrownLeft": 0.54,
+      "mouthFrownRight": 0.53,
+      "browInnerUp": 0.44,
+      "eyeSquintLeft": 0.22,
+      "eyeSquintRight": 0.21
+    }
+  },
+  {
+    "text": "我现在一点都高兴不起来，越想越委屈。",
+    "emotion": "sad",
+    "intensity": 0.86,
+    "params": {
+      "mouthFrownLeft": 0.59,
+      "mouthFrownRight": 0.6,
+      "browInnerUp": 0.48,
+      "eyeSquintLeft": 0.24,
+      "eyeSquintRight": 0.25
+    }
+  },
+  {
+    "text": "真的太难受了，我现在连话都不想说。",
+    "emotion": "sad",
+    "intensity": 0.92,
+    "params": {
+      "mouthFrownLeft": 0.65,
+      "mouthFrownRight": 0.64,
+      "browInnerUp": 0.53,
+      "eyeSquintLeft": 0.28,
+      "eyeSquintRight": 0.27
+    }
+  },
+  {
+    "text": "也不是特别生气，就是有点烦。",
+    "emotion": "angry",
+    "intensity": 0.32,
+    "params": {
+      "browDownLeft": 0.18,
+      "browDownRight": 0.19,
+      "mouthPressLeft": 0.13,
+      "mouthPressRight": 0.12,
+      "cheekPuff": 0.05
+    }
+  },
+  {
+    "text": "这事让我有点不舒服，心里直犯躁。",
+    "emotion": "angry",
+    "intensity": 0.39,
+    "params": {
+      "browDownLeft": 0.23,
+      "browDownRight": 0.22,
+      "mouthPressLeft": 0.16,
+      "mouthPressRight": 0.17,
+      "cheekPuff": 0.07
+    }
+  },
+  {
+    "text": "别再说了，我现在已经有点火了。",
+    "emotion": "angry",
+    "intensity": 0.45,
+    "params": {
+      "browDownLeft": 0.28,
+      "browDownRight": 0.27,
+      "mouthPressLeft": 0.2,
+      "mouthPressRight": 0.19,
+      "cheekPuff": 0.08
+    }
+  },
+  {
+    "text": "这件事越想越气，我已经忍得很勉强了。",
+    "emotion": "angry",
+    "intensity": 0.56,
+    "params": {
+      "browDownLeft": 0.37,
+      "browDownRight": 0.36,
+      "mouthPressLeft": 0.27,
+      "mouthPressRight": 0.28,
+      "cheekPuff": 0.11
+    }
+  },
+  {
+    "text": "你这样真的让我很不爽。",
+    "emotion": "angry",
+    "intensity": 0.61,
+    "params": {
+      "browDownLeft": 0.41,
+      "browDownRight": 0.42,
+      "mouthPressLeft": 0.31,
+      "mouthPressRight": 0.3,
+      "cheekPuff": 0.13
+    }
+  },
+  {
+    "text": "我现在已经开始生气了，别再继续了。",
+    "emotion": "angry",
+    "intensity": 0.67,
+    "params": {
+      "browDownLeft": 0.48,
+      "browDownRight": 0.47,
+      "mouthPressLeft": 0.35,
+      "mouthPressRight": 0.36,
+      "cheekPuff": 0.15
+    }
+  },
+  {
+    "text": "这也太过分了吧，我越想越来气。",
+    "emotion": "angry",
+    "intensity": 0.72,
+    "params": {
+      "browDownLeft": 0.53,
+      "browDownRight": 0.52,
+      "mouthPressLeft": 0.39,
+      "mouthPressRight": 0.4,
+      "cheekPuff": 0.16
+    }
+  },
+  {
+    "text": "你别逼我，我现在真的快压不住火了！",
+    "emotion": "angry",
+    "intensity": 0.82,
+    "params": {
+      "browDownLeft": 0.63,
+      "browDownRight": 0.64,
+      "mouthPressLeft": 0.47,
+      "mouthPressRight": 0.46,
+      "cheekPuff": 0.2
+    }
+  },
+  {
+    "text": "太离谱了，我真的要被气炸了！",
+    "emotion": "angry",
+    "intensity": 0.88,
+    "params": {
+      "browDownLeft": 0.69,
+      "browDownRight": 0.68,
+      "mouthPressLeft": 0.52,
+      "mouthPressRight": 0.51,
+      "cheekPuff": 0.22
+    }
+  },
+  {
+    "text": "别再烦我了！我现在一点耐心都没有！",
+    "emotion": "angry",
+    "intensity": 0.94,
+    "params": {
+      "browDownLeft": 0.75,
+      "browDownRight": 0.74,
+      "mouthPressLeft": 0.57,
+      "mouthPressRight": 0.58,
+      "cheekPuff": 0.25
+    }
+  },
+  {
+    "text": "咦？这和我想的有点不一样。",
+    "emotion": "surprise",
+    "intensity": 0.31,
+    "params": {
+      "browOuterUpLeft": 0.18,
+      "browOuterUpRight": 0.17,
+      "eyeWideLeft": 0.23,
+      "eyeWideRight": 0.24,
+      "jawOpen": 0.1
+    }
+  },
+  {
+    "text": "哎？原来是这样吗？",
+    "emotion": "surprise",
+    "intensity": 0.38,
+    "params": {
+      "browOuterUpLeft": 0.22,
+      "browOuterUpRight": 0.23,
+      "eyeWideLeft": 0.29,
+      "eyeWideRight": 0.28,
+      "jawOpen": 0.13
+    }
+  },
+  {
+    "text": "这结果有点出乎我意料。",
+    "emotion": "surprise",
+    "intensity": 0.45,
+    "params": {
+      "browOuterUpLeft": 0.28,
+      "browOuterUpRight": 0.27,
+      "eyeWideLeft": 0.35,
+      "eyeWideRight": 0.34,
+      "jawOpen": 0.17
+    }
+  },
+  {
+    "text": "啊？我还真没想到会这样。",
+    "emotion": "surprise",
+    "intensity": 0.55,
+    "params": {
+      "browOuterUpLeft": 0.35,
+      "browOuterUpRight": 0.36,
+      "eyeWideLeft": 0.43,
+      "eyeWideRight": 0.42,
+      "jawOpen": 0.23
+    }
+  },
+  {
+    "text": "这一下把我弄愁住了。",
+    "emotion": "surprise",
+    "intensity": 0.6,
+    "params": {
+      "browOuterUpLeft": 0.4,
+      "browOuterUpRight": 0.39,
+      "eyeWideLeft": 0.49,
+      "eyeWideRight": 0.48,
+      "jawOpen": 0.28
+    }
+  },
+  {
+    "text": "我是真的没料到，整个人都怄了一下。",
+    "emotion": "surprise",
+    "intensity": 0.66,
+    "params": {
+      "browOuterUpLeft": 0.46,
+      "browOuterUpRight": 0.45,
+      "eyeWideLeft": 0.55,
+      "eyeWideRight": 0.54,
+      "jawOpen": 0.33
+    }
+  },
+  {
+    "text": "不会吧，这也太突然了。",
+    "emotion": "surprise",
+    "intensity": 0.71,
+    "params": {
+      "browOuterUpLeft": 0.52,
+      "browOuterUpRight": 0.53,
+      "eyeWideLeft": 0.61,
+      "eyeWideRight": 0.6,
+      "jawOpen": 0.38
+    }
+  },
+  {
+    "text": "什么？！这怎么可能？！",
+    "emotion": "surprise",
+    "intensity": 0.81,
+    "params": {
+      "browOuterUpLeft": 0.61,
+      "browOuterUpRight": 0.62,
+      "eyeWideLeft": 0.7,
+      "eyeWideRight": 0.69,
+      "jawOpen": 0.45
+    }
+  },
+  {
+    "text": "天啊，我一下子都不知道该说什么了！",
+    "emotion": "surprise",
+    "intensity": 0.88,
+    "params": {
+      "browOuterUpLeft": 0.68,
+      "browOuterUpRight": 0.67,
+      "eyeWideLeft": 0.76,
+      "eyeWideRight": 0.77,
+      "jawOpen": 0.51
+    }
+  },
+  {
+    "text": "不会吧？！这也太让人震惊了！",
+    "emotion": "surprise",
+    "intensity": 0.94,
+    "params": {
+      "browOuterUpLeft": 0.75,
+      "browOuterUpRight": 0.74,
+      "eyeWideLeft": 0.83,
+      "eyeWideRight": 0.82,
+      "jawOpen": 0.57
+    }
+  },
+  {
+    "text": "嗯，我总觉得哪里不太对。",
+    "emotion": "concern",
+    "intensity": 0.34,
+    "params": {
+      "browInnerUp": 0.18,
+      "eyeWideLeft": 0.09,
+      "eyeWideRight": 0.1,
+      "mouthPressLeft": 0.08,
+      "mouthPressRight": 0.08
+    }
+  },
+  {
+    "text": "好像有点不稳，我心里没底。",
+    "emotion": "concern",
+    "intensity": 0.39,
+    "params": {
+      "browInnerUp": 0.22,
+      "eyeWideLeft": 0.11,
+      "eyeWideRight": 0.12,
+      "mouthPressLeft": 0.09,
+      "mouthPressRight": 0.1
+    }
+  },
+  {
+    "text": "这件事让我有点不安。",
+    "emotion": "concern",
+    "intensity": 0.45,
+    "params": {
+      "browInnerUp": 0.27,
+      "eyeWideLeft": 0.14,
+      "eyeWideRight": 0.15,
+      "mouthPressLeft": 0.11,
+      "mouthPressRight": 0.12
+    }
+  },
+  {
+    "text": "嗯……我再想想吧，总觉得还差点什么。",
+    "emotion": "concern",
+    "intensity": 0.54,
+    "params": {
+      "browInnerUp": 0.33,
+      "eyeWideLeft": 0.18,
+      "eyeWideRight": 0.17,
+      "mouthPressLeft": 0.14,
+      "mouthPressRight": 0.13
+    }
+  },
+  {
+    "text": "我现在有点担心，会不会出问题。",
+    "emotion": "concern",
+    "intensity": 0.6,
+    "params": {
+      "browInnerUp": 0.38,
+      "eyeWideLeft": 0.21,
+      "eyeWideRight": 0.22,
+      "mouthPressLeft": 0.16,
+      "mouthPressRight": 0.17
+    }
+  },
+  {
+    "text": "越想越觉得不踏实。",
+    "emotion": "concern",
+    "intensity": 0.66,
+    "params": {
+      "browInnerUp": 0.43,
+      "eyeWideLeft": 0.25,
+      "eyeWideRight": 0.24,
+      "mouthPressLeft": 0.18,
+      "mouthPressRight": 0.18
+    }
+  },
+  {
+    "text": "我心里一直悬着，怎么都放不下。",
+    "emotion": "concern",
+    "intensity": 0.7,
+    "params": {
+      "browInnerUp": 0.47,
+      "eyeWideLeft": 0.28,
+      "eyeWideRight": 0.29,
+      "mouthPressLeft": 0.2,
+      "mouthPressRight": 0.19
+    }
+  },
+  {
+    "text": "不行，我现在是真的有点担心了。",
+    "emotion": "concern",
+    "intensity": 0.8,
+    "params": {
+      "browInnerUp": 0.54,
+      "eyeWideLeft": 0.33,
+      "eyeWideRight": 0.32,
+      "mouthPressLeft": 0.23,
+      "mouthPressRight": 0.24
+    }
+  },
+  {
+    "text": "这事让我越来越不安，我心里很乱。",
+    "emotion": "concern",
+    "intensity": 0.87,
+    "params": {
+      "browInnerUp": 0.6,
+      "eyeWideLeft": 0.37,
+      "eyeWideRight": 0.38,
+      "mouthPressLeft": 0.26,
+      "mouthPressRight": 0.25
+    }
+  },
+  {
+    "text": "我真的很担心，感觉马上就要出事了。",
+    "emotion": "concern",
+    "intensity": 0.93,
+    "params": {
+      "browInnerUp": 0.66,
+      "eyeWideLeft": 0.41,
+      "eyeWideRight": 0.42,
+      "mouthPressLeft": 0.29,
+      "mouthPressRight": 0.29
+    }
+  },
+  {
+    "text": "还行，心里慢慢平下来了。",
+    "emotion": "calm",
+    "intensity": 0.31,
+    "params": {
+      "mouthSmileLeft": 0.02,
+      "mouthSmileRight": 0.03
+    }
+  },
+  {
+    "text": "事情过去之后，我就没那么紧绷了。",
+    "emotion": "calm",
+    "intensity": 0.36,
+    "params": {
+      "mouthSmileLeft": 0.03,
+      "mouthSmileRight": 0.03
+    }
+  },
+  {
+    "text": "现在倒是安稳了些。",
+    "emotion": "calm",
+    "intensity": 0.44,
+    "params": {
+      "mouthSmileLeft": 0.04,
+      "mouthSmileRight": 0.05
+    }
+  },
+  {
+    "text": "忙完之后，整个人慢慢放松下来了。",
+    "emotion": "calm",
+    "intensity": 0.53,
+    "params": {
+      "mouthSmileLeft": 0.05,
+      "mouthSmileRight": 0.05
+    }
+  },
+  {
+    "text": "没有特别激动，就是觉得挺安定的。",
+    "emotion": "calm",
+    "intensity": 0.58,
+    "params": {
+      "mouthSmileLeft": 0.06,
+      "mouthSmileRight": 0.06
+    }
+  },
+  {
+    "text": "这会儿总算踏实了，心里也顺了。",
+    "emotion": "calm",
+    "intensity": 0.64,
+    "params": {
+      "mouthSmileLeft": 0.07,
+      "mouthSmileRight": 0.08
+    }
+  },
+  {
+    "text": "情绪慢慢缓下来了，现在挺平静。",
+    "emotion": "calm",
+    "intensity": 0.69,
+    "params": {
+      "mouthSmileLeft": 0.08,
+      "mouthSmileRight": 0.08
+    }
+  },
+  {
+    "text": "终于结束了，我现在整个人都安静下来了。",
+    "emotion": "calm",
+    "intensity": 0.79,
+    "params": {
+      "mouthSmileLeft": 0.09,
+      "mouthSmileRight": 0.1
+    }
+  },
+  {
+    "text": "事情都处理完了，我现在特别平稳。",
+    "emotion": "calm",
+    "intensity": 0.86,
+    "params": {
+      "mouthSmileLeft": 0.1,
+      "mouthSmileRight": 0.11
+    }
+  },
+  {
+    "text": "现在心里一点波澜都没有了，只剩下平静。",
+    "emotion": "calm",
+    "intensity": 0.92,
+    "params": {
+      "mouthSmileLeft": 0.11,
+      "mouthSmileRight": 0.12
+    }
+  }
+]
