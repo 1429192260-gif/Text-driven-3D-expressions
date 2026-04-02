@@ -1,4 +1,4 @@
-import argparse
+﻿import argparse
 import json
 import os
 import random
@@ -14,6 +14,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from models.mlp_mapper import MLPMapper
 from models.prior_fusion_mapper import PriorFusionMapper
 from rule_mapping import rule_mapping
+from utils.param_utils import params_dict_to_vector
 from utils.text_encoder import load_text_encoder
 from utils.text_features import extract_semantic_features
 
@@ -23,6 +24,7 @@ EMOTION_LIST = [
 ]
 
 DEFAULT_MODEL_NAME = "paraphrase-multilingual-MiniLM-L12-v2"
+AUGMENTED_PREFIXES = ("weibo_",)
 
 
 def emotion_to_onehot(emotion):
@@ -37,6 +39,20 @@ def intensity_to_bucket(intensity):
     if intensity < 0.75:
         return "medium"
     return "strong"
+
+
+def normalize_item(item):
+    normalized = dict(item)
+    if "param_vector" not in normalized:
+        normalized["param_vector"] = params_dict_to_vector(normalized["params"])
+    normalized.setdefault("source", "manual")
+    normalized.setdefault("source_label", "")
+    return normalized
+
+
+def is_augmented_source(source):
+    source = source or "manual"
+    return source.startswith(AUGMENTED_PREFIXES)
 
 
 class ExpressionDataset(Dataset):
@@ -61,6 +77,7 @@ class ExpressionDataset(Dataset):
                 "mlp_input": torch.tensor(mlp_input, dtype=torch.float32),
                 "target": torch.tensor(item["param_vector"], dtype=torch.float32),
                 "emotion": item["emotion"],
+                "source": item.get("source", "manual"),
                 "intensity_value": intensity_value,
                 "intensity_bucket": intensity_to_bucket(intensity_value),
             })
@@ -106,7 +123,7 @@ def forward_model(model, batch, model_type):
     return model(batch["text_features"], batch["control_features"], batch["prior_vector"])
 
 
-def split_data(data, train_ratio=0.7, val_ratio=0.15, seed=42):
+def split_data_random(data, train_ratio=0.7, val_ratio=0.15, seed=42):
     grouped = {}
     for item in data:
         grouped.setdefault(item["emotion"], []).append(dict(item))
@@ -131,6 +148,64 @@ def split_data(data, train_ratio=0.7, val_ratio=0.15, seed=42):
     rng.shuffle(val_data)
     rng.shuffle(test_data)
     return train_data, val_data, test_data
+
+
+def split_subset(items, train_ratio, val_ratio, rng, allow_test=True):
+    items = [dict(item) for item in items]
+    rng.shuffle(items)
+    n = len(items)
+    if n == 0:
+        return [], [], []
+
+    if allow_test:
+        train_end = max(1, int(round(n * train_ratio)))
+        val_count = max(1, int(round(n * val_ratio))) if n >= 3 else 0
+        if train_end + val_count >= n:
+            val_count = 1 if n - train_end > 1 else 0
+        val_end = min(n, train_end + val_count)
+        return items[:train_end], items[train_end:val_end], items[val_end:]
+
+    train_end = max(1, int(round(n * (train_ratio / max(train_ratio + val_ratio, 1e-8)))))
+    train_end = min(train_end, n - 1) if n > 1 else n
+    return items[:train_end], items[train_end:], []
+
+
+def split_data_source_holdout(data, train_ratio=0.7, val_ratio=0.15, seed=42):
+    grouped = {}
+    for item in data:
+        grouped.setdefault(item["emotion"], []).append(dict(item))
+
+    train_data, val_data, test_data = [], [], []
+    rng = random.Random(seed)
+
+    for emotion, emotion_items in grouped.items():
+        manual_items = [item for item in emotion_items if not is_augmented_source(item.get("source", "manual"))]
+        augmented_items = [item for item in emotion_items if is_augmented_source(item.get("source", "manual"))]
+
+        manual_train, manual_val, manual_test = split_subset(manual_items, train_ratio, val_ratio, rng, allow_test=True)
+        aug_train, aug_val, _ = split_subset(augmented_items, train_ratio, val_ratio, rng, allow_test=False)
+
+        if not manual_test and manual_val:
+            manual_test = [manual_val.pop()]
+        if not manual_test and manual_train:
+            manual_test = [manual_train.pop()]
+
+        train_data.extend(manual_train + aug_train)
+        val_data.extend(manual_val + aug_val)
+        test_data.extend(manual_test)
+
+    rng.shuffle(train_data)
+    rng.shuffle(val_data)
+    rng.shuffle(test_data)
+    return train_data, val_data, test_data
+
+
+def split_data(data, split_mode="random", train_ratio=0.7, val_ratio=0.15, seed=42):
+    if split_mode == "random":
+        return split_data_random(data, train_ratio=train_ratio, val_ratio=val_ratio, seed=seed)
+    if split_mode == "source_holdout":
+        return split_data_source_holdout(data, train_ratio=train_ratio, val_ratio=val_ratio, seed=seed)
+    raise ValueError(f"Unsupported split_mode: {split_mode}")
 
 
 def compute_metrics(predictions, targets):
@@ -163,6 +238,7 @@ def evaluate(model, loader, criterion, model_type, device):
     targets = []
     emotions = []
     intensity_buckets = []
+    sources = []
 
     with torch.no_grad():
         for batch in loader:
@@ -174,6 +250,7 @@ def evaluate(model, loader, criterion, model_type, device):
             targets.append(tensor_batch["target"].cpu())
             emotions.extend(batch["emotion"])
             intensity_buckets.extend(batch["intensity_bucket"])
+            sources.extend(batch["source"])
 
     predictions = torch.cat(preds, dim=0)
     labels = torch.cat(targets, dim=0)
@@ -181,6 +258,7 @@ def evaluate(model, loader, criterion, model_type, device):
     metrics["loss"] = total_loss / max(len(loader), 1)
     metrics["per_emotion"] = compute_group_metrics(predictions, labels, emotions)
     metrics["per_intensity_bucket"] = compute_group_metrics(predictions, labels, intensity_buckets)
+    metrics["per_source"] = compute_group_metrics(predictions, labels, sources)
     return metrics
 
 
@@ -189,9 +267,9 @@ def train(args):
     torch.manual_seed(args.seed)
 
     with open(args.data_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
+        data = [normalize_item(item) for item in json.load(f)]
 
-    train_data, val_data, test_data = split_data(data, seed=args.seed)
+    train_data, val_data, test_data = split_data(data, split_mode=args.split_mode, seed=args.seed)
     encoder = load_text_encoder(args.encoder_name)
 
     train_dataset = ExpressionDataset(train_data, encoder, args.use_semantic_features, args.use_prior)
@@ -276,7 +354,16 @@ def train(args):
             "batch_size": args.batch_size,
             "lr": args.lr,
             "seed": args.seed,
+            "split_mode": args.split_mode,
             "splits": {"train": len(train_data), "val": len(val_data), "test": len(test_data)},
+            "split_sources": {
+                "train_augmented": sum(is_augmented_source(item.get('source', 'manual')) for item in train_data),
+                "train_manual": sum(not is_augmented_source(item.get('source', 'manual')) for item in train_data),
+                "val_augmented": sum(is_augmented_source(item.get('source', 'manual')) for item in val_data),
+                "val_manual": sum(not is_augmented_source(item.get('source', 'manual')) for item in val_data),
+                "test_augmented": sum(is_augmented_source(item.get('source', 'manual')) for item in test_data),
+                "test_manual": sum(not is_augmented_source(item.get('source', 'manual')) for item in test_data),
+            },
         },
         "best_val_loss": best_val,
         "test_metrics": test_metrics,
@@ -302,6 +389,7 @@ def parse_args():
     parser.add_argument("--batch-size", type=int, default=8)
     parser.add_argument("--lr", type=float, default=1e-3)
     parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--split-mode", choices=["random", "source_holdout"], default="random")
     parser.add_argument("--use-semantic-features", dest="use_semantic_features", action="store_true")
     parser.add_argument("--no-semantic-features", dest="use_semantic_features", action="store_false")
     parser.set_defaults(use_semantic_features=True)

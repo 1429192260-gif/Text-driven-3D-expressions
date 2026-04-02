@@ -1,4 +1,4 @@
-import argparse
+﻿import argparse
 import json
 import subprocess
 import sys
@@ -40,11 +40,12 @@ def parse_args():
     parser.add_argument("--epochs", type=int, default=60)
     parser.add_argument("--batch-size", type=int, default=8)
     parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--split-mode", choices=["random", "source_holdout"], default="random")
     parser.add_argument("--summary-path", default="docs/experiment_summary_240.md")
     return parser.parse_args()
 
 
-def run_one(config, data_path, epochs, batch_size, seed):
+def run_one(config, data_path, epochs, batch_size, seed, split_mode):
     cmd = [
         sys.executable,
         "scripts/train_mlp.py",
@@ -53,6 +54,7 @@ def run_one(config, data_path, epochs, batch_size, seed):
         "--epochs", str(epochs),
         "--batch-size", str(batch_size),
         "--seed", str(seed),
+        "--split-mode", split_mode,
     ] + config["args"]
     subprocess.run(cmd, check=True)
 
@@ -98,26 +100,46 @@ def build_group_table(results, group_key, title):
     return lines
 
 
-def build_summary(results, epochs, batch_size, seed):
+def build_source_note(results):
+    config = results[0]["metrics"]["config"]
+    split_sources = config.get("split_sources", {})
+    lines = ["## Split Diagnostics", ""]
+    lines.append(f"- split_mode: {config.get('split_mode', 'random')}")
+    lines.append(f"- train_manual: {split_sources.get('train_manual', 0)}")
+    lines.append(f"- train_augmented: {split_sources.get('train_augmented', 0)}")
+    lines.append(f"- val_manual: {split_sources.get('val_manual', 0)}")
+    lines.append(f"- val_augmented: {split_sources.get('val_augmented', 0)}")
+    lines.append(f"- test_manual: {split_sources.get('test_manual', 0)}")
+    lines.append(f"- test_augmented: {split_sources.get('test_augmented', 0)}")
+    return lines
+
+
+def build_summary(results, epochs, batch_size, seed, split_mode):
     lines = []
     lines.append("# Experiment Summary")
     lines.append("")
     lines.append(f"- epochs: {epochs}")
     lines.append(f"- batch_size: {batch_size}")
     lines.append(f"- seed: {seed}")
+    lines.append(f"- split_mode: {split_mode}")
     lines.append("")
     lines.extend(build_main_table(results))
+    lines.append("")
+    lines.extend(build_source_note(results))
     lines.append("")
     lines.extend(build_group_table(results, "per_emotion", "Per-Emotion Test MAE"))
     lines.append("")
     lines.extend(build_group_table(results, "per_intensity_bucket", "Per-Intensity Test MAE"))
+    if any(result["metrics"]["test_metrics"].get("per_source") for result in results):
+        lines.append("")
+        lines.extend(build_group_table(results, "per_source", "Per-Source Test MAE"))
     lines.append("")
     lines.append("## Writing Notes")
     lines.append("")
     lines.append("- `Semantic MLP` vs `Baseline MLP` isolates the value of handcrafted semantic cue features.")
     lines.append("- `Prior Only` vs `Baseline MLP` isolates the effect of expression priors without semantic enhancement.")
     lines.append("- `Prior-Fusion` vs `Prior Only` shows whether semantic cues still help once prior guidance is introduced.")
-    lines.append("- Focus the paper on weak/medium intensity samples and boundary emotions such as `concern`, `calm`, and `surprise` when discussing the innovation point.")
+    lines.append("- When `split_mode=source_holdout`, the test set is intended to be dominated by manual samples, which is more conservative than random mixing.")
     return "\n".join(lines) + "\n"
 
 
@@ -126,14 +148,14 @@ def main():
     OUTPUT_DIR.mkdir(exist_ok=True)
 
     for config in RUNS:
-        run_one(config, data_path=args.data_path, epochs=args.epochs, batch_size=args.batch_size, seed=args.seed)
+        run_one(config, data_path=args.data_path, epochs=args.epochs, batch_size=args.batch_size, seed=args.seed, split_mode=args.split_mode)
 
     results = []
     for config in RUNS:
         metrics = load_metrics(config["run_name"])
         results.append({**config, "metrics": metrics})
 
-    summary = build_summary(results, epochs=args.epochs, batch_size=args.batch_size, seed=args.seed)
+    summary = build_summary(results, epochs=args.epochs, batch_size=args.batch_size, seed=args.seed, split_mode=args.split_mode)
     summary_path = Path(args.summary_path)
     summary_path.parent.mkdir(parents=True, exist_ok=True)
     summary_path.write_text(summary, encoding="utf-8")
