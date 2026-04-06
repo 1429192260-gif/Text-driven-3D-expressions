@@ -1,0 +1,4832 @@
+[
+  {
+    "text": "今天总算顺利了一次，心里一下轻松了不少。",
+    "emotion": "happy",
+    "intensity": 0.55,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "哈哈，真的没白等，我现在特别开心。",
+    "emotion": "happy",
+    "intensity": 0.82,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "听到这个消息的时候，我嘴角一下就上来了。",
+    "emotion": "happy",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "说不上特别难过，但心里就是有点空。",
+    "emotion": "sad",
+    "intensity": 0.46,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "唉，这次又没做好，越想越难受。",
+    "emotion": "sad",
+    "intensity": 0.74,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我现在难受得一句话都不太想说。",
+    "emotion": "sad",
+    "intensity": 0.83,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "也不是很生气，就是这事让我有点烦。",
+    "emotion": "angry",
+    "intensity": 0.42,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "你能不能别再这样了？我真的有点火大。",
+    "emotion": "angry",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "太离谱了，我真的快被气炸了。",
+    "emotion": "angry",
+    "intensity": 0.9,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "咦？这和我想的完全不一样。",
+    "emotion": "surprise",
+    "intensity": 0.48,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "啊？不会吧，这也太突然了！",
+    "emotion": "surprise",
+    "intensity": 0.76,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "天啊，我一下子都不知道该说什么了。",
+    "emotion": "surprise",
+    "intensity": 0.86,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "终于结束了，我现在整个人都平静下来了。",
+    "emotion": "calm",
+    "intensity": 0.38,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "没有特别兴奋，也没有难过，就挺安稳的。",
+    "emotion": "calm",
+    "intensity": 0.52,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "事情都处理完了，心里慢慢安定下来了。",
+    "emotion": "calm",
+    "intensity": 0.64,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "阳光真好，照在身上暖洋洋的。",
+    "emotion": "happy",
+    "intensity": 0.48,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "路上看到一只小猫，冲我打了个滚。",
+    "emotion": "happy",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "耳机里正好放到我最爱的那首歌。",
+    "emotion": "happy",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "问题解决了，走路都轻快了不少。",
+    "emotion": "happy",
+    "intensity": 0.59,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "窗外风铃响起来的时候，我突然觉得什么都很顺眼。",
+    "emotion": "happy",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "朋友发来的消息让我忍不住笑出了声。",
+    "emotion": "happy",
+    "intensity": 0.85,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "看着窗台上的花开了，心里也跟着亮了一下。",
+    "emotion": "happy",
+    "intensity": 0.52,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "雨下了一整天，感觉屋里也潮潮的。",
+    "emotion": "sad",
+    "intensity": 0.44,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "翻看以前的照片，才发觉已经过去这么久了。",
+    "emotion": "sad",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "不想说话，只想一个人待着。",
+    "emotion": "sad",
+    "intensity": 0.79,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "胸口有点闷，做什么都提不起兴趣。",
+    "emotion": "sad",
+    "intensity": 0.58,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "明明很困，躺在床上却怎么也睡不着。",
+    "emotion": "sad",
+    "intensity": 0.62,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "热闹是他们的，我好像什么都没有。",
+    "emotion": "sad",
+    "intensity": 0.73,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我深吸了一口气，试着让自己别去想。",
+    "emotion": "angry",
+    "intensity": 0.48,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "同样的错误，这已经是第三次了。",
+    "emotion": "angry",
+    "intensity": 0.69,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "算了，不说了，说了也没用。",
+    "emotion": "angry",
+    "intensity": 0.61,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "手不自觉地握紧了。",
+    "emotion": "angry",
+    "intensity": 0.53,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "这借口编得也太敷衍了。",
+    "emotion": "angry",
+    "intensity": 0.77,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "行，那就这样吧，没什么好说的了。",
+    "emotion": "angry",
+    "intensity": 0.86,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "完全没想到会是这个结果。",
+    "emotion": "surprise",
+    "intensity": 0.51,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "等一下，让我缓一缓。",
+    "emotion": "surprise",
+    "intensity": 0.69,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "这也太巧了吧？",
+    "emotion": "surprise",
+    "intensity": 0.45,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我是不是看错了？",
+    "emotion": "surprise",
+    "intensity": 0.58,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "哇，这简直像做梦一样。",
+    "emotion": "surprise",
+    "intensity": 0.81,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "突如其来，一点心理准备都没有。",
+    "emotion": "surprise",
+    "intensity": 0.73,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "夜深了，只听得见自己的呼吸声。",
+    "emotion": "calm",
+    "intensity": 0.42,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "泡了杯茶，看着热气慢慢升起来。",
+    "emotion": "calm",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "把事情一件件理清楚，感觉好多了。",
+    "emotion": "calm",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "雨停了，空气里有一股清新的味道。",
+    "emotion": "calm",
+    "intensity": 0.48,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "什么都不想，就这样发会呆也挺好。",
+    "emotion": "calm",
+    "intensity": 0.61,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "终于忙完了，可以好好休息一下了。",
+    "emotion": "calm",
+    "intensity": 0.53,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "今天总算顺利了一点，心里轻松了些。",
+    "emotion": "happy",
+    "intensity": 0.34,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "还不错，至少结果没那么糟。",
+    "emotion": "happy",
+    "intensity": 0.39,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "听到这消息，我嘴角还是忍不住扬了一下。",
+    "emotion": "happy",
+    "intensity": 0.44,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "这下我是真的松了口气，感觉挺开心的。",
+    "emotion": "happy",
+    "intensity": 0.55,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "今天终于有件事按我想的来了，心情不错。",
+    "emotion": "happy",
+    "intensity": 0.61,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "听完之后，我整个人都轻快了不少。",
+    "emotion": "happy",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "总算等到这一刻了，我现在心里很踏实。",
+    "emotion": "happy",
+    "intensity": 0.69,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "太好了！这次真的让我高兴坏了！",
+    "emotion": "happy",
+    "intensity": 0.81,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "哈哈，这个结果比我想的还要好！",
+    "emotion": "happy",
+    "intensity": 0.87,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "真是太棒了，我现在高兴得想直接笑出来！",
+    "emotion": "happy",
+    "intensity": 0.93,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "说不上特别难受，就是心里有点空。",
+    "emotion": "sad",
+    "intensity": 0.33,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "有点失落，但也只能这样了。",
+    "emotion": "sad",
+    "intensity": 0.38,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "心里闷闷的，一时也说不清为什么。",
+    "emotion": "sad",
+    "intensity": 0.45,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "这次又没做好，想到这儿就有点难受。",
+    "emotion": "sad",
+    "intensity": 0.54,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我现在心里挺不是滋味的。",
+    "emotion": "sad",
+    "intensity": 0.6,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "越想越觉得难过，整个人都低下去了。",
+    "emotion": "sad",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我有点撑不住了，心情一直往下掉。",
+    "emotion": "sad",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "唉，想到这个结果，我心里真的很难受。",
+    "emotion": "sad",
+    "intensity": 0.79,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "我现在一点都高兴不起来，越想越委屈。",
+    "emotion": "sad",
+    "intensity": 0.86,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "真的太难受了，我现在连话都不想说。",
+    "emotion": "sad",
+    "intensity": 0.92,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "也不是特别生气，就是有点烦。",
+    "emotion": "angry",
+    "intensity": 0.32,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "这事让我有点不舒服，心里直犯躁。",
+    "emotion": "angry",
+    "intensity": 0.39,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "别再说了，我现在已经有点火了。",
+    "emotion": "angry",
+    "intensity": 0.45,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "这件事越想越气，我已经忍得很勉强了。",
+    "emotion": "angry",
+    "intensity": 0.56,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "你这样真的让我很不爽。",
+    "emotion": "angry",
+    "intensity": 0.61,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我现在已经开始生气了，别再继续了。",
+    "emotion": "angry",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "这也太过分了吧，我越想越来气。",
+    "emotion": "angry",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "你别逼我，我现在真的快压不住火了！",
+    "emotion": "angry",
+    "intensity": 0.82,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "太离谱了，我真的要被气炸了！",
+    "emotion": "angry",
+    "intensity": 0.88,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "别再烦我了！我现在一点耐心都没有！",
+    "emotion": "angry",
+    "intensity": 0.94,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "咦？这和我想的有点不一样。",
+    "emotion": "surprise",
+    "intensity": 0.31,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "哎？原来是这样吗？",
+    "emotion": "surprise",
+    "intensity": 0.38,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "这结果有点出乎我意料。",
+    "emotion": "surprise",
+    "intensity": 0.45,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "啊？我还真没想到会这样。",
+    "emotion": "surprise",
+    "intensity": 0.55,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "这一下把我弄愁住了。",
+    "emotion": "surprise",
+    "intensity": 0.6,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我是真的没料到，整个人都怄了一下。",
+    "emotion": "surprise",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "不会吧，这也太突然了。",
+    "emotion": "surprise",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "什么？！这怎么可能？！",
+    "emotion": "surprise",
+    "intensity": 0.81,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "天啊，我一下子都不知道该说什么了！",
+    "emotion": "surprise",
+    "intensity": 0.88,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "不会吧？！这也太让人震惊了！",
+    "emotion": "surprise",
+    "intensity": 0.94,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "还行，心里慢慢平下来了。",
+    "emotion": "calm",
+    "intensity": 0.31,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "事情过去之后，我就没那么紧绷了。",
+    "emotion": "calm",
+    "intensity": 0.36,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "现在倒是安稳了些。",
+    "emotion": "calm",
+    "intensity": 0.44,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "忙完之后，整个人慢慢放松下来了。",
+    "emotion": "calm",
+    "intensity": 0.53,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "没有特别激动，就是觉得挺安定的。",
+    "emotion": "calm",
+    "intensity": 0.58,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "这会儿总算踏实了，心里也顺了。",
+    "emotion": "calm",
+    "intensity": 0.64,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "情绪慢慢缓下来了，现在挺平静。",
+    "emotion": "calm",
+    "intensity": 0.69,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "终于结束了，我现在整个人都安静下来了。",
+    "emotion": "calm",
+    "intensity": 0.79,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "事情都处理完了，我现在特别平稳。",
+    "emotion": "calm",
+    "intensity": 0.86,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "现在心里一点波澜都没有了，只剩下平静。",
+    "emotion": "calm",
+    "intensity": 0.92,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "这一刻突然觉得很值得。#1",
+    "emotion": "happy",
+    "intensity": 0.32,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "我心里一下子亮了起来。#2",
+    "emotion": "happy",
+    "intensity": 0.39,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "想到这件事，整个人都轻松了。#3",
+    "emotion": "happy",
+    "intensity": 0.45,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "结果比我预期的还好。#4",
+    "emotion": "happy",
+    "intensity": 0.52,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "今天的心情终于往上走了。#5",
+    "emotion": "happy",
+    "intensity": 0.59,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我不由自主地笑了一下。#6",
+    "emotion": "happy",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "这个消息让我挪不开嘴角。#7",
+    "emotion": "happy",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "看到这一幕，我真的很满足。#8",
+    "emotion": "happy",
+    "intensity": 0.79,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "这一刻突然觉得很值得。#9",
+    "emotion": "happy",
+    "intensity": 0.85,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "我心里一下子亮了起来。#10",
+    "emotion": "happy",
+    "intensity": 0.92,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "心里好像被轻轻压住了。#1",
+    "emotion": "sad",
+    "intensity": 0.32,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "这件事想起来还是很失落。#2",
+    "emotion": "sad",
+    "intensity": 0.39,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "整个人都提不起精神。#3",
+    "emotion": "sad",
+    "intensity": 0.45,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "情绪慢慢往下坠了。#4",
+    "emotion": "sad",
+    "intensity": 0.52,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我只想安静地待着。#5",
+    "emotion": "sad",
+    "intensity": 0.59,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "感觉连空气都重了一点。#6",
+    "emotion": "sad",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "想到这儿，心里就发堵。#7",
+    "emotion": "sad",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我一下子就沉默了。#8",
+    "emotion": "sad",
+    "intensity": 0.79,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "心里好像被轻轻压住了。#9",
+    "emotion": "sad",
+    "intensity": 0.85,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "这件事想起来还是很失落。#10",
+    "emotion": "sad",
+    "intensity": 0.92,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "整个人都提不起精神。#11",
+    "emotion": "sad",
+    "intensity": 0.32,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "我心里的火气又上来了。#1",
+    "emotion": "angry",
+    "intensity": 0.32,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "这种事真的让人忍不了。#2",
+    "emotion": "angry",
+    "intensity": 0.39,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "我越想越觉得恼火。#3",
+    "emotion": "angry",
+    "intensity": 0.45,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "光是听到就让我直皱眉。#4",
+    "emotion": "angry",
+    "intensity": 0.52,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "这话说得我一点都不爽。#5",
+    "emotion": "angry",
+    "intensity": 0.59,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我已经很努力在克制了。#6",
+    "emotion": "angry",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "这么敢衰的事真的少见。#7",
+    "emotion": "angry",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "再这样下去我就要爆发了。#8",
+    "emotion": "angry",
+    "intensity": 0.79,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "我心里的火气又上来了。#9",
+    "emotion": "angry",
+    "intensity": 0.85,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "这种事真的让人忍不了。#10",
+    "emotion": "angry",
+    "intensity": 0.92,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "我越想越觉得恼火。#11",
+    "emotion": "angry",
+    "intensity": 0.32,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "这一下真的把我惊到了。#1",
+    "emotion": "surprise",
+    "intensity": 0.32,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "我完全没料到会这样。#2",
+    "emotion": "surprise",
+    "intensity": 0.39,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "这种反转我真的没想到。#3",
+    "emotion": "surprise",
+    "intensity": 0.45,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "一时间我都楞住了。#4",
+    "emotion": "surprise",
+    "intensity": 0.52,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我看着结果发了一会呆。#5",
+    "emotion": "surprise",
+    "intensity": 0.59,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "这消息来得太突然了。#6",
+    "emotion": "surprise",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "一点心理准备都没有。#7",
+    "emotion": "surprise",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "看到的那一刻我直接愕住了。#8",
+    "emotion": "surprise",
+    "intensity": 0.79,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "这一下真的把我惊到了。#9",
+    "emotion": "surprise",
+    "intensity": 0.85,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "我完全没料到会这样。#10",
+    "emotion": "surprise",
+    "intensity": 0.92,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "这种反转我真的没想到。#11",
+    "emotion": "surprise",
+    "intensity": 0.32,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "现在的状态倒是挺平和的。#1",
+    "emotion": "calm",
+    "intensity": 0.32,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "我慢慢把自己调整过来了。#2",
+    "emotion": "calm",
+    "intensity": 0.39,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "情绪总算落回来了。#3",
+    "emotion": "calm",
+    "intensity": 0.45,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我现在只想安安静静地待一会儿。#4",
+    "emotion": "calm",
+    "intensity": 0.52,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "事情过去之后反而平静了。#5",
+    "emotion": "calm",
+    "intensity": 0.59,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "呼吸慢下来之后，我好多了。#6",
+    "emotion": "calm",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "这样安安稳稳的感觉也不错。#7",
+    "emotion": "calm",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我现在没有那么多起伏了。#8",
+    "emotion": "calm",
+    "intensity": 0.79,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "现在的状态倒是挺平和的。#9",
+    "emotion": "calm",
+    "intensity": 0.85,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "我慢慢把自己调整过来了。#10",
+    "emotion": "calm",
+    "intensity": 0.92,
+    "intensity_bucket": "strong",
+    "source": "manual"
+  },
+  {
+    "text": "情绪总算落回来了。#11",
+    "emotion": "calm",
+    "intensity": 0.32,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "说不上多开心，但心里确实轻了一点。",
+    "emotion": "happy",
+    "intensity": 0.36,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "我没笑出来，但嘴角还是有点忍不住。",
+    "emotion": "happy",
+    "intensity": 0.43,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "听到这话的时候，我居然有点想笑。",
+    "emotion": "happy",
+    "intensity": 0.52,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "本来还挺烦的，结果现在又觉得还不错。",
+    "emotion": "happy",
+    "intensity": 0.48,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "也不算特别惊喜，就是心里挺舒服的。",
+    "emotion": "happy",
+    "intensity": 0.41,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "我一时之间没反应过来，后来才慢慢高兴起来。",
+    "emotion": "happy",
+    "intensity": 0.58,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "有点意外，也有点高兴。",
+    "emotion": "happy",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我还以为会很糟，没想到居然还挺好。",
+    "emotion": "happy",
+    "intensity": 0.54,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "也不算很难过，就是心里不太舒服。",
+    "emotion": "sad",
+    "intensity": 0.37,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "我倒没哭，但情绪就是一直往下掉。",
+    "emotion": "sad",
+    "intensity": 0.45,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "说是失望吧，又好像比失望还空一点。",
+    "emotion": "sad",
+    "intensity": 0.52,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我还能正常说话，但明显没什么心情。",
+    "emotion": "sad",
+    "intensity": 0.43,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "再提这件事我就有点低落了。",
+    "emotion": "sad",
+    "intensity": 0.48,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "当时还好，现在想想又觉得挺难受。",
+    "emotion": "sad",
+    "intensity": 0.56,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "心里闷闷的，但又不想让人看出来。",
+    "emotion": "sad",
+    "intensity": 0.5,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "表面上还行，其实心里已经沉下去了。",
+    "emotion": "sad",
+    "intensity": 0.58,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我还在忍，但心里已经开始冒火了。",
+    "emotion": "angry",
+    "intensity": 0.44,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "不知道该算生气还是无语，反正就是很不爽。",
+    "emotion": "angry",
+    "intensity": 0.52,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我还没发作，但这事已经让我很烦了。",
+    "emotion": "angry",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我也不想吵，就是觉得这样很过分。",
+    "emotion": "angry",
+    "intensity": 0.46,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "表面上我还算冷静，但手已经不自觉握紧了。",
+    "emotion": "angry",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "这口气我先压着，但明显已经快压不住了。",
+    "emotion": "angry",
+    "intensity": 0.62,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "这话听起来不大，但我心里是真的不舒服。",
+    "emotion": "angry",
+    "intensity": 0.5,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我知道自己快要炸了，只是还在强撑。",
+    "emotion": "angry",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我先愕了一下，后面才反应过来。",
+    "emotion": "surprise",
+    "intensity": 0.42,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "说惊讶也不完全对，就是一时间没想到。",
+    "emotion": "surprise",
+    "intensity": 0.37,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "我还以为自己看错了。",
+    "emotion": "surprise",
+    "intensity": 0.46,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "那一瞬间我没说出话，只是心里咯噶了一下。",
+    "emotion": "surprise",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "本来以为很稳，结果居然变成这样。",
+    "emotion": "surprise",
+    "intensity": 0.55,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "这个反转倒不是吓人，但确实让我愿住了。",
+    "emotion": "surprise",
+    "intensity": 0.44,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "我后知后觉地发现事情不对。",
+    "emotion": "surprise",
+    "intensity": 0.41,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "那一下心里突然空了一拍。",
+    "emotion": "surprise",
+    "intensity": 0.51,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "倒也不是特别平静，只是没有刚才那么乱了。",
+    "emotion": "calm",
+    "intensity": 0.39,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "说踏实还早，但我確实慢慢缓下来了。",
+    "emotion": "calm",
+    "intensity": 0.44,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "我没有特别高兴，但现在已经不紧张了。",
+    "emotion": "calm",
+    "intensity": 0.41,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "事情还在那里，但我自己先平静了下来。",
+    "emotion": "calm",
+    "intensity": 0.48,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我倒不是完全放松，但现在感觉还可以。",
+    "emotion": "calm",
+    "intensity": 0.46,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "我只是想先慢慢把状态拉回来。",
+    "emotion": "calm",
+    "intensity": 0.43,
+    "intensity_bucket": "weak",
+    "source": "manual"
+  },
+  {
+    "text": "没什么特别的情绪，只是突然觉得很安静。",
+    "emotion": "calm",
+    "intensity": 0.5,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "还谈不上轻松，但我至少没再绷着了。",
+    "emotion": "calm",
+    "intensity": 0.45,
+    "intensity_bucket": "medium",
+    "source": "manual"
+  },
+  {
+    "text": "超喜欢这张开心就好呵呵~好嗨哦！",
+    "emotion": "happy",
+    "intensity": 0.87,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "可爱幸福又有爱好可爱～媽媽跟我說...",
+    "emotion": "happy",
+    "intensity": 0.76,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈罗！！大家阿喜欢我的新的照片哈？阿可爱啊？哈哈哈！",
+    "emotion": "happy",
+    "intensity": 0.78,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈我老公在一起好开心",
+    "emotion": "happy",
+    "intensity": 0.75,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好开心，公司同事帮我庆祝，哈哈",
+    "emotion": "happy",
+    "intensity": 0.75,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈哈::呵呵中日大战，这个笑死我了",
+    "emotion": "happy",
+    "intensity": 0.75,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "昨晚梦见我们小庚了呵呵······好开心",
+    "emotion": "happy",
+    "intensity": 0.75,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "一看到你就好开心啊~~~~哈哈,我好喜歡你",
+    "emotion": "happy",
+    "intensity": 0.81,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "笑死我拉笑到我好肚痛哈哈.捂开心到睇到好开心",
+    "emotion": "happy",
+    "intensity": 0.77,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "老板玩得好开心哦~~大家问我我喜欢什么？其实和朋友在一起就是我最大的幸福~~~",
+    "emotion": "happy",
+    "intensity": 0.9,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈，篮球过啦，好开心!",
+    "emotion": "happy",
+    "intensity": 0.78,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "传个图吧呵呵晚上女儿回来,好开心!",
+    "emotion": "happy",
+    "intensity": 0.79,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "今年中秋我们放4天半，太棒了！哈哈！！",
+    "emotion": "happy",
+    "intensity": 0.8,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈哈哈哈哈哈哈哈哈哈，笑死我了！！！",
+    "emotion": "happy",
+    "intensity": 0.78,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "同sa倾完电话，好好笑。好开心！哈哈...你真可爱!O",
+    "emotion": "happy",
+    "intensity": 0.88,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "傻。。微博200条纪念下哈哈我的小白回来了。。。好开心啊~",
+    "emotion": "happy",
+    "intensity": 0.79,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "开心·~我每天都好幸福唷~~哈哈!!希望大家也跟我一樣唷~~",
+    "emotion": "happy",
+    "intensity": 0.87,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "、、、多谢你地今晚噶出席&礼物，好开心啊！大家都一定要幸福喔~",
+    "emotion": "happy",
+    "intensity": 0.87,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈哈~好开心啊~你们都猜不到~看着你们的答案逗得我可乐了~哈哈哈~",
+    "emotion": "happy",
+    "intensity": 0.8,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "龙少...好开心，我们的船长回来。",
+    "emotion": "happy",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "你们是坏人我看到这个笑得好开心...！",
+    "emotion": "happy",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "笑死人了，哈哈哈俩小白...这图笑死我了。",
+    "emotion": "happy",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我都有我都有！！满足其中8条，就证明你很幸福。我刚好8条，呵呵",
+    "emotion": "happy",
+    "intensity": 0.81,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "想笑就笑吧。哈哈~笑死我了~",
+    "emotion": "happy",
+    "intensity": 0.74,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "笑死我了哈哈哈哈笑疯我了。。。",
+    "emotion": "happy",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "被吃的某人好开心喔我一点也不禽兽~~",
+    "emotion": "happy",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "今日，徐生话好开心~~所以我都好开心~",
+    "emotion": "happy",
+    "intensity": 0.74,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "最后一幅图是点睛之作，哈哈这图笑死我了。",
+    "emotion": "happy",
+    "intensity": 0.69,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "笑死我了，哈哈绝妙！人生歪理画中话。。。",
+    "emotion": "happy",
+    "intensity": 0.73,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我葱好开心分享图片李宇春，你怎么能辣么美。",
+    "emotion": "happy",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "笑死我了～··哈哈哈哈朋友一生一起走。。。",
+    "emotion": "happy",
+    "intensity": 0.69,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "这个靠谱哈哈哈笑死我了嫁人就嫁这样的男人。",
+    "emotion": "happy",
+    "intensity": 0.69,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈哈哈笑死我了你没见过的麦妈妈。喜感十足！",
+    "emotion": "happy",
+    "intensity": 0.73,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好有范哥抽的不是烟，是寂寞。哈哈，这图笑死我了！",
+    "emotion": "happy",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "怎么回事噗笑死我了哈哈哈哈大北七?噗~你個北七~",
+    "emotion": "happy",
+    "intensity": 0.73,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我是最需要支持的..娶我会最幸福!哈哈.魔羯座。",
+    "emotion": "happy",
+    "intensity": 0.74,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我的淘宝小店升两心了，好开心。为继续努力加油的。",
+    "emotion": "happy",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "晚上听了好多儿歌·哈哈~好开心啊",
+    "emotion": "happy",
+    "intensity": 0.77,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "国庆节，二哥买了布娃娃，哈哈~~~~好开心",
+    "emotion": "happy",
+    "intensity": 0.8,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我也喜欢小孩。嘿嘿呵呵，姐姐，他们都可爱！分享图片",
+    "emotion": "happy",
+    "intensity": 0.73,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "今天发工资啦！！好开心啊，等下要和姐妹去腐败享受下！！哈哈！",
+    "emotion": "happy",
+    "intensity": 0.85,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "今天又好开心我现在才冲完凉咋四人聚會啊，都唔錯啊，哈哈",
+    "emotion": "happy",
+    "intensity": 0.77,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "全都有啊呵呵满足其中8条，就证明你很幸福。我刚好8条，呵呵",
+    "emotion": "happy",
+    "intensity": 0.75,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "分享图片好开心好开心我亲爱的小黑同志亲自到台湾买给我哈哈哈",
+    "emotion": "happy",
+    "intensity": 0.75,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好开心啊终于找到一个靠谱的阿姨我终于也可以带饭上班了哇哈哈",
+    "emotion": "happy",
+    "intensity": 0.76,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "笑的好开心啊，这样我们就放心了是收到月饼了吧？笑的这么甜，哈哈",
+    "emotion": "happy",
+    "intensity": 0.77,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈，喜欢就好我的杯具队伍又强大了！！！",
+    "emotion": "happy",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈哈哈！可爱死了！！喵的，小样，吓我一跳~",
+    "emotion": "happy",
+    "intensity": 0.75,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "一顿饭八卦出很多消息，哈哈~~~我很满足！！！",
+    "emotion": "happy",
+    "intensity": 0.78,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈，好可爱啊！这熊猫打喷嚏打得，我被雷倒了！！",
+    "emotion": "happy",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈真可爱转给真可爱~可爱的蘑菇拖鞋，有人喜欢吗？",
+    "emotion": "happy",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "太有爱了，哈哈超可爱的熊猫宝宝打群架。有没有人管啊？",
+    "emotion": "happy",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "这张好玩好可爱啊哈哈>.<我就喜欢你私下的样子...兔耳朵萌娃",
+    "emotion": "happy",
+    "intensity": 0.74,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈太爱老胡了还有我喜欢猫咪小白太可爱了看到老胡这照片，我笑了。。。",
+    "emotion": "happy",
+    "intensity": 0.69,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈我一不高兴就喜欢吃东西，一吃东西就发胖，一发胖我就很不高兴。。。",
+    "emotion": "happy",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "女人好开心呢。。。不喜欢上传些正儿8经的照片，反儿是表情多多的时候我就喜欢抓拍，哈哈",
+    "emotion": "happy",
+    "intensity": 0.81,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我很喜欢吃诶…哈哈哈哈出品。。。期待！",
+    "emotion": "happy",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好好得意哈哈哈喜欢的超可爱啊呵呵~~好逗来，别害羞，亲一个",
+    "emotion": "happy",
+    "intensity": 0.8,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈哈~~~~我喜欢！",
+    "emotion": "happy",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈，好可爱。你看不见我！",
+    "emotion": "happy",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "对说：哈哈，这名字我喜欢~",
+    "emotion": "happy",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我喜欢！满分！真可爱~~~",
+    "emotion": "happy",
+    "intensity": 0.74,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈可爱——：我是草帽大王子！",
+    "emotion": "happy",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "呵呵你是泡面，我是开水。哈哈哈~",
+    "emotion": "happy",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我喜欢哈哈哈灰常跟风的交通警示牌。",
+    "emotion": "happy",
+    "intensity": 0.64,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我都喜欢非常可爱的小杯子你喜欢哪个？",
+    "emotion": "happy",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "今天你接受了我的好友请求，哈哈，开心！",
+    "emotion": "happy",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "呵呵，我很喜欢的说。玩过的同学请举手！",
+    "emotion": "happy",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我可爱滴鸡仔饼呀~我会好好对你滴哈哈~",
+    "emotion": "happy",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我要小青蛙非常可爱的小杯子你喜欢哪个？",
+    "emotion": "happy",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "可爱~~哈哈，我们也是这样的还真窝心呢！",
+    "emotion": "happy",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈，我遇得到哦最喜欢惹是生非的猫咪~~",
+    "emotion": "happy",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "世界杯足球宝贝~我最喜欢这张~很可爱的说~",
+    "emotion": "happy",
+    "intensity": 0.69,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "呵呵。下面是我从前喜欢的电视剧。有十部呢。",
+    "emotion": "happy",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "对说：哈哈~~~又换头像了~~我喜欢~~~",
+    "emotion": "happy",
+    "intensity": 0.69,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我要熊猫儿那个非常可爱的小杯子你喜欢哪个？",
+    "emotion": "happy",
+    "intensity": 0.64,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈~难怪他喜欢我，第三哒~天蝎座。你胖吗？",
+    "emotion": "happy",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "。开心快乐！我爱你们，你们喜欢我吗？嘻嘻~~~",
+    "emotion": "happy",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "得了奖分我一半必须滴好可爱的流氓兔音箱，喜欢。",
+    "emotion": "happy",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我也很喜欢蒙奇奇这也太可爱了，喜欢死你了。。。",
+    "emotion": "happy",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "你呢你呢?有生意么?哈哈呵呵.笑死我啦笑死我啦!",
+    "emotion": "happy",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "呵呵呵，小奕彤很可爱！我觉得我很搞笑，你觉得吗？",
+    "emotion": "happy",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈今天吃到我小时候最爱吃的棒棒糖了！开心开心！",
+    "emotion": "happy",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好可爱啊。。我喜欢很粉！这个颜色你们觉得怎么样？",
+    "emotion": "happy",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我爱色弄了，明朝来拿货，哈哈哈哈哈可爱的小红章！",
+    "emotion": "happy",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我要送他一个!!还喜欢戴帽子。哈哈這貨喜歡墨鏡~",
+    "emotion": "happy",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哎呀好可爱~呵呵，贱的人好喜欢",
+    "emotion": "happy",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "王大哥太有爱了，超级喜欢他的气质～嘉雯太可爱了",
+    "emotion": "happy",
+    "intensity": 0.69,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "低调路人饭有福啦哈哈哈好可爱啊啊啊啊嗷嗷，好喜欢，好可爱。",
+    "emotion": "happy",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈哈，这个最可爱。喜欢。目前为止觉得最可爱的放假版本~~",
+    "emotion": "happy",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈哈哈呵呵晃头的那个最可爱了可爱猫咪，拍照的时候不要晃头啊！",
+    "emotion": "happy",
+    "intensity": 0.73,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "生活正美好啊！满足其中8条，就证明你很幸福。你满足几条？",
+    "emotion": "happy",
+    "intensity": 0.74,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈哈个面包名笑死我！",
+    "emotion": "happy",
+    "intensity": 0.6,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈，爆笑！好一个27%笑死我啦~",
+    "emotion": "happy",
+    "intensity": 0.61,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈笑死我咩~你的聋猫。有霸气！。。。",
+    "emotion": "happy",
+    "intensity": 0.61,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "笑死我想到拉炮拉不开了。。哈哈哈哈哈。",
+    "emotion": "happy",
+    "intensity": 0.58,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "笑死我啦~~哇哈哈哈哈哈每次看我都笑翻了。",
+    "emotion": "happy",
+    "intensity": 0.6,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "!!!哈哈.这个真的笑死我啦。这小伙有种！哈哈！",
+    "emotion": "happy",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "能把包租婆的脸更换成我的脸吗？哈哈哈哈哈，笑死！",
+    "emotion": "happy",
+    "intensity": 0.61,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈哈哈好可爱呀！笑死.3国杀",
+    "emotion": "happy",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "这些要率的人真可恶。。讨厌死了真讨厌。",
+    "emotion": "angry",
+    "intensity": 0.82,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "相亲什么的最讨厌了我不要相亲，烦死了~抓狂啊。。",
+    "emotion": "angry",
+    "intensity": 0.74,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "如果是真的，我将会很愤怒的！！",
+    "emotion": "angry",
+    "intensity": 0.75,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "大家晚安。我要返江门啊！！！烦死！唔！！",
+    "emotion": "angry",
+    "intensity": 0.76,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "纠结的雪地靴，要买几双呢？烦死我了！睡觉！！！",
+    "emotion": "angry",
+    "intensity": 0.77,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "论坛碰见个SB，气死我了。",
+    "emotion": "angry",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我现在是一个愤怒的娃，别惹我！",
+    "emotion": "angry",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "搞什么东西，裁判你要气死我呀。。",
+    "emotion": "angry",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我今天倒霉死了！烦死了！",
+    "emotion": "angry",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "收钱收的我手软，烦死了！",
+    "emotion": "angry",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "烦死啦，遇到点事我就头大！",
+    "emotion": "angry",
+    "intensity": 0.69,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我的破嗓子，一直咳一直咳，得多讨人厌啊！烦死了！",
+    "emotion": "angry",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "烦死我了，谁陪我去唱歌~~我要唱EASON全集！",
+    "emotion": "angry",
+    "intensity": 0.73,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "原来工作上的烦恼比感情上更让人抓狂！我讨厌社会学！",
+    "emotion": "angry",
+    "intensity": 0.74,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "一小学同学大清早在QQ上不停催我去玩三国杀，烦死你！",
+    "emotion": "angry",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我烦，我烦死了！！！！！！！！！！！我脑子进水了",
+    "emotion": "angry",
+    "intensity": 0.75,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "有些人真是烦死人了喵了个咪就是一坨臭狗屎沾上就恶心",
+    "emotion": "angry",
+    "intensity": 0.73,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我咸湿但讨厌潮湿！！",
+    "emotion": "angry",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我怒了我不是胖子！！！",
+    "emotion": "angry",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我会妒忌我会生气.！！！",
+    "emotion": "angry",
+    "intensity": 0.73,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "是的！当我开始恶心电话语音！！",
+    "emotion": "angry",
+    "intensity": 0.73,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "可恶的痘痘快点从我的脸上消失！！！！",
+    "emotion": "angry",
+    "intensity": 0.74,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "烦死了！！！！！！！",
+    "emotion": "angry",
+    "intensity": 0.75,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "烦死人啦！！！！！！",
+    "emotion": "angry",
+    "intensity": 0.76,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "烦死了！烦死了！烦死了！！",
+    "emotion": "angry",
+    "intensity": 0.76,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "有只死苍蝇一直在面前嗡嗡乱飞！烦死了！！",
+    "emotion": "angry",
+    "intensity": 0.77,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "烦死了，烦死了，怎么那么多活啊！！！！！",
+    "emotion": "angry",
+    "intensity": 0.76,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "烦~！！！讨厌这种什么事都不确定的感觉。。。",
+    "emotion": "angry",
+    "intensity": 0.76,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "烦死你们，难道我们是机器吗",
+    "emotion": "angry",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "又乱扣我钱，啊！我受不了啦…",
+    "emotion": "angry",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我今晚那个忙啊~~~~~烦死了",
+    "emotion": "angry",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "受不了了...每次看我都笑翻了。",
+    "emotion": "angry",
+    "intensity": 0.64,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "烦死了别一天到晚打我电话我要死了",
+    "emotion": "angry",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "真的讨厌下雨天...我就像头困兽！",
+    "emotion": "angry",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我也受不了了受不了菲菲了...嘿嘿绝了~",
+    "emotion": "angry",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我很讨厌很讨厌被人耍的感觉一次又一次的烦不烦啊",
+    "emotion": "angry",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "怎么还有这？我火大发了...我想要这个。。。。。",
+    "emotion": "angry",
+    "intensity": 0.64,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我开始讨厌宅女的生活。",
+    "emotion": "angry",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "很讨厌女人对我大声说话。",
+    "emotion": "angry",
+    "intensity": 0.64,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "：快放我下来！受不了了！",
+    "emotion": "angry",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好冷啊，我讨厌冷空气~~~",
+    "emotion": "angry",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我又死回去飞恶心的航班了。",
+    "emotion": "angry",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我最讨厌考不好就玩失踪~~",
+    "emotion": "angry",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "讨厌的猪头，我忍无可忍了~",
+    "emotion": "angry",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我坐板凳坐的有点恶心了。。。。",
+    "emotion": "angry",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我怕会受不了这样的going~~",
+    "emotion": "angry",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我讨厌对我罗里吧嗦的！死一边去！",
+    "emotion": "angry",
+    "intensity": 0.69,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我都快酸死了柠檬什么的最讨厌了。",
+    "emotion": "angry",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "感冒菌什么的最讨厌了!!...生气",
+    "emotion": "angry",
+    "intensity": 0.76,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我不想考试，我讨厌计算机考试。。。",
+    "emotion": "angry",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我被一只蜜蜂袭击了。好痛，好可恶。",
+    "emotion": "angry",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "今天很没状态，很无聊，我自己都恶心！",
+    "emotion": "angry",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我生气，我嫉妒，我咋就没有吃喝上呢。",
+    "emotion": "angry",
+    "intensity": 0.64,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "可恶的蚊子昨晚叮我脸，害我只睡两小时。",
+    "emotion": "angry",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "泥石流地震我讨厌你们，请远离我们地球~",
+    "emotion": "angry",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "讨厌别人在背后吓我，每次都吓跑半边魂~",
+    "emotion": "angry",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "你太瘦了~你再瘦我就生气罗~好瘦好瘦~~",
+    "emotion": "angry",
+    "intensity": 0.69,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "对说：我说，你那名字可以不那么讨厌么？？",
+    "emotion": "angry",
+    "intensity": 0.64,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我最讨厌回答河北省会是哪，因为有三个字。",
+    "emotion": "angry",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我讨厌回家啊！怎么又要下班啊，太快了吧！",
+    "emotion": "angry",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "说实话，我还蛮讨厌跟这样的大美女逛街的。",
+    "emotion": "angry",
+    "intensity": 0.64,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "心情烦躁，不想考试...让我翘考吧！啊啊啊！！！",
+    "emotion": "angry",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "真是烦死了。。。添乱。。。",
+    "emotion": "angry",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "又是非常热的一天。。。烦死了。。",
+    "emotion": "angry",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "又要开学了，烦死了烦死了。。。。",
+    "emotion": "angry",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "熬着想早点搞完这个课题。烦死了。",
+    "emotion": "angry",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈利波特尊讨厌！老找伏地魔的麻烦！",
+    "emotion": "angry",
+    "intensity": 0.74,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我怎么就这么烦这几个小黄球呢！！！",
+    "emotion": "angry",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "上个班怎么就这么麻烦呢?烦死了~~~~",
+    "emotion": "angry",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "为什么我的生活是这样，厌烦了读书~~！！",
+    "emotion": "angry",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好烦好烦。很受不了某些人。如果可以我真的想发火，之后离开。",
+    "emotion": "angry",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我刚把他毙了。能不能废了闭幕式的那个解说。。。。。烦死了。",
+    "emotion": "angry",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我觉得的心里大概快烦死老黄了，苏永康作为一个围观人士完全在状况外。",
+    "emotion": "angry",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "顺便说点什么吧...别烦我~~~~~",
+    "emotion": "angry",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我真是自找麻烦啊！",
+    "emotion": "angry",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "小屁孩又来烦我了~~",
+    "emotion": "angry",
+    "intensity": 0.64,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "麻烦！比较烦，不是我烦！",
+    "emotion": "angry",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "嗯，看不到你，让我实在很烦闷！",
+    "emotion": "angry",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "莫名奇妙的烦，快给我来根烟~~",
+    "emotion": "angry",
+    "intensity": 0.64,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我靠~自己越狱怎么那么麻烦~~~",
+    "emotion": "angry",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "睡会觉，不够搅合的都...烦死人",
+    "emotion": "angry",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "别老打我名儿。。。。烦人呢。。。。",
+    "emotion": "angry",
+    "intensity": 0.61,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "女子无才便是德，我一定是太缺德了。",
+    "emotion": "angry",
+    "intensity": 0.62,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "烦躁地心情，我是不是有点更年期了。",
+    "emotion": "angry",
+    "intensity": 0.62,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "今天又很多的任务等着我去完成好麻烦啊！",
+    "emotion": "angry",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哈真烦人。闹心。发票整错了。我哭。。。",
+    "emotion": "angry",
+    "intensity": 0.62,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "谁家在烧肉~~我闻着都想去了~~烦~~",
+    "emotion": "angry",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "下午还要去学校烦死了",
+    "emotion": "angry",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "烦死，反思，效率好低下",
+    "emotion": "angry",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "测什么视力啊，烦死人了，",
+    "emotion": "angry",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "重温潜伏中~~~烦死晚秋了",
+    "emotion": "angry",
+    "intensity": 0.73,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "烦死了。烦死了。抱什么包分享图片",
+    "emotion": "angry",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "为什么宿舍上会有这么多蚂蚁，烦死人了",
+    "emotion": "angry",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好不容易休一天，还要回单位开会，烦死了",
+    "emotion": "angry",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我崩溃中国学生学英文。太强大了！！",
+    "emotion": "angry",
+    "intensity": 0.64,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "呃，我彻底崩溃了...咦...那男主角是誰啊？",
+    "emotion": "angry",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我又进不去LF了。。。崩溃中。。。",
+    "emotion": "angry",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我要崩溃了。你有本事就给我再贱点！",
+    "emotion": "angry",
+    "intensity": 0.6,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "分享图片。。这些就是我崩溃的原因。。",
+    "emotion": "angry",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "。我了个擦！！！出离愤怒了！！谢庭俊被补枪致死？！！",
+    "emotion": "angry",
+    "intensity": 0.9,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "额。。郁闷！！心酸人家不要吃这样的晚餐！！~~",
+    "emotion": "sad",
+    "intensity": 0.79,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我想哭，我想哭！！！",
+    "emotion": "sad",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "饿的想哭，想睡睡不着！！！那我真哭了！！！",
+    "emotion": "sad",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我现在很伤心，很窝火！！！！！还在下雨！！！",
+    "emotion": "sad",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "亲爱的~我们会用我们的爱为你拭干所有悲伤！我知道你很难过~哦~~~",
+    "emotion": "sad",
+    "intensity": 0.76,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "现在我真的好想回深圳。只有家人会给我最温暖的抱抱，不让我难过，伤心。",
+    "emotion": "sad",
+    "intensity": 0.69,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我也很伤心。。。",
+    "emotion": "sad",
+    "intensity": 0.62,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "阿根廷。我想哭。",
+    "emotion": "sad",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "其实我还是蛮伤心的。。。。",
+    "emotion": "sad",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "女流忙转世了？。:我想哭啊！",
+    "emotion": "sad",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我家狗宝宝得狗瘟了！好伤心啊！",
+    "emotion": "sad",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "希望不要寒冷我只是觉得悲伤。晚安。",
+    "emotion": "sad",
+    "intensity": 0.61,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "昨天和今天我的小鱼死了六条，我真的好伤心！",
+    "emotion": "sad",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "metoo张建波被淘汰啦，真是真是伤心死我了。",
+    "emotion": "sad",
+    "intensity": 0.62,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "心酸有时候我们穿灰姑娘的裙子却没童话中的结局~",
+    "emotion": "sad",
+    "intensity": 0.64,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "这个好假如生活欺骗了你，不要悲伤，我爸是李刚！",
+    "emotion": "sad",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我好想哭，老人家一路走好~~萨马兰奇先生，晚安！",
+    "emotion": "sad",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "谁在被等待~我不经常悲伤，只是等待真是一种酷刑。",
+    "emotion": "sad",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "第一次感觉到了失落那种感觉确实很不好！想哭",
+    "emotion": "sad",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "太感动了~特特,好心疼哦,我看着都想哭我留着我就是不看",
+    "emotion": "sad",
+    "intensity": 0.69,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "都在休息，我们却在上班，郁闷！！！",
+    "emotion": "sad",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "不睡满12个小时我怎么全身难受！！！",
+    "emotion": "sad",
+    "intensity": 0.64,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我想哭...苹果中国官方网站已经更新",
+    "emotion": "sad",
+    "intensity": 0.62,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "离开真的这么难吗？！我郁闷的头疼！！！",
+    "emotion": "sad",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "你需要悲伤的音乐来缓解情绪么...我需要",
+    "emotion": "sad",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我们的好总理哎看到这张照片，我想哭...",
+    "emotion": "sad",
+    "intensity": 0.62,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我郁闷了~咋就是弄不好呢！！！！！！！！",
+    "emotion": "sad",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我难受的时候还要替你着想是吗？？？？？！！！！",
+    "emotion": "sad",
+    "intensity": 0.64,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "啊啊啊啊啊啊啊啊啊~我发现我晒好黑鸟！！郁闷！！",
+    "emotion": "sad",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我手机掉了我好伤心",
+    "emotion": "sad",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好多低落的情绪，难过。期盼心情晴天的到来。你们都要保佑我。",
+    "emotion": "sad",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "有一只狗狗陪着很不错呀宝宝委屈了，这么难过却只有狗狗能一直听我哭~~",
+    "emotion": "sad",
+    "intensity": 0.64,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我难受...啊啊啊啊啊。",
+    "emotion": "sad",
+    "intensity": 0.56,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "心酸！山里的小孩子们竟这样上网…",
+    "emotion": "sad",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好委屈那小眼神...我臣服了我被你感動的！",
+    "emotion": "sad",
+    "intensity": 0.58,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我好想去洗头啊好想去啊...一天不洗头就难受。",
+    "emotion": "sad",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "先是想哭后是兴奋！",
+    "emotion": "sad",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "他在唱水手，好心酸。",
+    "emotion": "sad",
+    "intensity": 0.61,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "兄弟的离开，很伤心。",
+    "emotion": "sad",
+    "intensity": 0.62,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好难受啊我，头晕脑胀。",
+    "emotion": "sad",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哇难过太惨了我就想XXX！",
+    "emotion": "sad",
+    "intensity": 0.6,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我可怜的南南啊~委屈你了~",
+    "emotion": "sad",
+    "intensity": 0.59,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "你怎么这么难哄哒？我好累啊！",
+    "emotion": "sad",
+    "intensity": 0.59,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我怎么刚看到这个消息！难过！",
+    "emotion": "sad",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好累好累啊。我想睡觉睡觉睡觉。",
+    "emotion": "sad",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好累好累好累啊，丢。我要放假啊~！",
+    "emotion": "sad",
+    "intensity": 0.6,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我在为自己的能力买单！真的好累啊！",
+    "emotion": "sad",
+    "intensity": 0.62,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我好累啊！我们都活的简单点不好么？",
+    "emotion": "sad",
+    "intensity": 0.58,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我觉得自己没有走错方向，可是好累。",
+    "emotion": "sad",
+    "intensity": 0.56,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "老婆在加班，我就只能被加班。郁闷。",
+    "emotion": "sad",
+    "intensity": 0.56,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "如果你能让我不疲惫，我愿和你一起飞~",
+    "emotion": "sad",
+    "intensity": 0.58,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我对冷空气过敏，两个鼻孔痒得难受。。",
+    "emotion": "sad",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "偶滴个神啊~让不让我活了啊，难受的咧~",
+    "emotion": "sad",
+    "intensity": 0.6,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我的他终于败于大锤之下~~~~心疼呀！",
+    "emotion": "sad",
+    "intensity": 0.64,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "最爱你的人是我，你怎么射的我难过~~~",
+    "emotion": "sad",
+    "intensity": 0.6,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "·教我怎么能不难过。你劝我灭了心中的火。",
+    "emotion": "sad",
+    "intensity": 0.55,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "。看到这张图我心里很难受，卡卡要坚强啊！",
+    "emotion": "sad",
+    "intensity": 0.6,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "超郁闷。。。。那老师的意思是我还不行吗？",
+    "emotion": "sad",
+    "intensity": 0.56,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我的眼泪也这样滚落过。。。唉，看着就心疼！",
+    "emotion": "sad",
+    "intensity": 0.58,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "为什么总是我加班，别人都不加班呢？郁闷。。。",
+    "emotion": "sad",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "。我也好累。。。。。。累到没有力气。。。。。。",
+    "emotion": "sad",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "鼓足勇气，走回家的。好累啊。难过",
+    "emotion": "sad",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "。十个人拍摄累死我了！！",
+    "emotion": "sad",
+    "intensity": 0.6,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "工作好累啊！！！",
+    "emotion": "sad",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我快难受死了...",
+    "emotion": "sad",
+    "intensity": 0.55,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我怕自己再胖！郁闷中...",
+    "emotion": "sad",
+    "intensity": 0.58,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "照片已发，那只章鱼真让我郁闷啊啊啊...",
+    "emotion": "sad",
+    "intensity": 0.55,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "呀~~~~不想等我妹門到3點耶...好累喔",
+    "emotion": "sad",
+    "intensity": 0.61,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我不想...可是我必须...我也很难受...",
+    "emotion": "sad",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "很郁闷的我摆了个很郁闷的表情.我的笑不是笑...",
+    "emotion": "sad",
+    "intensity": 0.55,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "一堆事赶到一起来~弄得我焦头烂额！累死我算了！身心疲惫啊~",
+    "emotion": "sad",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我感冒了好难受啊",
+    "emotion": "sad",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好累啊，谁能帮我～～",
+    "emotion": "sad",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我的姑娘们要累死了，状态极差！",
+    "emotion": "sad",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "才到33级。。。。累死我了。。",
+    "emotion": "sad",
+    "intensity": 0.53,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "这一晚上，累死我了，唉~还让我破费200块。",
+    "emotion": "sad",
+    "intensity": 0.55,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "今天~哦不对~昨天大腿瘦2斤不解释~累死我了~",
+    "emotion": "sad",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好~难受~呜~...痛苦阿~",
+    "emotion": "sad",
+    "intensity": 0.62,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "曾经郁闷的星期二··没听他唱“想你时你在闹海…",
+    "emotion": "sad",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "老S~你的老AP超级疲惫的...想见你唠~~唉~",
+    "emotion": "sad",
+    "intensity": 0.61,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哗哗哗的郁闷~~",
+    "emotion": "sad",
+    "intensity": 0.58,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "失落了，寂寞了！",
+    "emotion": "sad",
+    "intensity": 0.59,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "感冒难受得。。。",
+    "emotion": "sad",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "真系好累。。。。",
+    "emotion": "sad",
+    "intensity": 0.55,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "胃有点难受。。。",
+    "emotion": "sad",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "难过的地震预测。",
+    "emotion": "sad",
+    "intensity": 0.55,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "今日肚痛，好难受。",
+    "emotion": "sad",
+    "intensity": 0.55,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "感冒了，好难受啊！",
+    "emotion": "sad",
+    "intensity": 0.6,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "今天感冒了，好难受！",
+    "emotion": "sad",
+    "intensity": 0.58,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好累呀！比上班还累！",
+    "emotion": "sad",
+    "intensity": 0.62,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "工作失误，很是失落。",
+    "emotion": "sad",
+    "intensity": 0.55,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "心疼了、花了那么多。",
+    "emotion": "sad",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "被人误会了，很委屈！",
+    "emotion": "sad",
+    "intensity": 0.6,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "还没来水，郁闷呀！~",
+    "emotion": "sad",
+    "intensity": 0.61,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我真怕我明天会累死...",
+    "emotion": "sad",
+    "intensity": 0.52,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "这周的闹闹星座也忒准了...累死我了...",
+    "emotion": "sad",
+    "intensity": 0.54,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "累死我了再也不通宵了",
+    "emotion": "sad",
+    "intensity": 0.54,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "来个人陪我吧，我怕一个人开夜路，会孤单会疯的。",
+    "emotion": "sad",
+    "intensity": 0.5,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "这背影看的心疼啊~泪奔了永远都是孤单的一个人",
+    "emotion": "sad",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "可难受了T_T…我草你妹啊马尼拉！",
+    "emotion": "sad",
+    "intensity": 0.6,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我的天啊，德云社停止演出啦！",
+    "emotion": "surprise",
+    "intensity": 0.8,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我的天啊，我的大學同學下個月結婚！不要?",
+    "emotion": "surprise",
+    "intensity": 0.81,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我的天啊，发条脖要了我半个小时，怎么越来越",
+    "emotion": "surprise",
+    "intensity": 0.77,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "刚才我就震惊了！！！",
+    "emotion": "surprise",
+    "intensity": 0.81,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "不会吧真的？真的假的？",
+    "emotion": "surprise",
+    "intensity": 0.79,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "今天中秋雨居然给我下下来，哎~~老天啊！",
+    "emotion": "surprise",
+    "intensity": 0.77,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我一直不厚道地认为有这个嫌疑。震惊！！！",
+    "emotion": "surprise",
+    "intensity": 0.8,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "没想到那竟然成为我诞生在微博之后的第一句话？",
+    "emotion": "surprise",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我的天啊，有才人士太多了现在知道法拉利和QQ的本质差别了吧。。。。。",
+    "emotion": "surprise",
+    "intensity": 0.77,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我的天oh...那姐姐真是够坏的~~",
+    "emotion": "surprise",
+    "intensity": 0.76,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "看出来了嘛看出来了嘛。我被震惊了。",
+    "emotion": "surprise",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "当她站在我身后，当时我就震惊了。。。",
+    "emotion": "surprise",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "==关于短信你不知道的数据图，我震惊！",
+    "emotion": "surprise",
+    "intensity": 0.76,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "震惊世界的短片！我承认我的心被震撼了！",
+    "emotion": "surprise",
+    "intensity": 0.78,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "靠，好蛋定！我的天。这只猫咪好像成精了！",
+    "emotion": "surprise",
+    "intensity": 0.77,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "天啊~我仲未落班啊~！！",
+    "emotion": "surprise",
+    "intensity": 0.75,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我嘞个去。。居然还喝酱油！！",
+    "emotion": "surprise",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": ":我地天啊，这也太像了吧相像！！",
+    "emotion": "surprise",
+    "intensity": 0.73,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "不会吧我怕冷啊童鞋们，注意了！！",
+    "emotion": "surprise",
+    "intensity": 0.73,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "夏天啊，快回来吧，我要冷死啦！！！！",
+    "emotion": "surprise",
+    "intensity": 0.74,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我高口竟然没过！！！还我那两百块！！",
+    "emotion": "surprise",
+    "intensity": 0.74,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "不会吧，这么恶劣，我给巨蟹的正名！！！",
+    "emotion": "surprise",
+    "intensity": 0.74,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好虾仁!天啊！他竟然能咬自己的鼻子!!",
+    "emotion": "surprise",
+    "intensity": 0.8,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "汗死！！表弟的小学数学我居然还会！！！",
+    "emotion": "surprise",
+    "intensity": 0.75,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "一85年的小子竟然说我像是90年生的？！",
+    "emotion": "surprise",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "陈凯歌囧。我的苍天啊！！！！！！这。。。",
+    "emotion": "surprise",
+    "intensity": 0.74,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "俾人叼得多我顶！呢条蛋散竟然会系人气用户？！",
+    "emotion": "surprise",
+    "intensity": 0.73,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "这难道就是传说中‘九载’？！我的苍天啊！哈~",
+    "emotion": "surprise",
+    "intensity": 0.75,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "正要出门，居然下起雨了，苍天啊~~你怎么可以这样对我呢？",
+    "emotion": "surprise",
+    "intensity": 0.75,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "不会吧、、我居然排第一、开虾米国际玩笑呢得多注意呀！射手座。",
+    "emotion": "surprise",
+    "intensity": 0.74,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "老公和他的情人…想不到…我們有第三者！",
+    "emotion": "surprise",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我只是没想到原来…生活，需要那么多力量。",
+    "emotion": "surprise",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "竟然比我的还多...彩色袜子控！紫色去哪了？",
+    "emotion": "surprise",
+    "intensity": 0.69,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "对不起，对不起，猪...我居然忘记你的生日了~",
+    "emotion": "surprise",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "白羊座——意大利...我居然是没落的非洲雄鹰？",
+    "emotion": "surprise",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我也纠结转还是不转呢...没想到这张海报是真的！",
+    "emotion": "surprise",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我竟然第12摩羯座。",
+    "emotion": "surprise",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "天啊，我是要有多疯狂？",
+    "emotion": "surprise",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "太囧了这片很让我惊讶！",
+    "emotion": "surprise",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "一觉醒来，我竟然有V了。",
+    "emotion": "surprise",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "夹子妙用，我咋就没想到呢？",
+    "emotion": "surprise",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "超现实的愿望~我咋没想到~",
+    "emotion": "surprise",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "妻子出差我回家竟然看到这个！",
+    "emotion": "surprise",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "对说：竟然没有了我的那句话。",
+    "emotion": "surprise",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我在自虐。。。居然通宵。。。",
+    "emotion": "surprise",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好嘢!我竟然有份!!:天秤座。",
+    "emotion": "surprise",
+    "intensity": 0.75,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "竟然被我抓到了太缘分了吧~~~",
+    "emotion": "surprise",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "居然有人问我读初几，我读初二啦！",
+    "emotion": "surprise",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我没看错吧,双鱼竟然上榜了天蝎座。",
+    "emotion": "surprise",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "0~~我竟然唔见左五个粉。可怜的我。",
+    "emotion": "surprise",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "晕死，我的同事居然问我订书机怎么用？",
+    "emotion": "surprise",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "点解咁得意的？？微博居然要我改名！？",
+    "emotion": "surprise",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "。地球上居然还有这货，让我回火星吧~~",
+    "emotion": "surprise",
+    "intensity": 0.69,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "居然遇到了克星。。。我想大哭一场。。。",
+    "emotion": "surprise",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我味觉绝对有问题，竟然把苹果吃成咸的。",
+    "emotion": "surprise",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "杯具。。。。超现实的愿望~我咋没想到~",
+    "emotion": "surprise",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "自责和期待交替，我居然一把年纪还追星。",
+    "emotion": "surprise",
+    "intensity": 0.66,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "TND，我们家楼上竟然在叫床，声音巨大。",
+    "emotion": "surprise",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "居然不是杀手，而是仇家，求更多真相我靠！",
+    "emotion": "surprise",
+    "intensity": 0.69,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我竟然自己把浴帘弄好了，太意外了，超棒！",
+    "emotion": "surprise",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "无敌眼训~天啊~唔好卑我咁得闲得唔得啊~",
+    "emotion": "surprise",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "看看鱼鱼果然重情吧我居然重色男女都重情。",
+    "emotion": "surprise",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "竟然推迟开学日，我多年的梦想终于实现了。",
+    "emotion": "surprise",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "都什么时候了竟然还有蚊子在我家横行霸道~",
+    "emotion": "surprise",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "黑豹主唱换了，我竟然都不认识这个乐队了！",
+    "emotion": "surprise",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哇~~~我居然也都想要诶~！全部都想求~~",
+    "emotion": "surprise",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我的神。。咋这么好玩小乖，最后它居然笑了！",
+    "emotion": "surprise",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我靠，现在竟然还有药不用糖衣裹着！苦死我了！",
+    "emotion": "surprise",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "竟然买黑色的，太令人失望了！不过~关我鸟事。",
+    "emotion": "surprise",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "上一个月居然一个考勤都没有。。。我失踪了。。。",
+    "emotion": "surprise",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "今日中午竟然有三个人约我吃饭，饭局运何其旺盛~",
+    "emotion": "surprise",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "半夜三点钟居然还有人给我打电话，真的是杀人啊！",
+    "emotion": "surprise",
+    "intensity": 0.69,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "咦我的电脑居然没有弹窗QQ也好好的嘛歧视我所。",
+    "emotion": "surprise",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "shit~居然突然断电~我恨啊！！AE没保存呀！！！！",
+    "emotion": "surprise",
+    "intensity": 0.82,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "对说：突然发现，我居然是你的第222个粉丝！！难道我真的那么2吗？",
+    "emotion": "surprise",
+    "intensity": 0.76,
+    "intensity_bucket": "strong",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "突然发现我太帅了！看我够帅嘛？！",
+    "emotion": "surprise",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "突然醒起，你仲差我两张相啊~~！！",
+    "emotion": "surprise",
+    "intensity": 0.72,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "突然发现自己好有才，他居然被我吓跑！看来我还是不要说话了比较好~",
+    "emotion": "surprise",
+    "intensity": 0.74,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哥哥說在吃燒烤，我好可憐...我突然就餓了。",
+    "emotion": "surprise",
+    "intensity": 0.62,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我更想你啊~~~突然好想你。",
+    "emotion": "surprise",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哎，突然觉得我这人也太好了吧！",
+    "emotion": "surprise",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "突然发现我对围脖好不了解。。。",
+    "emotion": "surprise",
+    "intensity": 0.62,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "怎么让我突然想起了《集结号》。。。",
+    "emotion": "surprise",
+    "intensity": 0.62,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "突然有种坐以待毙的感觉。凶手是我。",
+    "emotion": "surprise",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "不知道你突然是怎么了？？我的超人？？",
+    "emotion": "surprise",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我的有道突然就不发音了，怎么办？？？？",
+    "emotion": "surprise",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "多酥落哟！？我中午突然想吃麻辣香锅。。。",
+    "emotion": "surprise",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我突然想杀了某位发型师！为什么会那样子！",
+    "emotion": "surprise",
+    "intensity": 0.68,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "突然想起以前一位同事说的话：我吃什么呢？",
+    "emotion": "surprise",
+    "intensity": 0.64,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我突然发现大家瞬间都低谷了~~真太不好了~！",
+    "emotion": "surprise",
+    "intensity": 0.71,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我突然觉得老中国僵尸系列的骗子蛮好看的。。。",
+    "emotion": "surprise",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "今天突然发现，我家宝宝从侧面看有点像北川妹妹~",
+    "emotion": "surprise",
+    "intensity": 0.67,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好险呐！！！虚惊一场，吓死我啦！！！",
+    "emotion": "surprise",
+    "intensity": 0.7,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "看了些诡异的恐怖的故事，吓死我了！！！！",
+    "emotion": "surprise",
+    "intensity": 0.69,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "哇靠~我頂不順，太恐怖了收埋先…吓死我啦。。",
+    "emotion": "surprise",
+    "intensity": 0.61,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "在家看到的么？大清早，看见只死老鼠…吓死我了…",
+    "emotion": "surprise",
+    "intensity": 0.61,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "大半夜的放炮仗==吓死我了刚才。。。。",
+    "emotion": "surprise",
+    "intensity": 0.61,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好纠结到底要不要看下去，真的吓死我了！",
+    "emotion": "surprise",
+    "intensity": 0.64,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "吓死人了!不知道这事儿后来怎么样了，我真哭了。",
+    "emotion": "surprise",
+    "intensity": 0.63,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "就因为我说一块然后吃了三块吗，突然电闪雷鸣狂风暴雨！哇！吓死人了！",
+    "emotion": "surprise",
+    "intensity": 0.73,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我表示我一定要淡定的入睡！！！",
+    "emotion": "calm",
+    "intensity": 0.58,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "猫咪好淡定哦！敢和我比手快？！",
+    "emotion": "calm",
+    "intensity": 0.54,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "猫咪淡定的表情“就不让你压住我！！！”。。。。。。。",
+    "emotion": "calm",
+    "intensity": 0.58,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "“如果你能拿掉‘我’和‘要’，就能宁静。”",
+    "emotion": "calm",
+    "intensity": 0.53,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "子夜，想你…安静的日文歌陪我入眠…宝贝赶紧呼呼吧~",
+    "emotion": "calm",
+    "intensity": 0.48,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我了打针要放松噢~",
+    "emotion": "calm",
+    "intensity": 0.51,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "用宁静心拥抱世界！",
+    "emotion": "calm",
+    "intensity": 0.56,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "一个惬意的午后！难得人齐啊！",
+    "emotion": "calm",
+    "intensity": 0.59,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "一早坐在窗前掏耳朵挺惬意的。",
+    "emotion": "calm",
+    "intensity": 0.53,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我们要学会淡定，必须学会。。。",
+    "emotion": "calm",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "淡定！我去你大爷的，蛋了个定啊！",
+    "emotion": "calm",
+    "intensity": 0.53,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我要争取今天写完，明天安心看世界杯！",
+    "emotion": "calm",
+    "intensity": 0.5,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好感谢你告诉我们听啊耳朵莫问题！安心！",
+    "emotion": "calm",
+    "intensity": 0.55,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我就做一只猫吧，安安心心等着认领~~~",
+    "emotion": "calm",
+    "intensity": 0.54,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "看到这个国家的地铁站我当时就淡定了。。",
+    "emotion": "calm",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "一个平静和谐的窝，这是我现在要努力的方向。",
+    "emotion": "calm",
+    "intensity": 0.47,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "。“转自人民网”。保你安然无事。此招屡试不爽。",
+    "emotion": "calm",
+    "intensity": 0.54,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "今天又不淡定的发火了！我是如此之不淡定呀。。。",
+    "emotion": "calm",
+    "intensity": 0.52,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "听日都仲系周末~~~~很安静地渡过了我的周末。",
+    "emotion": "calm",
+    "intensity": 0.52,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "旁边那位，太淡定了吧！昨天的我，就是这种状态。",
+    "emotion": "calm",
+    "intensity": 0.5,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "杨帆。淡定哥~==大家很愛給我取綽號啊·淡定~",
+    "emotion": "calm",
+    "intensity": 0.51,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "终于睡到自然醒起床，哄哄太阳迎接，好惬意的开始。",
+    "emotion": "calm",
+    "intensity": 0.53,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "这两天老是半夜醒来！啥时候能让我睡个安稳的觉呢！",
+    "emotion": "calm",
+    "intensity": 0.55,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我要做世界上最随和淡定的媒介。你能接受的。over。",
+    "emotion": "calm",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "...我自闲庭信步太淡定了",
+    "emotion": "calm",
+    "intensity": 0.48,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "淡定！神马叫淡定？淡你个定！！",
+    "emotion": "calm",
+    "intensity": 0.58,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好明?她挥了挥手！！！怎么淡定？！",
+    "emotion": "calm",
+    "intensity": 0.58,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "呀...这张在干嘛啊，我不淡定了你们呢",
+    "emotion": "calm",
+    "intensity": 0.48,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "爷淡定淡定。。。录音的电脑刚在发神经！！",
+    "emotion": "calm",
+    "intensity": 0.54,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "又可以放松下了...继续我的Lost...",
+    "emotion": "calm",
+    "intensity": 0.47,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "搞得我不淡定了...泰国最美人妖皇后Poy",
+    "emotion": "calm",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "玉溪是一个简单的地方让人安静不再饰演悲剧！！！",
+    "emotion": "calm",
+    "intensity": 0.56,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "今天发射嫦娥二号，为嘛我从头到尾如此淡定？...",
+    "emotion": "calm",
+    "intensity": 0.48,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "成精鸟...主人,你就安心出門吧,家里我幫你看著",
+    "emotion": "calm",
+    "intensity": 0.48,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "知道你过得不好我就安心勒",
+    "emotion": "calm",
+    "intensity": 0.47,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我不淡定了。更淡定了！、、",
+    "emotion": "calm",
+    "intensity": 0.51,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我很淡定童鞋要大家不淡定的",
+    "emotion": "calm",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "。我可以安心地回去未来世界了",
+    "emotion": "calm",
+    "intensity": 0.47,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我会加油的，但就今天放松一下吧",
+    "emotion": "calm",
+    "intensity": 0.47,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我又不淡定了某人一直卖萌发拼图",
+    "emotion": "calm",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "有时候，无欲无求才是王道！我淡定",
+    "emotion": "calm",
+    "intensity": 0.52,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "这次真的要安心读书了我要好好过新年",
+    "emotion": "calm",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "大晴天的，我的心情里却看不到一丝淡定",
+    "emotion": "calm",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我要走回低调淡定路线了，还是这路线最适合我",
+    "emotion": "calm",
+    "intensity": 0.47,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "看你欢乐得我都没法安心看书了，你在干嘛捏藝，",
+    "emotion": "calm",
+    "intensity": 0.47,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "不淡定了:美女装图嘿嘿~我把银子给换成了金元宝了",
+    "emotion": "calm",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "我笑了淡定~一定要淡定。。。（不准笑，笑了就要）",
+    "emotion": "calm",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "这是什么虫虫？要是换成我，早就不淡定了。。。吼吼",
+    "emotion": "calm",
+    "intensity": 0.47,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "润淡定妹各自纠结...要淡定！要平和！",
+    "emotion": "calm",
+    "intensity": 0.54,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "淡定了！要保持！",
+    "emotion": "calm",
+    "intensity": 0.55,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "淡定！淡定。。。",
+    "emotion": "calm",
+    "intensity": 0.52,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "够准够淡定，也够假的！~",
+    "emotion": "calm",
+    "intensity": 0.53,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "晚安心随路转，心路常宽！",
+    "emotion": "calm",
+    "intensity": 0.52,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "淡定淡定，最近要安分点。",
+    "emotion": "calm",
+    "intensity": 0.47,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "难得悠闲的午后时光啊~~~",
+    "emotion": "calm",
+    "intensity": 0.53,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "心情平静。你今天心情怎么样？",
+    "emotion": "calm",
+    "intensity": 0.47,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "诶~都是苹果害的~不淡定了~",
+    "emotion": "calm",
+    "intensity": 0.53,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "安静的成长，一个人，在人群中。",
+    "emotion": "calm",
+    "intensity": 0.47,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "淡定界天才这觉睡得无比的低调！",
+    "emotion": "calm",
+    "intensity": 0.51,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "经典狗刨式上演！超淡定神情~~",
+    "emotion": "calm",
+    "intensity": 0.53,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "西班牙果然勝出,安心睡,晚安！",
+    "emotion": "calm",
+    "intensity": 0.51,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "一日不出货，一日不淡定。水饺去~",
+    "emotion": "calm",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "菲姐說了,世上无难事只要肯淡定~",
+    "emotion": "calm",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "坤哥性情中人！偷豆不为窃。方安心。",
+    "emotion": "calm",
+    "intensity": 0.5,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "没有体育课··！悠闲的一下午··！",
+    "emotion": "calm",
+    "intensity": 0.54,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "勿以涨喜，勿以跌悲！要淡定!要低调！",
+    "emotion": "calm",
+    "intensity": 0.56,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "小白TWO。一个很激动。一个很淡定。",
+    "emotion": "calm",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "这是准备就义么。。。。打针要放松噢~",
+    "emotion": "calm",
+    "intensity": 0.5,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "又要迎来新的一周了，悠闲状态即将终结~",
+    "emotion": "calm",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "彻底无语。。。。看别人相亲一定要淡定！",
+    "emotion": "calm",
+    "intensity": 0.52,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "那是相当地淡定凤姐纽约面试，大秀英语。",
+    "emotion": "calm",
+    "intensity": 0.47,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "。为何总是有状况的呢？就不能安稳一点么？",
+    "emotion": "calm",
+    "intensity": 0.48,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "今日的整饰工程好似安静小小。。。。窃喜！",
+    "emotion": "calm",
+    "intensity": 0.52,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "帅气的狗狗哦！很淡定的表情，太拉风了啦！",
+    "emotion": "calm",
+    "intensity": 0.54,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "神功护体，天下无敌！蛋定~~淡定啊~~~",
+    "emotion": "calm",
+    "intensity": 0.55,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "五十步笑百步，彼此彼此啦！淡定要淡定~~！",
+    "emotion": "calm",
+    "intensity": 0.58,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "意外还是发生，一只纠结的鸽子，淡定。。。。",
+    "emotion": "calm",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "真是淡定摄影的童鞋真是淡定~~~三峡泄了。",
+    "emotion": "calm",
+    "intensity": 0.53,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "金刚换了性取向介个。。。介个。。谁能淡定？",
+    "emotion": "calm",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "大爱这张啊。。自信、淡定地看着满场绿光。。。",
+    "emotion": "calm",
+    "intensity": 0.47,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "太搞笑了。搞定！终于可以安心去上班啦。。。。",
+    "emotion": "calm",
+    "intensity": 0.51,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "忙了一天，该放松一下了，去五道口的夜市逛逛！",
+    "emotion": "calm",
+    "intensity": 0.5,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "安心制造。。。。。。。。。原來超級粉絲長這樣？",
+    "emotion": "calm",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "希望有一天能做得出来期待周末的的悠闲时光。。。",
+    "emotion": "calm",
+    "intensity": 0.47,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "淡定帝淡定的人生，淡定的哥！哥。。你好淡定~~",
+    "emotion": "calm",
+    "intensity": 0.55,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "瞧狗狗也赶上时髦，练起瑜珈来了！泰然自若淡定！",
+    "emotion": "calm",
+    "intensity": 0.54,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "中国大陆贫富标准线.看看你在什么位置!淡定。。。",
+    "emotion": "calm",
+    "intensity": 0.51,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "太...别放，太松了！！！下班了，就该放松放松了",
+    "emotion": "calm",
+    "intensity": 0.57,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "文章有点长啊，高潮在后边！看别人相亲一定要淡定！",
+    "emotion": "calm",
+    "intensity": 0.55,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "睡个安稳觉，感激每天自己仍然能为生活折腾！好梦！",
+    "emotion": "calm",
+    "intensity": 0.53,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "困了就要睡=^.^=?亲爱的，你安心睡吧，我给你站岗。",
+    "emotion": "calm",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "这几天微博真安静...",
+    "emotion": "calm",
+    "intensity": 0.47,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "忽然间感觉世界变安静了...",
+    "emotion": "calm",
+    "intensity": 0.49,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "为何你看着书外的眼神，平静如水...",
+    "emotion": "calm",
+    "intensity": 0.47,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "好玩老...老公...你们...（大家放松片刻）",
+    "emotion": "calm",
+    "intensity": 0.48,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "最后俩人转身哈淡定...真够快！瞬间隐身空无一人",
+    "emotion": "calm",
+    "intensity": 0.5,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "这样不吵不闹，静静的感觉很好。",
+    "emotion": "calm",
+    "intensity": 0.45,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "低眉敛目的温柔，静静的流泄出来，弥漫进心田。",
+    "emotion": "calm",
+    "intensity": 0.46,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "平静、淡定、自然、温馨，确实很放松！太凶猛＼太夸张！下班了，就该放松放松了",
+    "emotion": "calm",
+    "intensity": 0.65,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  },
+  {
+    "text": "心里说：我操！真背??。哥。。你好淡定~~",
+    "emotion": "calm",
+    "intensity": 0.53,
+    "intensity_bucket": "medium",
+    "source": "weibo_mined_large"
+  }
+]
