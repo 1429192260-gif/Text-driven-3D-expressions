@@ -1,0 +1,114 @@
+{
+  "config": {
+    "data_path": "data/full_samples_804.json",
+    "expression_checkpoint": "outputs/prior_fusion_full_mapper.pt",
+    "classifier_checkpoint": "outputs/text_only_emotion_base_classifier.pt",
+    "frontend_backend": "hf_local",
+    "hf_model_dir": "models\\Chinese-Emotion-Small",
+    "seed": 42,
+    "test_count": 40,
+    "test_source": "manual_only"
+  },
+  "upper_bound": {
+    "mae": 0.004558973014354706,
+    "rmse": 0.012615307234227657,
+    "active_mae": 0.020123742520809174
+  },
+  "text_only": {
+    "mae": 0.02641225978732109,
+    "rmse": 0.07846485078334808,
+    "active_mae": 0.09863124787807465
+  },
+  "records_preview": [
+    {
+      "text": "我好像对什么都提不起兴趣。#19",
+      "true_emotion": "bored",
+      "true_intensity": 0.85,
+      "pred_emotion": "bored",
+      "pred_intensity": 0.47,
+      "emotion_confidence": 0.9279,
+      "raw_frontend_label": "calm"
+    },
+    {
+      "text": "这些内容听得我直走神。#2",
+      "true_emotion": "bored",
+      "true_intensity": 0.39,
+      "pred_emotion": "bored",
+      "pred_intensity": 0.45,
+      "emotion_confidence": 0.5813,
+      "raw_frontend_label": "disgust"
+    },
+    {
+      "text": "终于忙完了，可以好好休息一下了。",
+      "true_emotion": "calm",
+      "true_intensity": 0.53,
+      "pred_emotion": "calm",
+      "pred_intensity": 0.43,
+      "emotion_confidence": 0.984,
+      "raw_frontend_label": "calm"
+    },
+    {
+      "text": "明明很困，躺在床上却怎么也睡不着。",
+      "true_emotion": "sad",
+      "true_intensity": 0.62,
+      "pred_emotion": "sad",
+      "pred_intensity": 0.64,
+      "emotion_confidence": 0.9743,
+      "raw_frontend_label": "sad"
+    },
+    {
+      "text": "这事让我有点不舒服，心里直犯躁。",
+      "true_emotion": "angry",
+      "true_intensity": 0.39,
+      "pred_emotion": "disgust",
+      "pred_intensity": 0.58,
+      "emotion_confidence": 0.9631,
+      "raw_frontend_label": "disgust"
+    },
+    {
+      "text": "看着外面天都黑了，他怎么还没到家。",
+      "true_emotion": "concern",
+      "true_intensity": 0.74,
+      "pred_emotion": "concern",
+      "pred_intensity": 0.58,
+      "emotion_confidence": 0.9404,
+      "raw_frontend_label": "calm"
+    },
+    {
+      "text": "我想相信没事，但还是会不自觉地多想。",
+      "true_emotion": "concern",
+      "true_intensity": 0.46,
+      "pred_emotion": "concern",
+      "pred_intensity": 0.5,
+      "emotion_confidence": 0.9163,
+      "raw_frontend_label": "sad"
+    },
+    {
+      "text": "别说了，我不想听细节。",
+      "true_emotion": "disgust",
+      "true_intensity": 0.71,
+      "pred_emotion": "disgust",
+      "pred_intensity": 0.69,
+      "emotion_confidence": 0.9575,
+      "raw_frontend_label": "calm"
+    },
+    {
+      "text": "听完之后，我整个人都轻快了不少。",
+      "true_emotion": "happy",
+      "true_intensity": 0.66,
+      "pred_emotion": "happy",
+      "pred_intensity": 0.7,
+      "emotion_confidence": 0.9581,
+      "raw_frontend_label": "calm"
+    },
+    {
+      "text": "我先沉默了一下，然后只想离这件事远点。",
+      "true_emotion": "disgust",
+      "true_intensity": 0.57,
+      "pred_emotion": "disgust",
+      "pred_intensity": 0.56,
+      "emotion_confidence": 0.5895,
+      "raw_frontend_label": "sad"
+    }
+  ]
+}

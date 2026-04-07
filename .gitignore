@@ -9,3 +9,5 @@ outputs/
 .DS_Store
 
 data/weibo_cleaned.json
+
+models/Chinese-Emotion-Small/
