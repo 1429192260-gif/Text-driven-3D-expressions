@@ -1,0 +1,2009 @@
+{
+  "config": {
+    "data_path": "data/full_samples_804.json",
+    "expression_checkpoint": "outputs/prior_fusion_804_source_holdout_strict_mapper.pt",
+    "learned_checkpoint": "outputs/text_only_emotion8_base_classifier.pt",
+    "case_count": 16,
+    "selection": "manual-only source_holdout test set, 2 cases per emotion"
+  },
+  "summary": {
+    "learned": {
+      "mean_case_param_mae": 0.067369,
+      "count": 16
+    },
+    "hf_raw": {
+      "mean_case_param_mae": 0.074353,
+      "count": 16
+    },
+    "hf_rules_v4": {
+      "mean_case_param_mae": 0.019119,
+      "count": 16
+    }
+  },
+  "records": [
+    {
+      "text": "今天终于有件事按我想的来了，心情不错。",
+      "true_emotion": "happy",
+      "true_intensity": 0.61,
+      "variants": {
+        "learned": {
+          "pred_emotion": "happy",
+          "pred_intensity": 0.68,
+          "confidence": 0.9998,
+          "raw_frontend_label": "happy",
+          "param_mae": 0.005106,
+          "top_param_diffs": [
+            {
+              "name": "mouthSmileRight",
+              "abs_diff": 0.0433,
+              "pred": 0.4433,
+              "target": 0.4
+            },
+            {
+              "name": "eyeSquintLeft",
+              "abs_diff": 0.0248,
+              "pred": 0.1848,
+              "target": 0.16
+            },
+            {
+              "name": "mouthSmileLeft",
+              "abs_diff": 0.0226,
+              "pred": 0.4326,
+              "target": 0.41
+            },
+            {
+              "name": "eyeSquintRight",
+              "abs_diff": 0.0209,
+              "pred": 0.1909,
+              "target": 0.17
+            },
+            {
+              "name": "browInnerUp",
+              "abs_diff": 0.0007,
+              "pred": 0.0907,
+              "target": 0.09
+            }
+          ]
+        },
+        "hf_raw": {
+          "pred_emotion": "happy",
+          "pred_intensity": 0.64,
+          "confidence": 0.9894,
+          "raw_frontend_label": "happy",
+          "param_mae": 0.001995,
+          "top_param_diffs": [
+            {
+              "name": "mouthSmileRight",
+              "abs_diff": 0.0174,
+              "pred": 0.4174,
+              "target": 0.4
+            },
+            {
+              "name": "eyeSquintLeft",
+              "abs_diff": 0.0102,
+              "pred": 0.1702,
+              "target": 0.16
+            },
+            {
+              "name": "eyeSquintRight",
+              "abs_diff": 0.0068,
+              "pred": 0.1768,
+              "target": 0.17
+            },
+            {
+              "name": "browInnerUp",
+              "abs_diff": 0.0056,
+              "pred": 0.0844,
+              "target": 0.09
+            },
+            {
+              "name": "mouthSmileLeft",
+              "abs_diff": 0.0039,
+              "pred": 0.4061,
+              "target": 0.41
+            }
+          ]
+        },
+        "hf_rules_v4": {
+          "pred_emotion": "happy",
+          "pred_intensity": 0.64,
+          "confidence": 0.9894,
+          "raw_frontend_label": "happy",
+          "param_mae": 0.001995,
+          "top_param_diffs": [
+            {
+              "name": "mouthSmileRight",
+              "abs_diff": 0.0174,
+              "pred": 0.4174,
+              "target": 0.4
+            },
+            {
+              "name": "eyeSquintLeft",
+              "abs_diff": 0.0102,
+              "pred": 0.1702,
+              "target": 0.16
+            },
+            {
+              "name": "eyeSquintRight",
+              "abs_diff": 0.0068,
+              "pred": 0.1768,
+              "target": 0.17
+            },
+            {
+              "name": "browInnerUp",
+              "abs_diff": 0.0056,
+              "pred": 0.0844,
+              "target": 0.09
+            },
+            {
+              "name": "mouthSmileLeft",
+              "abs_diff": 0.0039,
+              "pred": 0.4061,
+              "target": 0.41
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "哈哈，真的没白等，我现在特别开心。",
+      "true_emotion": "happy",
+      "true_intensity": 0.82,
+      "variants": {
+        "learned": {
+          "pred_emotion": "happy",
+          "pred_intensity": 0.76,
+          "confidence": 0.9929,
+          "raw_frontend_label": "happy",
+          "param_mae": 0.013424,
+          "top_param_diffs": [
+            {
+              "name": "mouthSmileRight",
+              "abs_diff": 0.0946,
+              "pred": 0.4854,
+              "target": 0.58
+            },
+            {
+              "name": "mouthSmileLeft",
+              "abs_diff": 0.0839,
+              "pred": 0.4961,
+              "target": 0.58
+            },
+            {
+              "name": "eyeSquintRight",
+              "abs_diff": 0.0482,
+              "pred": 0.2118,
+              "target": 0.26
+            },
+            {
+              "name": "eyeSquintLeft",
+              "abs_diff": 0.0403,
+              "pred": 0.2197,
+              "target": 0.26
+            },
+            {
+              "name": "browInnerUp",
+              "abs_diff": 0.0284,
+              "pred": 0.0916,
+              "target": 0.12
+            }
+          ]
+        },
+        "hf_raw": {
+          "pred_emotion": "happy",
+          "pred_intensity": 0.72,
+          "confidence": 0.9908,
+          "raw_frontend_label": "happy",
+          "param_mae": 0.01739,
+          "top_param_diffs": [
+            {
+              "name": "mouthSmileRight",
+              "abs_diff": 0.1204,
+              "pred": 0.4596,
+              "target": 0.58
+            },
+            {
+              "name": "mouthSmileLeft",
+              "abs_diff": 0.1102,
+              "pred": 0.4698,
+              "target": 0.58
+            },
+            {
+              "name": "eyeSquintRight",
+              "abs_diff": 0.0623,
+              "pred": 0.1977,
+              "target": 0.26
+            },
+            {
+              "name": "eyeSquintLeft",
+              "abs_diff": 0.0549,
+              "pred": 0.2051,
+              "target": 0.26
+            },
+            {
+              "name": "browInnerUp",
+              "abs_diff": 0.0348,
+              "pred": 0.0852,
+              "target": 0.12
+            }
+          ]
+        },
+        "hf_rules_v4": {
+          "pred_emotion": "happy",
+          "pred_intensity": 0.77,
+          "confidence": 0.9908,
+          "raw_frontend_label": "happy",
+          "param_mae": 0.012431,
+          "top_param_diffs": [
+            {
+              "name": "mouthSmileRight",
+              "abs_diff": 0.0882,
+              "pred": 0.4918,
+              "target": 0.58
+            },
+            {
+              "name": "mouthSmileLeft",
+              "abs_diff": 0.0773,
+              "pred": 0.5027,
+              "target": 0.58
+            },
+            {
+              "name": "eyeSquintRight",
+              "abs_diff": 0.0446,
+              "pred": 0.2154,
+              "target": 0.26
+            },
+            {
+              "name": "eyeSquintLeft",
+              "abs_diff": 0.0366,
+              "pred": 0.2234,
+              "target": 0.26
+            },
+            {
+              "name": "browInnerUp",
+              "abs_diff": 0.0268,
+              "pred": 0.0932,
+              "target": 0.12
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "整个人都提不起精神。#3",
+      "true_emotion": "sad",
+      "true_intensity": 0.45,
+      "variants": {
+        "learned": {
+          "pred_emotion": "sad",
+          "pred_intensity": 0.54,
+          "confidence": 0.7299,
+          "raw_frontend_label": "sad",
+          "param_mae": 0.012311,
+          "top_param_diffs": [
+            {
+              "name": "mouthFrownRight",
+              "abs_diff": 0.0763,
+              "pred": 0.3363,
+              "target": 0.26
+            },
+            {
+              "name": "mouthFrownLeft",
+              "abs_diff": 0.0647,
+              "pred": 0.3447,
+              "target": 0.28
+            },
+            {
+              "name": "browInnerUp",
+              "abs_diff": 0.0601,
+              "pred": 0.3001,
+              "target": 0.24
+            },
+            {
+              "name": "eyeSquintRight",
+              "abs_diff": 0.0406,
+              "pred": 0.1406,
+              "target": 0.1
+            },
+            {
+              "name": "eyeSquintLeft",
+              "abs_diff": 0.0291,
+              "pred": 0.1491,
+              "target": 0.12
+            }
+          ]
+        },
+        "hf_raw": {
+          "pred_emotion": "angry",
+          "pred_intensity": 0.7,
+          "confidence": 0.4868,
+          "raw_frontend_label": "angry",
+          "param_mae": 0.133993,
+          "top_param_diffs": [
+            {
+              "name": "browDownRight",
+              "abs_diff": 0.5203,
+              "pred": 0.5203,
+              "target": 0.0
+            },
+            {
+              "name": "browDownLeft",
+              "abs_diff": 0.507,
+              "pred": 0.507,
+              "target": 0.0
+            },
+            {
+              "name": "mouthPressRight",
+              "abs_diff": 0.3878,
+              "pred": 0.3878,
+              "target": 0.0
+            },
+            {
+              "name": "mouthPressLeft",
+              "abs_diff": 0.366,
+              "pred": 0.366,
+              "target": 0.0
+            },
+            {
+              "name": "mouthFrownLeft",
+              "abs_diff": 0.28,
+              "pred": 0.0,
+              "target": 0.28
+            }
+          ]
+        },
+        "hf_rules_v4": {
+          "pred_emotion": "sad",
+          "pred_intensity": 0.58,
+          "confidence": 0.4868,
+          "raw_frontend_label": "angry",
+          "param_mae": 0.016792,
+          "top_param_diffs": [
+            {
+              "name": "mouthFrownRight",
+              "abs_diff": 0.1024,
+              "pred": 0.3624,
+              "target": 0.26
+            },
+            {
+              "name": "mouthFrownLeft",
+              "abs_diff": 0.091,
+              "pred": 0.371,
+              "target": 0.28
+            },
+            {
+              "name": "browInnerUp",
+              "abs_diff": 0.0844,
+              "pred": 0.3244,
+              "target": 0.24
+            },
+            {
+              "name": "eyeSquintRight",
+              "abs_diff": 0.0512,
+              "pred": 0.1512,
+              "target": 0.1
+            },
+            {
+              "name": "eyeSquintLeft",
+              "abs_diff": 0.0404,
+              "pred": 0.1604,
+              "target": 0.12
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "我现在一点都高兴不起来，越想越委屈。",
+      "true_emotion": "sad",
+      "true_intensity": 0.86,
+      "variants": {
+        "learned": {
+          "pred_emotion": "surprise",
+          "pred_intensity": 0.69,
+          "confidence": 0.8825,
+          "raw_frontend_label": "surprise",
+          "param_mae": 0.204003,
+          "top_param_diffs": [
+            {
+              "name": "mouthFrownRight",
+              "abs_diff": 0.6,
+              "pred": 0.0,
+              "target": 0.6
+            },
+            {
+              "name": "mouthFrownLeft",
+              "abs_diff": 0.59,
+              "pred": 0.0,
+              "target": 0.59
+            },
+            {
+              "name": "eyeWideLeft",
+              "abs_diff": 0.544,
+              "pred": 0.544,
+              "target": 0.0
+            },
+            {
+              "name": "eyeWideRight",
+              "abs_diff": 0.525,
+              "pred": 0.525,
+              "target": 0.0
+            },
+            {
+              "name": "browOuterUpLeft",
+              "abs_diff": 0.5001,
+              "pred": 0.5001,
+              "target": 0.0
+            }
+          ]
+        },
+        "hf_raw": {
+          "pred_emotion": "sad",
+          "pred_intensity": 0.5,
+          "confidence": 0.9844,
+          "raw_frontend_label": "sad",
+          "param_mae": 0.050005,
+          "top_param_diffs": [
+            {
+              "name": "mouthFrownRight",
+              "abs_diff": 0.3049,
+              "pred": 0.2951,
+              "target": 0.6
+            },
+            {
+              "name": "mouthFrownLeft",
+              "abs_diff": 0.2986,
+              "pred": 0.2914,
+              "target": 0.59
+            },
+            {
+              "name": "browInnerUp",
+              "abs_diff": 0.2293,
+              "pred": 0.2507,
+              "target": 0.48
+            },
+            {
+              "name": "eyeSquintLeft",
+              "abs_diff": 0.1337,
+              "pred": 0.1063,
+              "target": 0.24
+            },
+            {
+              "name": "eyeSquintRight",
+              "abs_diff": 0.1335,
+              "pred": 0.1165,
+              "target": 0.25
+            }
+          ]
+        },
+        "hf_rules_v4": {
+          "pred_emotion": "sad",
+          "pred_intensity": 0.68,
+          "confidence": 0.9844,
+          "raw_frontend_label": "sad",
+          "param_mae": 0.029626,
+          "top_param_diffs": [
+            {
+              "name": "mouthFrownRight",
+              "abs_diff": 0.1854,
+              "pred": 0.4146,
+              "target": 0.6
+            },
+            {
+              "name": "mouthFrownLeft",
+              "abs_diff": 0.1798,
+              "pred": 0.4102,
+              "target": 0.59
+            },
+            {
+              "name": "browInnerUp",
+              "abs_diff": 0.1222,
+              "pred": 0.3578,
+              "target": 0.48
+            },
+            {
+              "name": "eyeSquintRight",
+              "abs_diff": 0.0825,
+              "pred": 0.1675,
+              "target": 0.25
+            },
+            {
+              "name": "eyeSquintLeft",
+              "abs_diff": 0.0818,
+              "pred": 0.1582,
+              "target": 0.24
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "这事让我有点不舒服，心里直犯躁。",
+      "true_emotion": "angry",
+      "true_intensity": 0.39,
+      "variants": {
+        "learned": {
+          "pred_emotion": "surprise",
+          "pred_intensity": 0.69,
+          "confidence": 0.9,
+          "raw_frontend_label": "surprise",
+          "param_mae": 0.148081,
+          "top_param_diffs": [
+            {
+              "name": "eyeWideRight",
+              "abs_diff": 0.5606,
+              "pred": 0.5606,
+              "target": 0.0
+            },
+            {
+              "name": "eyeWideLeft",
+              "abs_diff": 0.5542,
+              "pred": 0.5542,
+              "target": 0.0
+            },
+            {
+              "name": "browOuterUpRight",
+              "abs_diff": 0.4964,
+              "pred": 0.4964,
+              "target": 0.0
+            },
+            {
+              "name": "browOuterUpLeft",
+              "abs_diff": 0.4746,
+              "pred": 0.4746,
+              "target": 0.0
+            },
+            {
+              "name": "jawOpen",
+              "abs_diff": 0.322,
+              "pred": 0.322,
+              "target": 0.0
+            }
+          ]
+        },
+        "hf_raw": {
+          "pred_emotion": "disgust",
+          "pred_intensity": 0.57,
+          "confidence": 0.9631,
+          "raw_frontend_label": "disgust",
+          "param_mae": 0.081959,
+          "top_param_diffs": [
+            {
+              "name": "eyeSquintLeft",
+              "abs_diff": 0.3458,
+              "pred": 0.3458,
+              "target": 0.0
+            },
+            {
+              "name": "eyeSquintRight",
+              "abs_diff": 0.3364,
+              "pred": 0.3364,
+              "target": 0.0
+            },
+            {
+              "name": "mouthFrownLeft",
+              "abs_diff": 0.2793,
+              "pred": 0.2793,
+              "target": 0.0
+            },
+            {
+              "name": "mouthFrownRight",
+              "abs_diff": 0.2772,
+              "pred": 0.2772,
+              "target": 0.0
+            },
+            {
+              "name": "mouthPressRight",
+              "abs_diff": 0.17,
+              "pred": 0.0,
+              "target": 0.17
+            }
+          ]
+        },
+        "hf_rules_v4": {
+          "pred_emotion": "angry",
+          "pred_intensity": 0.62,
+          "confidence": 0.9631,
+          "raw_frontend_label": "disgust",
+          "param_mae": 0.038284,
+          "top_param_diffs": [
+            {
+              "name": "browDownLeft",
+              "abs_diff": 0.2244,
+              "pred": 0.4544,
+              "target": 0.23
+            },
+            {
+              "name": "browDownRight",
+              "abs_diff": 0.2243,
+              "pred": 0.4443,
+              "target": 0.22
+            },
+            {
+              "name": "mouthPressLeft",
+              "abs_diff": 0.1737,
+              "pred": 0.3337,
+              "target": 0.16
+            },
+            {
+              "name": "mouthPressRight",
+              "abs_diff": 0.1607,
+              "pred": 0.3307,
+              "target": 0.17
+            },
+            {
+              "name": "cheekPuff",
+              "abs_diff": 0.0591,
+              "pred": 0.1291,
+              "target": 0.07
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "再这样下去我就要爆发了。#8",
+      "true_emotion": "angry",
+      "true_intensity": 0.79,
+      "variants": {
+        "learned": {
+          "pred_emotion": "calm",
+          "pred_intensity": 0.42,
+          "confidence": 0.9758,
+          "raw_frontend_label": "calm",
+          "param_mae": 0.104549,
+          "top_param_diffs": [
+            {
+              "name": "browDownRight",
+              "abs_diff": 0.58,
+              "pred": 0.0,
+              "target": 0.58
+            },
+            {
+              "name": "browDownLeft",
+              "abs_diff": 0.57,
+              "pred": 0.0,
+              "target": 0.57
+            },
+            {
+              "name": "mouthPressRight",
+              "abs_diff": 0.44,
+              "pred": 0.0,
+              "target": 0.44
+            },
+            {
+              "name": "mouthPressLeft",
+              "abs_diff": 0.43,
+              "pred": 0.0,
+              "target": 0.43
+            },
+            {
+              "name": "cheekPuff",
+              "abs_diff": 0.19,
+              "pred": 0.0,
+              "target": 0.19
+            }
+          ]
+        },
+        "hf_raw": {
+          "pred_emotion": "sad",
+          "pred_intensity": 0.55,
+          "confidence": 0.5832,
+          "raw_frontend_label": "sad",
+          "param_mae": 0.156963,
+          "top_param_diffs": [
+            {
+              "name": "browDownRight",
+              "abs_diff": 0.58,
+              "pred": 0.0,
+              "target": 0.58
+            },
+            {
+              "name": "browDownLeft",
+              "abs_diff": 0.57,
+              "pred": 0.0,
+              "target": 0.57
+            },
+            {
+              "name": "mouthPressRight",
+              "abs_diff": 0.44,
+              "pred": 0.0,
+              "target": 0.44
+            },
+            {
+              "name": "mouthPressLeft",
+              "abs_diff": 0.43,
+              "pred": 0.0,
+              "target": 0.43
+            },
+            {
+              "name": "mouthFrownLeft",
+              "abs_diff": 0.3452,
+              "pred": 0.3452,
+              "target": 0.0
+            }
+          ]
+        },
+        "hf_rules_v4": {
+          "pred_emotion": "angry",
+          "pred_intensity": 0.68,
+          "confidence": 0.5832,
+          "raw_frontend_label": "sad",
+          "param_mae": 0.015983,
+          "top_param_diffs": [
+            {
+              "name": "browDownLeft",
+              "abs_diff": 0.0874,
+              "pred": 0.4826,
+              "target": 0.57
+            },
+            {
+              "name": "mouthPressLeft",
+              "abs_diff": 0.0777,
+              "pred": 0.3523,
+              "target": 0.43
+            },
+            {
+              "name": "browDownRight",
+              "abs_diff": 0.0765,
+              "pred": 0.5035,
+              "target": 0.58
+            },
+            {
+              "name": "mouthPressRight",
+              "abs_diff": 0.0698,
+              "pred": 0.3702,
+              "target": 0.44
+            },
+            {
+              "name": "cheekPuff",
+              "abs_diff": 0.0403,
+              "pred": 0.1497,
+              "target": 0.19
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "咦？这和我想的有点不一样。",
+      "true_emotion": "surprise",
+      "true_intensity": 0.31,
+      "variants": {
+        "learned": {
+          "pred_emotion": "surprise",
+          "pred_intensity": 0.71,
+          "confidence": 0.5614,
+          "raw_frontend_label": "surprise",
+          "param_mae": 0.06959,
+          "top_param_diffs": [
+            {
+              "name": "eyeWideLeft",
+              "abs_diff": 0.3543,
+              "pred": 0.5843,
+              "target": 0.23
+            },
+            {
+              "name": "eyeWideRight",
+              "abs_diff": 0.328,
+              "pred": 0.568,
+              "target": 0.24
+            },
+            {
+              "name": "browOuterUpRight",
+              "abs_diff": 0.3156,
+              "pred": 0.4856,
+              "target": 0.17
+            },
+            {
+              "name": "browOuterUpLeft",
+              "abs_diff": 0.3097,
+              "pred": 0.4897,
+              "target": 0.18
+            },
+            {
+              "name": "jawOpen",
+              "abs_diff": 0.2235,
+              "pred": 0.3235,
+              "target": 0.1
+            }
+          ]
+        },
+        "hf_raw": {
+          "pred_emotion": "calm",
+          "pred_intensity": 0.37,
+          "confidence": 0.9463,
+          "raw_frontend_label": "calm",
+          "param_mae": 0.048448,
+          "top_param_diffs": [
+            {
+              "name": "eyeWideRight",
+              "abs_diff": 0.24,
+              "pred": 0.0,
+              "target": 0.24
+            },
+            {
+              "name": "eyeWideLeft",
+              "abs_diff": 0.23,
+              "pred": 0.0,
+              "target": 0.23
+            },
+            {
+              "name": "browOuterUpLeft",
+              "abs_diff": 0.18,
+              "pred": 0.0,
+              "target": 0.18
+            },
+            {
+              "name": "browOuterUpRight",
+              "abs_diff": 0.17,
+              "pred": 0.0,
+              "target": 0.17
+            },
+            {
+              "name": "jawOpen",
+              "abs_diff": 0.1,
+              "pred": 0.0,
+              "target": 0.1
+            }
+          ]
+        },
+        "hf_rules_v4": {
+          "pred_emotion": "surprise",
+          "pred_intensity": 0.64,
+          "confidence": 0.9463,
+          "raw_frontend_label": "calm",
+          "param_mae": 0.057645,
+          "top_param_diffs": [
+            {
+              "name": "eyeWideLeft",
+              "abs_diff": 0.2966,
+              "pred": 0.5266,
+              "target": 0.23
+            },
+            {
+              "name": "eyeWideRight",
+              "abs_diff": 0.2711,
+              "pred": 0.5111,
+              "target": 0.24
+            },
+            {
+              "name": "browOuterUpRight",
+              "abs_diff": 0.2619,
+              "pred": 0.4319,
+              "target": 0.17
+            },
+            {
+              "name": "browOuterUpLeft",
+              "abs_diff": 0.2536,
+              "pred": 0.4336,
+              "target": 0.18
+            },
+            {
+              "name": "jawOpen",
+              "abs_diff": 0.1851,
+              "pred": 0.2851,
+              "target": 0.1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "天啊，我一下子都不知道该说什么了。",
+      "true_emotion": "surprise",
+      "true_intensity": 0.86,
+      "variants": {
+        "learned": {
+          "pred_emotion": "surprise",
+          "pred_intensity": 0.74,
+          "confidence": 0.9797,
+          "raw_frontend_label": "surprise",
+          "param_mae": 0.025043,
+          "top_param_diffs": [
+            {
+              "name": "eyeWideLeft",
+              "abs_diff": 0.1319,
+              "pred": 0.6181,
+              "target": 0.75
+            },
+            {
+              "name": "browOuterUpRight",
+              "abs_diff": 0.1245,
+              "pred": 0.5555,
+              "target": 0.68
+            },
+            {
+              "name": "browOuterUpLeft",
+              "abs_diff": 0.112,
+              "pred": 0.558,
+              "target": 0.67
+            },
+            {
+              "name": "eyeWideRight",
+              "abs_diff": 0.1011,
+              "pred": 0.6389,
+              "target": 0.74
+            },
+            {
+              "name": "jawOpen",
+              "abs_diff": 0.0815,
+              "pred": 0.4185,
+              "target": 0.5
+            }
+          ]
+        },
+        "hf_raw": {
+          "pred_emotion": "sad",
+          "pred_intensity": 0.55,
+          "confidence": 0.7868,
+          "raw_frontend_label": "sad",
+          "param_mae": 0.214026,
+          "top_param_diffs": [
+            {
+              "name": "eyeWideLeft",
+              "abs_diff": 0.75,
+              "pred": 0.0,
+              "target": 0.75
+            },
+            {
+              "name": "eyeWideRight",
+              "abs_diff": 0.7393,
+              "pred": 0.0007,
+              "target": 0.74
+            },
+            {
+              "name": "browOuterUpRight",
+              "abs_diff": 0.68,
+              "pred": 0.0,
+              "target": 0.68
+            },
+            {
+              "name": "browOuterUpLeft",
+              "abs_diff": 0.67,
+              "pred": 0.0,
+              "target": 0.67
+            },
+            {
+              "name": "jawOpen",
+              "abs_diff": 0.5,
+              "pred": 0.0,
+              "target": 0.5
+            }
+          ]
+        },
+        "hf_rules_v4": {
+          "pred_emotion": "surprise",
+          "pred_intensity": 0.74,
+          "confidence": 0.7868,
+          "raw_frontend_label": "sad",
+          "param_mae": 0.025043,
+          "top_param_diffs": [
+            {
+              "name": "eyeWideLeft",
+              "abs_diff": 0.1319,
+              "pred": 0.6181,
+              "target": 0.75
+            },
+            {
+              "name": "browOuterUpRight",
+              "abs_diff": 0.1245,
+              "pred": 0.5555,
+              "target": 0.68
+            },
+            {
+              "name": "browOuterUpLeft",
+              "abs_diff": 0.112,
+              "pred": 0.558,
+              "target": 0.67
+            },
+            {
+              "name": "eyeWideRight",
+              "abs_diff": 0.1011,
+              "pred": 0.6389,
+              "target": 0.74
+            },
+            {
+              "name": "jawOpen",
+              "abs_diff": 0.0815,
+              "pred": 0.4185,
+              "target": 0.5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "这也太让人倒胃口了。#11",
+      "true_emotion": "disgust",
+      "true_intensity": 0.32,
+      "variants": {
+        "learned": {
+          "pred_emotion": "disgust",
+          "pred_intensity": 0.66,
+          "confidence": 0.8876,
+          "raw_frontend_label": "disgust",
+          "param_mae": 0.041123,
+          "top_param_diffs": [
+            {
+              "name": "eyeSquintLeft",
+              "abs_diff": 0.1624,
+              "pred": 0.4124,
+              "target": 0.25
+            },
+            {
+              "name": "mouthFrownRight",
+              "abs_diff": 0.1506,
+              "pred": 0.3306,
+              "target": 0.18
+            },
+            {
+              "name": "eyeSquintRight",
+              "abs_diff": 0.1492,
+              "pred": 0.3992,
+              "target": 0.25
+            },
+            {
+              "name": "browDownLeft",
+              "abs_diff": 0.1487,
+              "pred": 0.3787,
+              "target": 0.23
+            },
+            {
+              "name": "browDownRight",
+              "abs_diff": 0.1261,
+              "pred": 0.3861,
+              "target": 0.26
+            }
+          ]
+        },
+        "hf_raw": {
+          "pred_emotion": "disgust",
+          "pred_intensity": 0.66,
+          "confidence": 0.9105,
+          "raw_frontend_label": "disgust",
+          "param_mae": 0.041123,
+          "top_param_diffs": [
+            {
+              "name": "eyeSquintLeft",
+              "abs_diff": 0.1624,
+              "pred": 0.4124,
+              "target": 0.25
+            },
+            {
+              "name": "mouthFrownRight",
+              "abs_diff": 0.1506,
+              "pred": 0.3306,
+              "target": 0.18
+            },
+            {
+              "name": "eyeSquintRight",
+              "abs_diff": 0.1492,
+              "pred": 0.3992,
+              "target": 0.25
+            },
+            {
+              "name": "browDownLeft",
+              "abs_diff": 0.1487,
+              "pred": 0.3787,
+              "target": 0.23
+            },
+            {
+              "name": "browDownRight",
+              "abs_diff": 0.1261,
+              "pred": 0.3861,
+              "target": 0.26
+            }
+          ]
+        },
+        "hf_rules_v4": {
+          "pred_emotion": "disgust",
+          "pred_intensity": 0.68,
+          "confidence": 0.9105,
+          "raw_frontend_label": "disgust",
+          "param_mae": 0.043754,
+          "top_param_diffs": [
+            {
+              "name": "eyeSquintLeft",
+              "abs_diff": 0.1727,
+              "pred": 0.4227,
+              "target": 0.25
+            },
+            {
+              "name": "mouthFrownRight",
+              "abs_diff": 0.1597,
+              "pred": 0.3397,
+              "target": 0.18
+            },
+            {
+              "name": "eyeSquintRight",
+              "abs_diff": 0.1587,
+              "pred": 0.4087,
+              "target": 0.25
+            },
+            {
+              "name": "browDownLeft",
+              "abs_diff": 0.1576,
+              "pred": 0.3876,
+              "target": 0.23
+            },
+            {
+              "name": "browDownRight",
+              "abs_diff": 0.1353,
+              "pred": 0.3953,
+              "target": 0.26
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "别说了，我不想听细节。",
+      "true_emotion": "disgust",
+      "true_intensity": 0.71,
+      "variants": {
+        "learned": {
+          "pred_emotion": "angry",
+          "pred_intensity": 0.72,
+          "confidence": 0.9614,
+          "raw_frontend_label": "angry",
+          "param_mae": 0.116645,
+          "top_param_diffs": [
+            {
+              "name": "eyeSquintRight",
+              "abs_diff": 0.44,
+              "pred": 0.0,
+              "target": 0.44
+            },
+            {
+              "name": "eyeSquintLeft",
+              "abs_diff": 0.43,
+              "pred": 0.0,
+              "target": 0.43
+            },
+            {
+              "name": "mouthPressRight",
+              "abs_diff": 0.3932,
+              "pred": 0.3932,
+              "target": 0.0
+            },
+            {
+              "name": "mouthPressLeft",
+              "abs_diff": 0.3789,
+              "pred": 0.3789,
+              "target": 0.0
+            },
+            {
+              "name": "mouthFrownRight",
+              "abs_diff": 0.36,
+              "pred": 0.0,
+              "target": 0.36
+            }
+          ]
+        },
+        "hf_raw": {
+          "pred_emotion": "calm",
+          "pred_intensity": 0.42,
+          "confidence": 0.9575,
+          "raw_frontend_label": "calm",
+          "param_mae": 0.121238,
+          "top_param_diffs": [
+            {
+              "name": "eyeSquintRight",
+              "abs_diff": 0.44,
+              "pred": 0.0,
+              "target": 0.44
+            },
+            {
+              "name": "eyeSquintLeft",
+              "abs_diff": 0.43,
+              "pred": 0.0,
+              "target": 0.43
+            },
+            {
+              "name": "browDownRight",
+              "abs_diff": 0.42,
+              "pred": 0.0,
+              "target": 0.42
+            },
+            {
+              "name": "browDownLeft",
+              "abs_diff": 0.41,
+              "pred": 0.0,
+              "target": 0.41
+            },
+            {
+              "name": "mouthFrownRight",
+              "abs_diff": 0.36,
+              "pred": 0.0,
+              "target": 0.36
+            }
+          ]
+        },
+        "hf_rules_v4": {
+          "pred_emotion": "disgust",
+          "pred_intensity": 0.67,
+          "confidence": 0.9575,
+          "raw_frontend_label": "calm",
+          "param_mae": 0.012641,
+          "top_param_diffs": [
+            {
+              "name": "browDownLeft",
+              "abs_diff": 0.0548,
+              "pred": 0.3552,
+              "target": 0.41
+            },
+            {
+              "name": "eyeSquintRight",
+              "abs_diff": 0.0456,
+              "pred": 0.3944,
+              "target": 0.44
+            },
+            {
+              "name": "mouthFrownLeft",
+              "abs_diff": 0.0427,
+              "pred": 0.3073,
+              "target": 0.35
+            },
+            {
+              "name": "browDownRight",
+              "abs_diff": 0.0389,
+              "pred": 0.3811,
+              "target": 0.42
+            },
+            {
+              "name": "eyeSquintLeft",
+              "abs_diff": 0.0371,
+              "pred": 0.3929,
+              "target": 0.43
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "我还是想再确认一下。#11",
+      "true_emotion": "concern",
+      "true_intensity": 0.32,
+      "variants": {
+        "learned": {
+          "pred_emotion": "concern",
+          "pred_intensity": 0.56,
+          "confidence": 0.8013,
+          "raw_frontend_label": "concern",
+          "param_mae": 0.020044,
+          "top_param_diffs": [
+            {
+              "name": "browInnerUp",
+              "abs_diff": 0.1637,
+              "pred": 0.3537,
+              "target": 0.19
+            },
+            {
+              "name": "eyeWideRight",
+              "abs_diff": 0.1029,
+              "pred": 0.2029,
+              "target": 0.1
+            },
+            {
+              "name": "eyeWideLeft",
+              "abs_diff": 0.0781,
+              "pred": 0.1881,
+              "target": 0.11
+            },
+            {
+              "name": "mouthPressLeft",
+              "abs_diff": 0.0625,
+              "pred": 0.1525,
+              "target": 0.09
+            },
+            {
+              "name": "mouthPressRight",
+              "abs_diff": 0.0337,
+              "pred": 0.1337,
+              "target": 0.1
+            }
+          ]
+        },
+        "hf_raw": {
+          "pred_emotion": "calm",
+          "pred_intensity": 0.42,
+          "confidence": 0.5536,
+          "raw_frontend_label": "calm",
+          "param_mae": 0.029455,
+          "top_param_diffs": [
+            {
+              "name": "browInnerUp",
+              "abs_diff": 0.1645,
+              "pred": 0.0255,
+              "target": 0.19
+            },
+            {
+              "name": "eyeWideLeft",
+              "abs_diff": 0.11,
+              "pred": 0.0,
+              "target": 0.11
+            },
+            {
+              "name": "eyeWideRight",
+              "abs_diff": 0.1,
+              "pred": 0.0,
+              "target": 0.1
+            },
+            {
+              "name": "mouthPressRight",
+              "abs_diff": 0.1,
+              "pred": 0.0,
+              "target": 0.1
+            },
+            {
+              "name": "mouthPressLeft",
+              "abs_diff": 0.09,
+              "pred": 0.0,
+              "target": 0.09
+            }
+          ]
+        },
+        "hf_rules_v4": {
+          "pred_emotion": "concern",
+          "pred_intensity": 0.49,
+          "confidence": 0.5536,
+          "raw_frontend_label": "calm",
+          "param_mae": 0.013307,
+          "top_param_diffs": [
+            {
+              "name": "browInnerUp",
+              "abs_diff": 0.119,
+              "pred": 0.309,
+              "target": 0.19
+            },
+            {
+              "name": "eyeWideRight",
+              "abs_diff": 0.0725,
+              "pred": 0.1725,
+              "target": 0.1
+            },
+            {
+              "name": "eyeWideLeft",
+              "abs_diff": 0.0479,
+              "pred": 0.1579,
+              "target": 0.11
+            },
+            {
+              "name": "mouthPressLeft",
+              "abs_diff": 0.0414,
+              "pred": 0.1314,
+              "target": 0.09
+            },
+            {
+              "name": "mouthPressRight",
+              "abs_diff": 0.012,
+              "pred": 0.112,
+              "target": 0.1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "看着外面天都黑了，他怎么还没到家。",
+      "true_emotion": "concern",
+      "true_intensity": 0.74,
+      "variants": {
+        "learned": {
+          "pred_emotion": "happy",
+          "pred_intensity": 0.68,
+          "confidence": 0.6036,
+          "raw_frontend_label": "happy",
+          "param_mae": 0.119184,
+          "top_param_diffs": [
+            {
+              "name": "mouthSmileRight",
+              "abs_diff": 0.414,
+              "pred": 0.414,
+              "target": 0.0
+            },
+            {
+              "name": "browInnerUp",
+              "abs_diff": 0.397,
+              "pred": 0.063,
+              "target": 0.46
+            },
+            {
+              "name": "mouthSmileLeft",
+              "abs_diff": 0.3961,
+              "pred": 0.3961,
+              "target": 0.0
+            },
+            {
+              "name": "eyeWideRight",
+              "abs_diff": 0.3,
+              "pred": 0.0,
+              "target": 0.3
+            },
+            {
+              "name": "eyeWideLeft",
+              "abs_diff": 0.29,
+              "pred": 0.0,
+              "target": 0.29
+            }
+          ]
+        },
+        "hf_raw": {
+          "pred_emotion": "calm",
+          "pred_intensity": 0.42,
+          "confidence": 0.9404,
+          "raw_frontend_label": "calm",
+          "param_mae": 0.073259,
+          "top_param_diffs": [
+            {
+              "name": "browInnerUp",
+              "abs_diff": 0.46,
+              "pred": 0.0,
+              "target": 0.46
+            },
+            {
+              "name": "eyeWideRight",
+              "abs_diff": 0.3,
+              "pred": 0.0,
+              "target": 0.3
+            },
+            {
+              "name": "eyeWideLeft",
+              "abs_diff": 0.29,
+              "pred": 0.0,
+              "target": 0.29
+            },
+            {
+              "name": "mouthPressRight",
+              "abs_diff": 0.24,
+              "pred": 0.0,
+              "target": 0.24
+            },
+            {
+              "name": "mouthPressLeft",
+              "abs_diff": 0.23,
+              "pred": 0.0,
+              "target": 0.23
+            }
+          ]
+        },
+        "hf_rules_v4": {
+          "pred_emotion": "concern",
+          "pred_intensity": 0.58,
+          "confidence": 0.9404,
+          "raw_frontend_label": "calm",
+          "param_mae": 0.022321,
+          "top_param_diffs": [
+            {
+              "name": "browInnerUp",
+              "abs_diff": 0.1281,
+              "pred": 0.3319,
+              "target": 0.46
+            },
+            {
+              "name": "eyeWideLeft",
+              "abs_diff": 0.097,
+              "pred": 0.193,
+              "target": 0.29
+            },
+            {
+              "name": "eyeWideRight",
+              "abs_diff": 0.0959,
+              "pred": 0.2041,
+              "target": 0.3
+            },
+            {
+              "name": "mouthPressRight",
+              "abs_diff": 0.0851,
+              "pred": 0.1549,
+              "target": 0.24
+            },
+            {
+              "name": "mouthPressLeft",
+              "abs_diff": 0.085,
+              "pred": 0.145,
+              "target": 0.23
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "这些内容听得我直走神。#2",
+      "true_emotion": "bored",
+      "true_intensity": 0.39,
+      "variants": {
+        "learned": {
+          "pred_emotion": "bored",
+          "pred_intensity": 0.48,
+          "confidence": 0.9474,
+          "raw_frontend_label": "bored",
+          "param_mae": 0.003416,
+          "top_param_diffs": [
+            {
+              "name": "browDownLeft",
+              "abs_diff": 0.0171,
+              "pred": 0.1329,
+              "target": 0.15
+            },
+            {
+              "name": "eyeLookLeft",
+              "abs_diff": 0.0154,
+              "pred": 0.1246,
+              "target": 0.14
+            },
+            {
+              "name": "browDownRight",
+              "abs_diff": 0.0131,
+              "pred": 0.1431,
+              "target": 0.13
+            },
+            {
+              "name": "mouthFrownLeft",
+              "abs_diff": 0.0115,
+              "pred": 0.0915,
+              "target": 0.08
+            },
+            {
+              "name": "eyeLookDown",
+              "abs_diff": 0.011,
+              "pred": 0.211,
+              "target": 0.2
+            }
+          ]
+        },
+        "hf_raw": {
+          "pred_emotion": "disgust",
+          "pred_intensity": 0.62,
+          "confidence": 0.5813,
+          "raw_frontend_label": "disgust",
+          "param_mae": 0.09158,
+          "top_param_diffs": [
+            {
+              "name": "eyeSquintLeft",
+              "abs_diff": 0.3737,
+              "pred": 0.3737,
+              "target": 0.0
+            },
+            {
+              "name": "eyeSquintRight",
+              "abs_diff": 0.371,
+              "pred": 0.371,
+              "target": 0.0
+            },
+            {
+              "name": "browDownRight",
+              "abs_diff": 0.2213,
+              "pred": 0.3513,
+              "target": 0.13
+            },
+            {
+              "name": "mouthFrownRight",
+              "abs_diff": 0.2058,
+              "pred": 0.2958,
+              "target": 0.09
+            },
+            {
+              "name": "mouthFrownLeft",
+              "abs_diff": 0.2053,
+              "pred": 0.2853,
+              "target": 0.08
+            }
+          ]
+        },
+        "hf_rules_v4": {
+          "pred_emotion": "bored",
+          "pred_intensity": 0.51,
+          "confidence": 0.5813,
+          "raw_frontend_label": "disgust",
+          "param_mae": 0.00401,
+          "top_param_diffs": [
+            {
+              "name": "eyeLookDown",
+              "abs_diff": 0.0216,
+              "pred": 0.2216,
+              "target": 0.2
+            },
+            {
+              "name": "browDownRight",
+              "abs_diff": 0.0213,
+              "pred": 0.1513,
+              "target": 0.13
+            },
+            {
+              "name": "mouthFrownLeft",
+              "abs_diff": 0.0164,
+              "pred": 0.0964,
+              "target": 0.08
+            },
+            {
+              "name": "mouthFrownRight",
+              "abs_diff": 0.0128,
+              "pred": 0.1028,
+              "target": 0.09
+            },
+            {
+              "name": "browDownLeft",
+              "abs_diff": 0.0085,
+              "pred": 0.1415,
+              "target": 0.15
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "我好像对什么都提不起兴趣。#19",
+      "true_emotion": "bored",
+      "true_intensity": 0.85,
+      "variants": {
+        "learned": {
+          "pred_emotion": "bored",
+          "pred_intensity": 0.52,
+          "confidence": 0.9027,
+          "raw_frontend_label": "bored",
+          "param_mae": 0.015587,
+          "top_param_diffs": [
+            {
+              "name": "browDownRight",
+              "abs_diff": 0.0918,
+              "pred": 0.1682,
+              "target": 0.26
+            },
+            {
+              "name": "browDownLeft",
+              "abs_diff": 0.0714,
+              "pred": 0.1786,
+              "target": 0.25
+            },
+            {
+              "name": "mouthFrownLeft",
+              "abs_diff": 0.0528,
+              "pred": 0.1072,
+              "target": 0.16
+            },
+            {
+              "name": "eyeLookLeft",
+              "abs_diff": 0.0501,
+              "pred": 0.1699,
+              "target": 0.22
+            },
+            {
+              "name": "eyeLookDown",
+              "abs_diff": 0.0465,
+              "pred": 0.2635,
+              "target": 0.31
+            }
+          ]
+        },
+        "hf_raw": {
+          "pred_emotion": "calm",
+          "pred_intensity": 0.42,
+          "confidence": 0.9279,
+          "raw_frontend_label": "calm",
+          "param_mae": 0.065377,
+          "top_param_diffs": [
+            {
+              "name": "eyeLookDown",
+              "abs_diff": 0.2962,
+              "pred": 0.0138,
+              "target": 0.31
+            },
+            {
+              "name": "browDownRight",
+              "abs_diff": 0.26,
+              "pred": 0.0,
+              "target": 0.26
+            },
+            {
+              "name": "browDownLeft",
+              "abs_diff": 0.25,
+              "pred": 0.0,
+              "target": 0.25
+            },
+            {
+              "name": "eyeLookLeft",
+              "abs_diff": 0.2121,
+              "pred": 0.0079,
+              "target": 0.22
+            },
+            {
+              "name": "mouthFrownLeft",
+              "abs_diff": 0.16,
+              "pred": 0.0,
+              "target": 0.16
+            }
+          ]
+        },
+        "hf_rules_v4": {
+          "pred_emotion": "bored",
+          "pred_intensity": 0.63,
+          "confidence": 0.9279,
+          "raw_frontend_label": "calm",
+          "param_mae": 0.007696,
+          "top_param_diffs": [
+            {
+              "name": "browDownRight",
+              "abs_diff": 0.0607,
+              "pred": 0.1993,
+              "target": 0.26
+            },
+            {
+              "name": "browDownLeft",
+              "abs_diff": 0.0383,
+              "pred": 0.2117,
+              "target": 0.25
+            },
+            {
+              "name": "mouthFrownLeft",
+              "abs_diff": 0.0336,
+              "pred": 0.1264,
+              "target": 0.16
+            },
+            {
+              "name": "eyeLookLeft",
+              "abs_diff": 0.0198,
+              "pred": 0.2002,
+              "target": 0.22
+            },
+            {
+              "name": "mouthFrownRight",
+              "abs_diff": 0.0097,
+              "pred": 0.1403,
+              "target": 0.15
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "情绪总算落回来了。#11",
+      "true_emotion": "calm",
+      "true_intensity": 0.32,
+      "variants": {
+        "learned": {
+          "pred_emotion": "happy",
+          "pred_intensity": 0.68,
+          "confidence": 0.4507,
+          "raw_frontend_label": "happy",
+          "param_mae": 0.056799,
+          "top_param_diffs": [
+            {
+              "name": "mouthSmileLeft",
+              "abs_diff": 0.4066,
+              "pred": 0.4266,
+              "target": 0.02
+            },
+            {
+              "name": "mouthSmileRight",
+              "abs_diff": 0.3802,
+              "pred": 0.4202,
+              "target": 0.04
+            },
+            {
+              "name": "eyeSquintLeft",
+              "abs_diff": 0.194,
+              "pred": 0.194,
+              "target": 0.0
+            },
+            {
+              "name": "eyeSquintRight",
+              "abs_diff": 0.1899,
+              "pred": 0.1899,
+              "target": 0.0
+            },
+            {
+              "name": "browInnerUp",
+              "abs_diff": 0.0788,
+              "pred": 0.0788,
+              "target": 0.0
+            }
+          ]
+        },
+        "hf_raw": {
+          "pred_emotion": "sad",
+          "pred_intensity": 0.55,
+          "confidence": 0.9002,
+          "raw_frontend_label": "sad",
+          "param_mae": 0.059967,
+          "top_param_diffs": [
+            {
+              "name": "mouthFrownLeft",
+              "abs_diff": 0.3414,
+              "pred": 0.3414,
+              "target": 0.0
+            },
+            {
+              "name": "mouthFrownRight",
+              "abs_diff": 0.3402,
+              "pred": 0.3402,
+              "target": 0.0
+            },
+            {
+              "name": "browInnerUp",
+              "abs_diff": 0.3017,
+              "pred": 0.3017,
+              "target": 0.0
+            },
+            {
+              "name": "eyeSquintRight",
+              "abs_diff": 0.1396,
+              "pred": 0.1396,
+              "target": 0.0
+            },
+            {
+              "name": "eyeSquintLeft",
+              "abs_diff": 0.1364,
+              "pred": 0.1364,
+              "target": 0.0
+            }
+          ]
+        },
+        "hf_rules_v4": {
+          "pred_emotion": "calm",
+          "pred_intensity": 0.46,
+          "confidence": 0.9002,
+          "raw_frontend_label": "sad",
+          "param_mae": 0.002701,
+          "top_param_diffs": [
+            {
+              "name": "mouthSmileLeft",
+              "abs_diff": 0.0387,
+              "pred": 0.0587,
+              "target": 0.02
+            },
+            {
+              "name": "mouthSmileRight",
+              "abs_diff": 0.0136,
+              "pred": 0.0536,
+              "target": 0.04
+            },
+            {
+              "name": "browInnerUp",
+              "abs_diff": 0.0071,
+              "pred": 0.0071,
+              "target": 0.0
+            },
+            {
+              "name": "browOuterUpLeft",
+              "abs_diff": 0.0,
+              "pred": 0.0,
+              "target": 0.0
+            },
+            {
+              "name": "browOuterUpRight",
+              "abs_diff": 0.0,
+              "pred": 0.0,
+              "target": 0.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "这样安安稳稳的感觉也不错。#7",
+      "true_emotion": "calm",
+      "true_intensity": 0.72,
+      "variants": {
+        "learned": {
+          "pred_emotion": "surprise",
+          "pred_intensity": 0.74,
+          "confidence": 0.9754,
+          "raw_frontend_label": "surprise",
+          "param_mae": 0.123007,
+          "top_param_diffs": [
+            {
+              "name": "eyeWideLeft",
+              "abs_diff": 0.5873,
+              "pred": 0.5873,
+              "target": 0.0
+            },
+            {
+              "name": "eyeWideRight",
+              "abs_diff": 0.5784,
+              "pred": 0.5784,
+              "target": 0.0
+            },
+            {
+              "name": "browOuterUpRight",
+              "abs_diff": 0.535,
+              "pred": 0.535,
+              "target": 0.0
+            },
+            {
+              "name": "browOuterUpLeft",
+              "abs_diff": 0.5218,
+              "pred": 0.5218,
+              "target": 0.0
+            },
+            {
+              "name": "jawOpen",
+              "abs_diff": 0.3437,
+              "pred": 0.3437,
+              "target": 0.0
+            }
+          ]
+        },
+        "hf_raw": {
+          "pred_emotion": "calm",
+          "pred_intensity": 0.42,
+          "confidence": 0.8893,
+          "raw_frontend_label": "calm",
+          "param_mae": 0.00287,
+          "top_param_diffs": [
+            {
+              "name": "mouthSmileRight",
+              "abs_diff": 0.0239,
+              "pred": 0.0561,
+              "target": 0.08
+            },
+            {
+              "name": "mouthSmileLeft",
+              "abs_diff": 0.0209,
+              "pred": 0.0391,
+              "target": 0.06
+            },
+            {
+              "name": "browInnerUp",
+              "abs_diff": 0.0184,
+              "pred": 0.0184,
+              "target": 0.0
+            },
+            {
+              "name": "browOuterUpLeft",
+              "abs_diff": 0.0,
+              "pred": 0.0,
+              "target": 0.0
+            },
+            {
+              "name": "browOuterUpRight",
+              "abs_diff": 0.0,
+              "pred": 0.0,
+              "target": 0.0
+            }
+          ]
+        },
+        "hf_rules_v4": {
+          "pred_emotion": "calm",
+          "pred_intensity": 0.55,
+          "confidence": 0.8893,
+          "raw_frontend_label": "calm",
+          "param_mae": 0.001669,
+          "top_param_diffs": [
+            {
+              "name": "browInnerUp",
+              "abs_diff": 0.0182,
+              "pred": 0.0182,
+              "target": 0.0
+            },
+            {
+              "name": "mouthSmileRight",
+              "abs_diff": 0.0106,
+              "pred": 0.0694,
+              "target": 0.08
+            },
+            {
+              "name": "mouthSmileLeft",
+              "abs_diff": 0.0079,
+              "pred": 0.0521,
+              "target": 0.06
+            },
+            {
+              "name": "browOuterUpLeft",
+              "abs_diff": 0.0,
+              "pred": 0.0,
+              "target": 0.0
+            },
+            {
+              "name": "browOuterUpRight",
+              "abs_diff": 0.0,
+              "pred": 0.0,
+              "target": 0.0
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

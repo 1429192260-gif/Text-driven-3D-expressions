@@ -1,0 +1,185 @@
+{
+  "config": {
+    "data_path": "data/full_samples_804.json",
+    "expression_checkpoint": "outputs/prior_fusion_804_source_holdout_strict_mapper.pt",
+    "learned_checkpoint": "outputs/text_only_emotion8_base_classifier.pt",
+    "test_count": 40,
+    "test_source": "manual_only_source_holdout"
+  },
+  "per_emotion": {
+    "learned": {
+      "happy": {
+        "param_mae": 0.073741,
+        "param_rmse": 0.170551,
+        "active_mae": 0.189894,
+        "emotion_acc": 0.4,
+        "count": 5
+      },
+      "sad": {
+        "param_mae": 0.102878,
+        "param_rmse": 0.196984,
+        "active_mae": 0.227791,
+        "emotion_acc": 0.2,
+        "count": 5
+      },
+      "angry": {
+        "param_mae": 0.119988,
+        "param_rmse": 0.21878,
+        "active_mae": 0.274205,
+        "emotion_acc": 0.2,
+        "count": 5
+      },
+      "surprise": {
+        "param_mae": 0.085003,
+        "param_rmse": 0.17211,
+        "active_mae": 0.247084,
+        "emotion_acc": 0.6,
+        "count": 5
+      },
+      "disgust": {
+        "param_mae": 0.098146,
+        "param_rmse": 0.185005,
+        "active_mae": 0.193093,
+        "emotion_acc": 0.4,
+        "count": 5
+      },
+      "concern": {
+        "param_mae": 0.081933,
+        "param_rmse": 0.159846,
+        "active_mae": 0.182916,
+        "emotion_acc": 0.2,
+        "count": 5
+      },
+      "bored": {
+        "param_mae": 0.041373,
+        "param_rmse": 0.125108,
+        "active_mae": 0.061838,
+        "emotion_acc": 0.8,
+        "count": 5
+      },
+      "calm": {
+        "param_mae": 0.081792,
+        "param_rmse": 0.196132,
+        "active_mae": 0.066667,
+        "emotion_acc": 0.2,
+        "count": 5
+      }
+    },
+    "hf_raw": {
+      "happy": {
+        "param_mae": 0.028583,
+        "param_rmse": 0.086052,
+        "active_mae": 0.125766,
+        "emotion_acc": 0.6,
+        "count": 5
+      },
+      "sad": {
+        "param_mae": 0.042756,
+        "param_rmse": 0.111874,
+        "active_mae": 0.110211,
+        "emotion_acc": 0.8,
+        "count": 5
+      },
+      "angry": {
+        "param_mae": 0.108771,
+        "param_rmse": 0.185642,
+        "active_mae": 0.223485,
+        "emotion_acc": 0.0,
+        "count": 5
+      },
+      "surprise": {
+        "param_mae": 0.112874,
+        "param_rmse": 0.215774,
+        "active_mae": 0.337193,
+        "emotion_acc": 0.2,
+        "count": 5
+      },
+      "disgust": {
+        "param_mae": 0.077289,
+        "param_rmse": 0.147296,
+        "active_mae": 0.212389,
+        "emotion_acc": 0.2,
+        "count": 5
+      },
+      "concern": {
+        "param_mae": 0.062709,
+        "param_rmse": 0.12133,
+        "active_mae": 0.158492,
+        "emotion_acc": 0.0,
+        "count": 5
+      },
+      "bored": {
+        "param_mae": 0.063873,
+        "param_rmse": 0.116653,
+        "active_mae": 0.192259,
+        "emotion_acc": 0.0,
+        "count": 5
+      },
+      "calm": {
+        "param_mae": 0.025098,
+        "param_rmse": 0.0809,
+        "active_mae": 0.017497,
+        "emotion_acc": 0.6,
+        "count": 5
+      }
+    },
+    "hf_rules_v4": {
+      "happy": {
+        "param_mae": 0.005929,
+        "param_rmse": 0.016292,
+        "active_mae": 0.026088,
+        "emotion_acc": 1.0,
+        "count": 5
+      },
+      "sad": {
+        "param_mae": 0.01507,
+        "param_rmse": 0.03899,
+        "active_mae": 0.066306,
+        "emotion_acc": 1.0,
+        "count": 5
+      },
+      "angry": {
+        "param_mae": 0.032428,
+        "param_rmse": 0.077447,
+        "active_mae": 0.142682,
+        "emotion_acc": 1.0,
+        "count": 5
+      },
+      "surprise": {
+        "param_mae": 0.052957,
+        "param_rmse": 0.123076,
+        "active_mae": 0.182239,
+        "emotion_acc": 0.8,
+        "count": 5
+      },
+      "disgust": {
+        "param_mae": 0.019594,
+        "param_rmse": 0.042808,
+        "active_mae": 0.061582,
+        "emotion_acc": 1.0,
+        "count": 5
+      },
+      "concern": {
+        "param_mae": 0.010472,
+        "param_rmse": 0.02772,
+        "active_mae": 0.046079,
+        "emotion_acc": 1.0,
+        "count": 5
+      },
+      "bored": {
+        "param_mae": 0.004988,
+        "param_rmse": 0.011822,
+        "active_mae": 0.018289,
+        "emotion_acc": 1.0,
+        "count": 5
+      },
+      "calm": {
+        "param_mae": 0.001514,
+        "param_rmse": 0.005308,
+        "active_mae": 0.00706,
+        "emotion_acc": 1.0,
+        "count": 5
+      }
+    }
+  }
+}
