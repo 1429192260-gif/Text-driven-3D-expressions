@@ -11,3 +11,11 @@ outputs/
 data/weibo_cleaned.json
 
 models/Chinese-Emotion-Small/
+models/bert-base-cased/
+
+external/EmoAva-main.zip
+external/EmoAva/dataset/*
+!external/EmoAva/dataset/README.md
+external/EmoAva/checkpoints/
+external/EmoAva/src/data/
+external/EmoAva/resource/
