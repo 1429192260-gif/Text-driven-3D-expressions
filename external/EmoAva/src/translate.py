@@ -60,6 +60,7 @@ def main():
     parser.add_argument('-max_seq_len', type=int, default=256)
     parser.add_argument('-src_len', type=int, default=128)
     parser.add_argument('-batch_size', type=int, default=512)
+    parser.add_argument('-split', type=str, default='test')
     parser.add_argument('-no_cuda', action='store_true')
     parser.add_argument('-infer_mode', type=str,default='s',choices=['s','p'])
     parser.add_argument('-seed', type=int,default=42)
@@ -72,7 +73,7 @@ def main():
 
 
 
-    src_texts, tgt_exps, tgt_exps_steps = load_dataset_split_batch('test', -1, None)
+    src_texts, tgt_exps, tgt_exps_steps = load_dataset_split_batch(opt.split, -1, None)
     tokenizer = BertTokenizer.from_pretrained(opt.tokenizer_path)
     tgt_texts = [' '.join(['[UNK]'] * i) for i in tgt_exps_steps]
    
