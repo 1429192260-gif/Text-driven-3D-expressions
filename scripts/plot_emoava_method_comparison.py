@@ -17,6 +17,8 @@ DEFAULT_METHODS = {
     "v3_full": "outputs/when_words_smile_prior_v3/test_prior_fusion.pt",
     "v3_no_emotion": "outputs/when_words_smile_prior_v3/test_prior_fusion_no_emotion.pt",
     "v3_no_intensity": "outputs/when_words_smile_prior_v3/test_prior_fusion_no_intensity.pt",
+    "v4_full": "outputs/when_words_smile_prior_v4/test_uncertainty_prior_fusion.pt",
+    "v4_global": "outputs/when_words_smile_prior_v4/test_uncertainty_prior_fusion_no_prior_branch.pt",
 }
 
 
@@ -159,7 +161,11 @@ def main():
     if args.target not in predictions:
         raise SystemExit(f"Missing target prediction: {args.target}")
 
-    methods = [name for name in ["baseline", "v2", "v3_full", args.target, "v3_no_intensity"] if name in predictions]
+    methods = [
+        name
+        for name in ["baseline", "v2", "v3_full", "v3_no_emotion", args.target, "v4_full", "v4_global"]
+        if name in predictions
+    ]
     methods = list(dict.fromkeys(methods))
     improved, worsened, _ = pick_cases(predictions, gold, args.target, args.num_cases)
     output_dir = repo / args.output_dir
