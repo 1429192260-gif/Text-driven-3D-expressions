@@ -19,6 +19,9 @@ DEFAULT_METHODS = {
     "v3_no_intensity": "outputs/when_words_smile_prior_v3/test_prior_fusion_no_intensity.pt",
     "v4_full": "outputs/when_words_smile_prior_v4/test_uncertainty_prior_fusion.pt",
     "v4_global": "outputs/when_words_smile_prior_v4/test_uncertainty_prior_fusion_no_prior_branch.pt",
+    "v5_full": "outputs/when_words_smile_prior_v5/test_learned_affect_prior_fusion.pt",
+    "v5_global": "outputs/when_words_smile_prior_v5/test_learned_affect_prior_fusion_no_prior_branch.pt",
+    "v5_prior": "outputs/when_words_smile_prior_v5/test_learned_affect_prior_fusion_no_global_branch.pt",
 }
 
 
@@ -163,7 +166,17 @@ def main():
 
     methods = [
         name
-        for name in ["baseline", "v2", "v3_full", "v3_no_emotion", args.target, "v4_full", "v4_global"]
+        for name in [
+            "baseline",
+            "v2",
+            "v3_full",
+            "v3_no_emotion",
+            "v4_global",
+            args.target,
+            "v5_full",
+            "v5_global",
+            "v5_prior",
+        ]
         if name in predictions
     ]
     methods = list(dict.fromkeys(methods))
