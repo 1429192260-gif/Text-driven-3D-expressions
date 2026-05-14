@@ -22,6 +22,8 @@ DEFAULT_METHODS = {
     "v5_full": "outputs/when_words_smile_prior_v5/test_learned_affect_prior_fusion.pt",
     "v5_global": "outputs/when_words_smile_prior_v5/test_learned_affect_prior_fusion_no_prior_branch.pt",
     "v5_prior": "outputs/when_words_smile_prior_v5/test_learned_affect_prior_fusion_no_global_branch.pt",
+    "v6_frame": "outputs/when_words_smile_prior_v6/test_mixture_gate.pt",
+    "v6_sample": "outputs/when_words_smile_prior_v6/test_mixture_gate_sample.pt",
 }
 
 
@@ -176,6 +178,8 @@ def main():
             "v5_full",
             "v5_global",
             "v5_prior",
+            "v6_frame",
+            "v6_sample",
         ]
         if name in predictions
     ]
