@@ -10,6 +10,8 @@ import numpy as np
 import torch
 from tqdm import tqdm
 
+from emoava_numpy_compat import patch_numpy_legacy_aliases
+
 
 def patch_torch_pickle_load(map_location: str):
     """Allow CUDA-saved tensors inside pickle files to be loaded on CPU too."""
@@ -35,6 +37,7 @@ def load_manifest_records(exp_path: Path) -> list[dict] | None:
 
 
 def import_official_deca(emoava_src: Path):
+    patch_numpy_legacy_aliases()
     sys.path.insert(0, str(emoava_src))
     from decalib.deca import DECA
     from decalib.utils.config import get_cfg_defaults

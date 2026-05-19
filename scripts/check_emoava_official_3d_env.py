@@ -7,6 +7,8 @@ from pathlib import Path
 
 import torch
 
+from emoava_numpy_compat import patch_numpy_legacy_aliases
+
 
 def check_module(name: str) -> tuple[bool, str]:
     spec = importlib.util.find_spec(name)
@@ -82,6 +84,7 @@ def main():
     if args.instantiate_deca:
         print("\n== DECA Instantiate ==")
         try:
+            patch_numpy_legacy_aliases()
             sys.path.insert(0, str(emoava_src))
             from decalib.deca import DECA
             from decalib.utils.config import get_cfg_defaults
