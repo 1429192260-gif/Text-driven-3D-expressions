@@ -174,6 +174,7 @@ def parse_args():
     parser.add_argument('--data-path', default='data/full_samples_804.json')
     parser.add_argument('--expression-checkpoint', default='outputs/prior_fusion_full_mapper.pt')
     parser.add_argument('--frontend-backend', choices=['learned', 'hf_local'], default='learned')
+    parser.add_argument('--hf-mode', choices=['raw', 'rules_v4'], default='rules_v4')
     parser.add_argument('--classifier-checkpoint', default='outputs/text_only_emotion_base_classifier.pt')
     parser.add_argument('--hf-model-dir', default=DEFAULT_LOCAL_MODEL_DIR)
     parser.add_argument('--seed', type=int, default=42)
@@ -197,7 +198,7 @@ def main():
     clf_encoder = None
     hf_frontend = None
     if args.frontend_backend == 'hf_local':
-        hf_frontend = HFEmotionFrontend(model_dir=args.hf_model_dir)
+        hf_frontend = HFEmotionFrontend(model_dir=args.hf_model_dir, mode=args.hf_mode)
     else:
         classifier, clf_ckpt = load_classifier(args.classifier_checkpoint)
         clf_encoder = load_text_encoder(clf_ckpt.get('encoder_name', DEFAULT_MODEL_NAME))
@@ -253,6 +254,7 @@ def main():
             'expression_checkpoint': args.expression_checkpoint,
             'classifier_checkpoint': args.classifier_checkpoint,
             'frontend_backend': args.frontend_backend,
+            'hf_mode': args.hf_mode,
             'hf_model_dir': args.hf_model_dir,
             'seed': args.seed,
             'test_count': len(test_data),

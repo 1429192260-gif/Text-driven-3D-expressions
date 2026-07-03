@@ -1,0 +1,15 @@
+# Core environment for the text-to-expression pipeline on macOS.
+# Recommended Python: 3.10.x
+torch
+torchvision
+torchaudio
+matplotlib
+requests
+sentence-transformers
+transformers
+numpy
+scipy
+scikit-learn
+tqdm
+safetensors
+sentencepiece

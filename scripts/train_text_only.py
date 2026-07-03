@@ -15,18 +15,9 @@ from models.text_only_classifier import TextOnlyClassifier
 from utils.text_encoder import load_text_encoder
 from utils.text_features import extract_semantic_features
 
-EMOTION_LIST = ["happy", "sad", "angry", "surprise", "calm"]
-INTENSITY_LABELS = ["weak", "medium", "strong"]
+EMOTION_LIST = ["happy", "sad", "angry", "surprise", "disgust", "concern", "bored", "calm"]
 AUGMENTED_PREFIXES = ("weibo_",)
 DEFAULT_MODEL_NAME = "paraphrase-multilingual-MiniLM-L12-v2"
-
-
-def intensity_to_bucket(intensity):
-    if intensity < 0.45:
-        return "weak"
-    if intensity < 0.75:
-        return "medium"
-    return "strong"
 
 
 def is_augmented_source(source):
@@ -37,7 +28,6 @@ def is_augmented_source(source):
 def normalize_item(item):
     normalized = dict(item)
     normalized.setdefault("source", "manual")
-    normalized["intensity_bucket"] = intensity_to_bucket(float(normalized["intensity"]))
     return normalized
 
 
@@ -62,8 +52,7 @@ def split_subset(items, train_ratio, val_ratio, rng, allow_test=True):
 def split_data(data, split_mode="source_holdout", train_ratio=0.7, val_ratio=0.15, seed=42):
     grouped = {}
     for item in data:
-        key = item["emotion"]
-        grouped.setdefault(key, []).append(dict(item))
+        grouped.setdefault(item["emotion"], []).append(dict(item))
 
     train_data, val_data, test_data = [], [], []
     rng = random.Random(seed)
@@ -108,10 +97,10 @@ class ClassificationDataset(Dataset):
         for item, text_emb in zip(data, embeddings):
             semantic = extract_semantic_features(item["text"]) if use_semantic_features else []
             features = list(text_emb) + semantic
+            emotion_idx = EMOTION_LIST.index(item["emotion"])
             self.items.append({
                 "features": torch.tensor(features, dtype=torch.float32),
-                "emotion": torch.tensor(EMOTION_LIST.index(item["emotion"]), dtype=torch.long),
-                "intensity": torch.tensor(INTENSITY_LABELS.index(item["intensity_bucket"]), dtype=torch.long),
+                "emotion": torch.tensor(emotion_idx, dtype=torch.long),
                 "source": item.get("source", "manual"),
             })
 
@@ -126,18 +115,8 @@ def collate_batch(batch):
     return {
         "features": torch.stack([item["features"] for item in batch]),
         "emotion": torch.stack([item["emotion"] for item in batch]),
-        "intensity": torch.stack([item["intensity"] for item in batch]),
         "source": [item["source"] for item in batch],
     }
-
-
-def compute_metrics(emotion_logits, emotion_targets, intensity_logits, intensity_targets):
-    emotion_pred = emotion_logits.argmax(dim=-1)
-    intensity_pred = intensity_logits.argmax(dim=-1)
-    emotion_acc = (emotion_pred == emotion_targets).float().mean().item()
-    intensity_acc = (intensity_pred == intensity_targets).float().mean().item()
-    joint_acc = ((emotion_pred == emotion_targets) & (intensity_pred == intensity_targets)).float().mean().item()
-    return emotion_acc, intensity_acc, joint_acc
 
 
 def evaluate(model, loader, device):
@@ -145,54 +124,42 @@ def evaluate(model, loader, device):
     total_loss = 0.0
     ce = nn.CrossEntropyLoss()
     emo_logits_all, emo_targets_all = [], []
-    int_logits_all, int_targets_all = [], []
     sources = []
     with torch.no_grad():
         for batch in loader:
             features = batch["features"].to(device)
             emo_targets = batch["emotion"].to(device)
-            int_targets = batch["intensity"].to(device)
-            emo_logits, int_logits = model(features)
-            loss = ce(emo_logits, emo_targets) + ce(int_logits, int_targets)
+            emo_logits = model(features)
+            loss = ce(emo_logits, emo_targets)
             total_loss += loss.item()
             emo_logits_all.append(emo_logits.cpu())
             emo_targets_all.append(emo_targets.cpu())
-            int_logits_all.append(int_logits.cpu())
-            int_targets_all.append(int_targets.cpu())
             sources.extend(batch["source"])
     emo_logits = torch.cat(emo_logits_all)
     emo_targets = torch.cat(emo_targets_all)
-    int_logits = torch.cat(int_logits_all)
-    int_targets = torch.cat(int_targets_all)
-    emotion_acc, intensity_acc, joint_acc = compute_metrics(emo_logits, emo_targets, int_logits, int_targets)
+    emo_pred = emo_logits.argmax(dim=-1)
+    emotion_acc = (emo_pred == emo_targets).float().mean().item()
     per_source = {}
     for source in sorted(set(sources)):
         idx = [i for i, s in enumerate(sources) if s == source]
-        source_emo_logits = emo_logits[idx]
-        source_emo_targets = emo_targets[idx]
-        source_int_logits = int_logits[idx]
-        source_int_targets = int_targets[idx]
-        s_emotion_acc, s_intensity_acc, s_joint_acc = compute_metrics(source_emo_logits, source_emo_targets, source_int_logits, source_int_targets)
+        source_pred = emo_pred[idx]
+        source_target = emo_targets[idx]
         per_source[source] = {
-            "emotion_acc": s_emotion_acc,
-            "intensity_acc": s_intensity_acc,
-            "joint_acc": s_joint_acc,
+            "emotion_acc": (source_pred == source_target).float().mean().item(),
             "count": len(idx),
         }
     return {
         "loss": total_loss / max(len(loader), 1),
         "emotion_acc": emotion_acc,
-        "intensity_acc": intensity_acc,
-        "joint_acc": joint_acc,
         "per_source": per_source,
     }
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Train text-only emotion and intensity classifier.")
+    parser = argparse.ArgumentParser(description="Train text-only emotion classifier.")
     parser.add_argument("--data-path", default="data/full_samples_804.json")
     parser.add_argument("--output-dir", default="outputs")
-    parser.add_argument("--run-name", default="text_only")
+    parser.add_argument("--run-name", default="text_only_emotion")
     parser.add_argument("--encoder-name", default=DEFAULT_MODEL_NAME)
     parser.add_argument("--epochs", type=int, default=30)
     parser.add_argument("--batch-size", type=int, default=16)
@@ -229,7 +196,6 @@ def main():
         input_dim=sample["features"].shape[0],
         hidden_dim=args.hidden_dim,
         num_emotions=len(EMOTION_LIST),
-        num_intensity=len(INTENSITY_LABELS),
     )
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = model.to(device)
@@ -246,9 +212,8 @@ def main():
         for batch in train_loader:
             features = batch["features"].to(device)
             emo_targets = batch["emotion"].to(device)
-            int_targets = batch["intensity"].to(device)
-            emo_logits, int_logits = model(features)
-            loss = ce(emo_logits, emo_targets) + ce(int_logits, int_targets)
+            emo_logits = model(features)
+            loss = ce(emo_logits, emo_targets)
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
@@ -256,13 +221,13 @@ def main():
         train_loss = total_loss / max(len(train_loader), 1)
         val_metrics = evaluate(model, val_loader, device)
         history.append({"epoch": epoch, "train_loss": train_loss, **val_metrics})
-        if val_metrics["joint_acc"] > best_val:
-            best_val = val_metrics["joint_acc"]
+        if val_metrics["emotion_acc"] > best_val:
+            best_val = val_metrics["emotion_acc"]
             best_state = {k: v.cpu() for k, v in model.state_dict().items()}
         if epoch == 1 or epoch % 5 == 0 or epoch == args.epochs:
             print(
                 f"Epoch {epoch:03d} | train_loss={train_loss:.6f} | val_loss={val_metrics['loss']:.6f} | "
-                f"val_emotion_acc={val_metrics['emotion_acc']:.4f} | val_intensity_acc={val_metrics['intensity_acc']:.4f} | val_joint_acc={val_metrics['joint_acc']:.4f}"
+                f"val_emotion_acc={val_metrics['emotion_acc']:.4f}"
             )
 
     model.load_state_dict(best_state)
@@ -280,7 +245,6 @@ def main():
         "input_dim": sample["features"].shape[0],
         "hidden_dim": args.hidden_dim,
         "emotion_list": EMOTION_LIST,
-        "intensity_labels": INTENSITY_LABELS,
     }
     torch.save(checkpoint, checkpoint_path)
 
@@ -304,7 +268,7 @@ def main():
                 "test_manual": sum(not is_augmented_source(item.get('source', 'manual')) for item in test_data),
             },
         },
-        "best_val_joint_acc": best_val,
+        "best_val_emotion_acc": best_val,
         "test_metrics": test_metrics,
         "history": history,
     }
@@ -314,10 +278,7 @@ def main():
     print(f"Encoder: {getattr(encoder, 'name', args.encoder_name)}")
     print(f"Best classifier saved to {checkpoint_path}")
     print(f"Metrics saved to {metrics_path}")
-    print(
-        f"Test metrics | emotion_acc={test_metrics['emotion_acc']:.4f} | "
-        f"intensity_acc={test_metrics['intensity_acc']:.4f} | joint_acc={test_metrics['joint_acc']:.4f}"
-    )
+    print(f"Test metrics | emotion_acc={test_metrics['emotion_acc']:.4f}")
 
 
 if __name__ == "__main__":

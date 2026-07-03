@@ -9,6 +9,7 @@ outputs/
 .DS_Store
 
 data/weibo_cleaned.json
+data/微博文本情感分析数据-数据集/
 
 models/Chinese-Emotion-Small/
 models/bert-base-cased/
@@ -19,3 +20,5 @@ external/EmoAva/dataset/*
 external/EmoAva/checkpoints/
 external/EmoAva/src/data/
 external/EmoAva/resource/
+
+参考文献/**/*.pdf

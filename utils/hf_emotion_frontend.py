@@ -147,6 +147,33 @@ MAX_INTENSITY = {
     "calm": 0.76,
 }
 
+RAW_BASE_INTENSITY = {
+    "happy": 0.64,
+    "sad": 0.55,
+    "angry": 0.70,
+    "surprise": 0.72,
+    "disgust": 0.62,
+    "concern": 0.56,
+    "bored": 0.48,
+    "calm": 0.42,
+}
+
+
+def _map_raw_label_to_emotion(raw_emotion: str) -> str:
+    if raw_emotion == 'question':
+        return 'concern'
+    return raw_emotion
+
+
+def estimate_intensity_raw(text, emotion, confidence):
+    intensity = RAW_BASE_INTENSITY.get(emotion, 0.6)
+    intensity += min(sum(text.count(word) for word in BOOST_WORDS), 3) * 0.04
+    intensity -= min(sum(text.count(word) for word in LOW_WORDS), 2) * 0.05
+    intensity += min(text.count('!') + text.count('！'), 3) * 0.03
+    if emotion == 'surprise':
+        intensity += min(text.count('?') + text.count('？'), 2) * 0.02
+    return max(0.30, min(0.90, round(intensity, 2)))
+
 
 def _keyword_scores(text):
     scores = {emotion: 0.0 for emotion in KEYWORD_RULES}
@@ -177,7 +204,7 @@ def _select_emotion(text, raw_emotion):
     return raw_emotion, scores
 
 
-def estimate_intensity(text, emotion, confidence, keyword_score=0.0):
+def estimate_intensity_rules(text, emotion, confidence, keyword_score=0.0):
     intensity = BASE_INTENSITY.get(emotion, 0.5)
     intensity += max(0.0, float(confidence) - 0.45) * 0.12
     intensity += min(keyword_score, 3.2) * 0.03
@@ -210,9 +237,10 @@ def estimate_intensity(text, emotion, confidence, keyword_score=0.0):
 
 
 class HFEmotionFrontend:
-    def __init__(self, model_dir=DEFAULT_LOCAL_MODEL_DIR, device=None):
+    def __init__(self, model_dir=DEFAULT_LOCAL_MODEL_DIR, device=None, mode='rules_v4'):
         self.model_dir = model_dir
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
+        self.mode = mode
         self.tokenizer = AutoTokenizer.from_pretrained(model_dir)
         self.model = AutoModelForSequenceClassification.from_pretrained(model_dir).to(self.device)
         self.model.eval()
@@ -231,14 +259,22 @@ class HFEmotionFrontend:
             probs = F.softmax(outputs.logits, dim=-1)[0]
         label_id = int(torch.argmax(probs).item())
         raw_emotion = HF_LABEL_MAPPING.get(label_id, "calm")
-        emotion, scores = _select_emotion(text, raw_emotion)
         confidence = float(probs[label_id].item())
-        intensity = estimate_intensity(text, emotion, confidence, scores.get(emotion, 0.0))
+
+        if self.mode == 'raw':
+            emotion = _map_raw_label_to_emotion(raw_emotion)
+            intensity = estimate_intensity_raw(text, emotion, confidence)
+            scores = {}
+        else:
+            emotion, scores = _select_emotion(text, raw_emotion)
+            intensity = estimate_intensity_rules(text, emotion, confidence, scores.get(emotion, 0.0))
+
         return {
             "emotion": emotion,
             "intensity": intensity,
             "confidence": round(confidence, 4),
             "raw_label": raw_emotion,
             "label_id": label_id,
+            "mode": self.mode,
             "keyword_scores": {k: round(v, 2) for k, v in scores.items() if abs(v) > 0.01},
         }
