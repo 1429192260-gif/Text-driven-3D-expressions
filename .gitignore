@@ -1,4 +1,6 @@
 .venv/
+.uv-bootstrap/
+.uv-python/
 __pycache__/
 *.py[cod]
 
